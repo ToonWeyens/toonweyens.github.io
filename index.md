@@ -232,8 +232,10 @@ Computer
     * **[html, CSS](https://www.w3.org/standards/webdesign/htmlcss)** · used for this curriculum vitae (with markdown → Pandoc)
     * **[git](https://git-scm.com/)** · ingeniously written collaborative version control
     * **[jira](https://www.atlassian.com/software/jira)** · Agile by Atlassian
+    * **Azure**, **AWS** · Cloud Computing
     * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · favorite 3-D visualization tools, combined with HDF5 and XDMF
-    * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · best data model, both for storage and for visualization
+    * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · great data model, both for storage and for visualization
+    * **[Hadoop](https://hadoop.apache.org/)** · distributed data storage
     * **[SurfSara](https://userinfo.surfsara.nl/)** · One of multiple HPC Science Gateways I worked with
     * **[Office](https://www.office.com/)** · Enterprise collaboration tools
     * **[SalesForce](https://www.salesforce.com/)** ·Professional Customer Relationship Management (CRM)
@@ -251,7 +253,6 @@ Programming
     * **Bash**, **Make, ...** · scripting and development
     * **MySQL** · simple database
     * **LaTeX**, **LuaTeX** · large documents, such as Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf)
-    * **Azure**, **AWS** · Cloud Computing
 
 Other
 :   * **[Fusion DC](http://www.em-fusion-dc.org/)** 2016 Program Representative

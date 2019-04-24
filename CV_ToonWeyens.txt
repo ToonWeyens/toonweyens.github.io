@@ -288,10 +288,12 @@ Computer
         Pandoc)
     -   GIT · ingeniously written collaborative version control
     -   JIRA · Agile by Atlassian
+    -   AZURE, AWS · Cloud Computing
     -   PARAVIEW, VISIT · favorite 3-D visualization tools, combined
         with HDF5 and XDMF
-    -   HDF5 WITH XDMF · best data model, both for storage and for
+    -   HDF5 WITH XDMF · great data model, both for storage and for
         visualization
+    -   HADOOP · distributed data storage
     -   SURFSARA · One of multiple HPC Science Gateways I worked with
     -   OFFICE · Enterprise collaboration tools
     -   SALESFORCE ·Professional Customer Relationship Management (CRM)
@@ -312,7 +314,6 @@ Programming
     -   BASH, MAKE, … · scripting and development
     -   MYSQL · simple database
     -   LATEX, LUATEX · large documents, such as Ph.D. dissertation
-    -   AZURE, AWS · Cloud Computing
 
 Other
 
