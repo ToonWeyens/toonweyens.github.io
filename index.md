@@ -41,8 +41,7 @@ Jan '19 - Current
     - Pre-sale consultancy
     - Assist industry and research institutions in adoptation of MathWorks products
     - Enable them to get applications from idea to product in the most efficient way
-    - Areas of expertise: Data Science, Internet of Things, Parallel Computing and Enterprise Solutions
-    - MATLAB tools and resources: Live Editor, Projects, Parallel Computing, Continuous Integration & Source Control, Onramp
+    - Areas of expertise: Data Science, Internet of Things, Parallel and Cloud Computing and Enterprise Solutions
 
 Jan '17 - Dec '18
 :   **Postdoctoral Monaco Fellow**
@@ -242,16 +241,17 @@ Computer
 Programming
 :   * **Fortran** · HPC application such as [PB3D](https://PB3D.github.io/)
     * **Python** · numpy, scipy, pandas, cython, aioprocessing, ...
-    * **MATLAB**, most powerful toolset for engineers and scientists
+    * **MATLAB**, powerful toolset for engineers and scientists: Live Editor, Projects, Parallel and Cloud Computing, Continuous Integration & Version Control, Onramp, CodeGen, WebApps, ...
     * **C++** · especially useful paired with the [BOOST](http://boost.org/) library
     * **TensorFlow**, **Keras** · Deep Learning quick modelling
     * **PyMC3**, **GPy**, **GPyOpt** · Bayesian Machine Learning
     * **MPI**, **OpenMP** · parallelization for HPC
-    * **PBS Torque**, **SLURM** · job managers for HPC
+    * **PBS Torque**, **SLURM** · job managers for cluster computing
     * **jupyter notebooks** · exploratory programming
     * **Bash**, **Make, ...** · scripting and development
     * **MySQL** · simple database
     * **LaTeX**, **LuaTeX** · large documents, such as Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf)
+    * **Azure**, **AWS** · Cloud Computing
 
 Other
 :   * **[Fusion DC](http://www.em-fusion-dc.org/)** 2016 Program Representative
