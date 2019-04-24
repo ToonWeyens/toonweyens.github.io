@@ -9,14 +9,16 @@ Toon Weyens
 
 ----
 
-> Passionate about mathematics, science, technology and shaping the future.
-Trained as a Ph.D. in applied physics, followed by two years of research in nuclear fusion as the energy source of the future at the ITER Organization through the Monaco postdoctoral fellowship.
-Well-versed in computer science with extensive experience in Fortran, python, Matlab, HPC parallel computing, git, vim, scientific visualization, among others.
-Enjoys mathematical excursions in domains such as partial differential equations, statistics, linear algebra, graph theory, neural networks.
-Very inquisitive and analytical.
-Loves dogs.
-Recently started an exciting new challenge as Application Engineer at MathWorks in the fields of data science and artificial intelligence. 
-Especially interested in Bayesian Machine Learning, a thoroughly enjoyable union of mathematical rigor and machine learning superpowers.
+> I am passionate about using technology to add value to society.
+My journey started with the study of energy engineering in multiple countries.
+This taught me how to act like an engineer.
+Afterwards, I took a deep dive into the physics of nuclear fusion, the most promising source of energy for the future.
+This taught me how to think like a scientist.
+It also resulted in a Ph.D. degree, and a postdoctoral Monaco Fellowship to perform research at the ITER Organization, where world's most massive nuclear fusion reactor is being built.
+To please the mathematician within me, without losing sight of my passion, I finally redirected my career towards Data Science and Artificial Intelligence.
+This taught me how to think like a project manager.
+I now enjoy applying my cross-domain knowledge and competencies at MathWorks, a company that operates between industry and academia, and whose vision I am wholly aligned with.
+At MathWorks, I have the privilege to guide and educate our customers so that they can make the best possible use of our toolset, enabling them to get their applications from idea to product in the most efficient way.
 
 ----
 
@@ -37,14 +39,17 @@ Jan '19 - Current
     *[MathWorks](https://nl.mathworks.com/)*
 
     - Pre-sale consultancy
-    - Assist industry in adoptation of MathWorks products
-    - Prepare and deliver presentations and demonstrations to a wide audience
+    - Assist industry and research institutions in adoptation of MathWorks products
+    - Enable them to get applications from idea to product in the most efficient way
+    - Areas of expertise: Data Science, Internet of Things, Parallel Computing and Enterprise Solutions
+    - MATLAB tools and resources: Live Editor, Projects, Parallel Computing, Continuous Integration & Source Control, Onramp
 
 Jan '17 - Dec '18
 :   **Postdoctoral Monaco Fellow**
     
     *[ITER Organization](http://iter.org/)*
 
+    - Produced multiple first-author publications in quality peer-reviewed journals
     - Responsible for investigation of 3-D effects on Edge-Localized Modes (ELM) stability
     - Located at multi-billion dollar [ITER](http://iter.org/) project, one of world's biggest scientific projects
     - Using numerical code PB3D, developed as part of my Ph.D. project (see [below](#PB3D_project))
@@ -59,6 +64,7 @@ Jan '12 - Dec '16
     
     *[Universidad Carlos III de Madrid](https://www.uc3m.es/) · [Eindhoven University of Technology](https://www.tue.nl/) · [ITER Organization](http://iter.org/)*
 
+    - Produced multiple first-author publications in quality peer-reviewed journals
     - Designed research project to improve understanding of *high-n* instabilities
     - Important class of instabilities in toroidal magnetic confinement devices for nuclear fusion
     - Developed dedicated mathematical theory [[Weyens et al, 2014, P.o.P, 21, 4]](https://www.researchgate.net/publication/263054885_Three-dimensional_linear_peeling-ballooning_theory_in_magnetic_fusion_devices)
@@ -215,26 +221,35 @@ Languages
     | Portuguese | ★★★☆☆ |
     | Italian    | ★★☆☆☆ |
 
+Communication
+:   * **Audience Focused Presentation** · TU/e doctoral training course
+    * **Write to the Top** · [Julia Bindmans](http://www.jbsp.co.uk/)' course on customer-oriented writing skills
+    * **[Insight Selling](https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505)** · Michael David Harris' story-telling approach to selling
+
 Computer
-:   * **[Linux](https://www.linux.org/)** · daily and much-preferred operating system
-    * **[vim](https://www.vim.org/)** · daily and much-preferred editor
+:   * **[Linux](https://www.linux.org/)** · preferred operating system
+    * **[vim](https://www.vim.org/)** · preferred editor
     * **[LaTeX](https://www.latex-project.org/)** · preferred tool for documents
     * **[html, CSS](https://www.w3.org/standards/webdesign/htmlcss)** · used for this curriculum vitae (with markdown → Pandoc)
-    * **[git](https://git-scm.com/)** · for version control of virtually all my documents and projects
+    * **[git](https://git-scm.com/)** · ingeniously written collaborative version control
     * **[jira](https://www.atlassian.com/software/jira)** · Agile by Atlassian
     * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · favorite 3-D visualization tools, combined with HDF5 and XDMF
     * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · best data model, both for storage and for visualization
+    * **[SurfSara](https://userinfo.surfsara.nl/)** · One of multiple HPC Science Gateways I worked with
+    * **[Office](https://www.office.com/)** · Enterprise collaboration tools
+    * **[SalesForce](https://www.salesforce.com/)** ·Professional Customer Relationship Management (CRM)
 
 Programming
 :   * **Fortran** · HPC application such as [PB3D](https://PB3D.github.io/)
     * **Python** · numpy, scipy, pandas, cython, aioprocessing, ...
-    * **Matlab** · Daily scripting but also larger applications
+    * **MATLAB**, most powerful toolset for engineers and scientists
     * **C++** · especially useful paired with the [BOOST](http://boost.org/) library
     * **TensorFlow**, **Keras** · Deep Learning quick modelling
     * **PyMC3**, **GPy**, **GPyOpt** · Bayesian Machine Learning
     * **MPI**, **OpenMP** · parallelization for HPC
+    * **PBS Torque**, **SLURM** · job managers for HPC
     * **jupyter notebooks** · exploratory programming
-    * **Bash**, **Make, ...** · daily scripting and development
+    * **Bash**, **Make, ...** · scripting and development
     * **MySQL** · simple database
     * **LaTeX**, **LuaTeX** · large documents, such as Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf)
 
@@ -310,7 +325,7 @@ References
 ----
 -->
 
-> ➤ Aix-en-Provence, France · ✆ +32 494 39 92 19 · ✉  <weyenst@gmail.com>
+> ➤ Utrecht, Netherlands · ✆ +32 494 39 92 19 · ✉  <weyenst@gmail.com>
 
 > [pdf version](https://raw.githubusercontent.com/ToonWeyens/toonweyens.github.io/master/CV_ToonWeyens.pdf) · [txt version](https://raw.githubusercontent.com/ToonWeyens/toonweyens.github.io/master/CV_ToonWeyens.txt) · [html version](https://toonweyens.github.io/) · [source](https://github.com/ToonWeyens/toonweyens.github.io)
 
