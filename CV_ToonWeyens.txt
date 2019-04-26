@@ -299,11 +299,11 @@ Computer
 
 Programming
 
-    -   FORTRAN · HPC application such as PB3D
-    -   PYTHON · numpy, scipy, pandas, cython, aioprocessing, …
     -   MATLAB, powerful toolset for engineers and scientists: Live
         Editor, Projects, Parallel and Cloud Computing, Continuous
         Integration & Version Control, Onramp, CodeGen, WebApps, …
+    -   FORTRAN · HPC application such as PB3D
+    -   PYTHON · numpy, scipy, pandas, cython, aioprocessing, …
     -   C++ · especially useful paired with the BOOST library
     -   TENSORFLOW, KERAS · Deep Learning quick modelling
     -   PYMC3, GPY, GPYOPT · Bayesian Machine Learning

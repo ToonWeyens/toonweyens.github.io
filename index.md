@@ -241,9 +241,9 @@ Computer
     * **[SalesForce](https://www.salesforce.com/)** ·Professional Customer Relationship Management (CRM)
 
 Programming
-:   * **Fortran** · HPC application such as [PB3D](https://PB3D.github.io/)
+:   * **MATLAB**, powerful toolset for engineers and scientists: Live Editor, Projects, Parallel and Cloud Computing, Continuous Integration & Version Control, Onramp, CodeGen, WebApps, ...
+    * **Fortran** · HPC application such as [PB3D](https://PB3D.github.io/)
     * **Python** · numpy, scipy, pandas, cython, aioprocessing, ...
-    * **MATLAB**, powerful toolset for engineers and scientists: Live Editor, Projects, Parallel and Cloud Computing, Continuous Integration & Version Control, Onramp, CodeGen, WebApps, ...
     * **C++** · especially useful paired with the [BOOST](http://boost.org/) library
     * **TensorFlow**, **Keras** · Deep Learning quick modelling
     * **PyMC3**, **GPy**, **GPyOpt** · Bayesian Machine Learning
