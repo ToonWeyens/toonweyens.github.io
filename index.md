@@ -34,7 +34,7 @@ Experience
 ----------
 
 Jan '19 - Current
-:   **Enterprise Integration Engineer*
+:   **Industrial Data Science Consultant**
     
     *[MathWorks](https://nl.mathworks.com/)*
     
