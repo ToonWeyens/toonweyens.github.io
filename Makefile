@@ -16,7 +16,7 @@ endif
 
 
 txt: index.md
-	pandoc --standalone --smart --from markdown --to plain -o CV_ToonWeyens.txt index.md
+	pandoc --standalone -f markdown+smart --to plain -o CV_ToonWeyens.txt index.md
 
 clean:
 	rm -f *.html *.pdf *.txt
