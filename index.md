@@ -18,7 +18,7 @@ It also resulted in a Ph.D. degree, and a postdoctoral Monaco Fellowship to perf
 To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence.
 This taught me how to integrate, communicate and operate like a project manager.
 I now enjoy applying my cross-domain knowledge and competencies at MathWorks, a company that operates between industry and academia, and whose vision I am thoroughly aligned with.
-At MathWorks, I have the privilege to guide and educate our partners so that they can make the best possible use of our toolset, enabling them to get their industrial data science projects from idea to application in the most efficient way with the lowest risk.
+At MathWorks, I have the privilege to guide and educate our partners so that they can make the best possible use of our toolset, enabling them to get their industrial data science projects from idea to deployed application in the most efficient way with the lowest risk.
 
 ----
 

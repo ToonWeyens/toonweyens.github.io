@@ -27,7 +27,7 @@ TOON WEYENS
   At MathWorks, I have the privilege to guide and educate our partners
   so that they can make the best possible use of our toolset, enabling
   them to get their industrial data science projects from idea to
-  application in the most efficient way with the lowest risk.
+  deployed application in the most efficient way with the lowest risk.
 
 ------------------------------------------------------------------------
 
