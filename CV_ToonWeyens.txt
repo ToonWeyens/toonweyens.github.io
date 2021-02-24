@@ -26,7 +26,7 @@ TOON WEYENS
   industry and academia, and whose vision I am thoroughly aligned with.
   At MathWorks, I have the privilege to guide and educate our partners
   so that they can make the best possible use of our toolset, enabling
-  them to get their industrial data science projects from idea to
+  them to scale their industrial data science projects from idea to
   deployed application in the most efficient way with the lowest risk.
 
 ------------------------------------------------------------------------
@@ -48,11 +48,23 @@ Jan ’19 - Current
 
     _MathWorks_
 
-    -   I assist industry and research institutes with broad adoption of
-        MathWorks products, minimizing risk and maximizing efficiency
-    -   Through technical guidance and PoCs, we enable them get from
-        idea to deployed application, connecting data to hybrid
-        first-principle / AI models
+    -   Use technical credibility to assist industry and research
+        institutes with broad adoption of MathWorks products, work in
+        team to connect to relevant groups in their and our
+        organizations
+    -   Responsibilities:
+        -   DEEP ENGAGEMENTS: Collaborate with strategic enterprise
+            customers to design and subsequently coordinate creation of
+            modern server-based Data Science & engineering platforms
+            with browser-based access and predefined connectivity to
+            data streams & CI/CD pipelines
+        -   TECHNICAL ADVISOR: Guide MathWorks customers and connect
+            internal and external resources
+        -   INTERNAL EXPERTISE: Provide colleagues with expertise and
+            tutoring in newer areas
+        -   MATHWORKS PRODUCT CHAMPION: public speaking, organization of
+            industry or product-specific seminars, webinars and
+            workshops
     -   Areas of expertise: Data Science, Internet of Things, Parallel
         and Cloud Computing, High-Performance Computing, Enterprise
         Integration, Mathematical and Computational Physics
@@ -191,17 +203,19 @@ Jan ’13 - Current
     Peeling-Ballooning in 3-D
 
     -   Part of doctoral research project
-    -   Capable of efficiently analyzing peeling-ballooning stability of
-        toroidal magnetic confinement devices
-    -   Crucial for nuclear fusion
+    -   Modern Fortran code capable of efficiently analyzing
+        peeling-ballooning stability of toroidal magnetic confinement
+        devices
+    -   Essential for stable containment nuclear fusion
     -   Freely available and well-documented
 
     _for experts:_
 
     -   Mathematical mimization of functional, leading to generalized
         eigenvalue equation
-    -   _high-n_ instabilities easily excited, couple plasma (150
-        million °C) to the cold reactor walls (−260.8 °C)
+    -   _high-n_ instabilities easily excited by extreme temperature and
+        pressure gradients from plasma (150 million °C) to the cold
+        reactor walls (−260.8 °C)
     -   General 3-D configurations, perturbed plasma edge [Weyens et al,
         2017, J.c.P, 330]
     -   Postdoctoral research: investigate 3-D effects
@@ -219,8 +233,8 @@ Feb ’18 - Current
     _Elementary Shortest Path Problem with or without Resource
     Constraint_
 
-    -   Python implementation of promising algorithms for Elementary
-        Shortest Path Problem (ESPP)
+    -   Python & C++ implementations of promising algorithms for
+        Elementary Shortest Path Problem (ESPP)
     -   From recent publications, to benchmark and learn - currently:
         -   [Di Puglia Pugliese et all, 2016, Comput Optim Appl, 63]
         -   [Boland et all, 2006, Oper Res Lett]
@@ -236,7 +250,8 @@ Jan ’18 - Current
     _High-frequency crypto automated arbitrage trader_
 
     -   Co-creator
-    -   Collaborative project drawing from variety of expertises
+    -   Collaborative Python-based project drawing from variety of
+        expertises
     -   Based on computational sciences & mathematicical and physical
         knowledge
     -   Supported by state of the art cryptocurrency financial modelling
@@ -248,7 +263,8 @@ Oct ’18
 
     _Capstone project for Bayesian Methods for Machine Learning_
 
-    -   Helps you with getting face of suspect in crime
+    -   Helps you with getting face of suspect in crime by generating
+        faces
     -   Employed variational autoencoder in Keras and Tensorflow to
         generate face images
     -   Combined with Gaussian Process Optimization through GpyOpt
@@ -282,39 +298,46 @@ Communication
 
 Computer
 
-    -   LINUX · preferred operating system
-    -   VIM · preferred editor
-    -   LATEX · preferred tool for documents
+    -   LINUX · used as preferred operating system
+    -   VIM · used as preferred editor
     -   HTML, CSS · used for this curriculum vitae (with markdown →
         Pandoc)
-    -   GIT · ingeniously written collaborative version control
-    -   JIRA · Agile by Atlassian
-    -   AZURE, AWS · Cloud Computing
-    -   PARAVIEW, VISIT · favorite 3-D visualization tools, combined
-        with HDF5 and XDMF
-    -   HDF5 WITH XDMF · great data model, both for storage and for
-        visualization
-    -   HADOOP · distributed data storage
-    -   SURFSARA · One of multiple HPC Science Gateways I worked with
-    -   OFFICE · Enterprise collaboration tools
-    -   SALESFORCE ·Professional Customer Relationship Management (CRM)
+    -   GIT · standard tool for collaborative version control
+    -   AZURE, AWS · basic experience with cloud computing
+    -   PARAVIEW, VISIT · used as 3-D visualization tools, combined with
+        HDF5 and XDMF
+    -   HDF5 WITH XDMF · used as performant parallel data model for HPC
+        simulations, both for storage and for visualization
+    -   APACHE HADOOP, SPARK · in process of educating myself on
+        de-facto Big Data though still limited practical experience in
+        the form of explorative projects
+    -   SURFSARA · example of multiple HPC Science Gateways I worked
+        with for scientific research
+    -   MICROSOFT OFFICE & relatives · enterprise collaboration tools
+    -   SALESFORCE · used for Customer Relationship Management (CRM)
 
 Programming
 
-    -   MATLAB, powerful toolset for engineers and scientists: Live
-        Editor, Projects, Parallel and Cloud Computing, Continuous
-        Integration & Version Control, Onramp, CodeGen, WebApps, …
-    -   FORTRAN · HPC application such as PB3D
-    -   PYTHON · numpy, scipy, pandas, cython, aioprocessing, …
-    -   C++ · especially useful paired with the BOOST library
-    -   TENSORFLOW, KERAS · Deep Learning quick modelling
-    -   PYMC3, GPY, GPYOPT · Bayesian Machine Learning
-    -   MPI, OPENMP · parallelization for HPC
-    -   PBS TORQUE, SLURM · job managers for cluster computing
-    -   JUPYTER NOTEBOOKS · exploratory programming
-    -   BASH, MAKE, … · scripting and development
-    -   MYSQL · simple database
-    -   LATEX, LUATEX · large documents, such as Ph.D. dissertation
+    -   MATLAB · used as powerful toolset for engineers and scientists
+        with full workflow experience, with expertise in Parallel and
+        Cloud Computing, Continuous Integration & Version Control,
+        Deployment, WebApps, …
+    -   FORTRAN · used as de-facto language for Nuclear Fusion HPC
+        application, such as PB3D
+    -   PYTHON · used for side projects, through numpy, scipy, pandas,
+        cython, aioprocessing, …
+    -   C++ · used for side projects, especially useful paired with the
+        BOOST library
+    -   JAVA · limited experience, used during studies
+    -   TENSORFLOW, KERAS · used for education in Deep Learning
+    -   PYMC3, GPY, GPYOPT · used for Bayesian Machine Learning
+    -   MPI, OPENMP · used extensively for parallelization with HPC work
+    -   PBS TORQUE, SLURM · job managers used for cluster computing
+    -   JUPYTER NOTEBOOKS · used for exploratory programming
+    -   BASH, MAKE, … · experience with linux scripting and development
+    -   SQL, YAML · used in side projects as simple database solutions
+    -   LATEX, LUATEX · extensive experience formatting large documents
+        (e.g. Ph.D. dissertation)
 
 Other
 

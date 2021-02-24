@@ -18,7 +18,7 @@ It also resulted in a Ph.D. degree, and a postdoctoral Monaco Fellowship to perf
 To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence.
 This taught me how to integrate, communicate and operate like a project manager.
 I now enjoy applying my cross-domain knowledge and competencies at MathWorks, a company that operates between industry and academia, and whose vision I am thoroughly aligned with.
-At MathWorks, I have the privilege to guide and educate our partners so that they can make the best possible use of our toolset, enabling them to get their industrial data science projects from idea to deployed application in the most efficient way with the lowest risk.
+At MathWorks, I have the privilege to guide and educate our partners so that they can make the best possible use of our toolset, enabling them to scale their industrial data science projects from idea to deployed application in the most efficient way with the lowest risk.
 
 ----
 
@@ -38,8 +38,12 @@ Jan '19 - Current
     
     *[MathWorks](https://nl.mathworks.com/)*
     
-    - I assist industry and research institutes with broad adoption of MathWorks products, minimizing risk and maximizing efficiency
-    - Through technical guidance and PoCs, we enable them get from idea to deployed application, connecting data to hybrid first-principle / AI models
+    - Use technical credibility to assist industry and research institutes with broad adoption of MathWorks products, work in team to connect to relevant groups in their and our organizations
+    - Responsibilities:
+        - **Deep engagements**: Collaborate with strategic enterprise customers to design and subsequently coordinate creation of modern server-based Data Science & engineering platforms with browser-based access and predefined connectivity to data streams & CI/CD pipelines
+        - **Technical advisor**: Guide MathWorks customers and connect internal and external resources
+        - **Internal expertise**: Provide colleagues with expertise and tutoring in newer areas
+        - **MathWorks product champion**: public speaking, organization of industry or product-specific seminars, webinars and workshops
     - Areas of expertise: Data Science, Internet of Things, Parallel and Cloud Computing, High-Performance Computing, Enterprise Integration, Mathematical and Computational Physics
 
 Jan '17 - Dec '18
@@ -152,14 +156,14 @@ Jan '13 - Current
     **P**eeling-**B**allooning in **3**-**D**
     
     - Part of doctoral research project
-    - Capable of efficiently analyzing peeling-ballooning stability of toroidal magnetic confinement devices
-    - Crucial for nuclear fusion
+    - Modern Fortran code capable of efficiently analyzing peeling-ballooning stability of toroidal magnetic confinement devices
+    - Essential for stable containment nuclear fusion
     - Freely available and well-documented
     
     *for experts:*
 
     - Mathematical mimization of functional, leading to generalized eigenvalue equation
-    - *high-n* instabilities easily excited, couple plasma (150 million °C) to the cold reactor walls (−260.8 °C)
+    - *high-n* instabilities easily excited by extreme temperature and pressure gradients from plasma (150 million °C) to the cold reactor walls (−260.8 °C)
     - General 3-D configurations, perturbed plasma edge [[Weyens et al, 2017, J.c.P, 330]](https://www.researchgate.net/publication/309620864_PB3D_A_new_code_for_edge_3-D_ideal_linear_peeling-ballooning_stability)
     - Postdoctoral research: investigate 3-D effects
         - resonant magnetic perturbations for ELM control (RMP)
@@ -175,7 +179,7 @@ Feb '18 - Current
     
     *Elementary Shortest Path Problem with or without Resource Constraint*
     
-    - Python implementation of promising algorithms for Elementary Shortest Path Problem (ESPP)
+    - Python & C++ implementations of promising algorithms for Elementary Shortest Path Problem (ESPP)
     - From recent publications, to benchmark and learn - currently:
         - [[Di Puglia Pugliese et all, 2016, Comput Optim Appl, 63]](https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles)
         - [[Boland et all, 2006, Oper Res Lett]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjiroPsyvHcAhVNiRoKHXVFDz4QFjABegQICRAB&url=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem&usg=AOvVaw1kvbRCLlNamfAYo8r2AiRe)
@@ -189,7 +193,7 @@ Jan '18 - Current
     *High-frequency crypto automated arbitrage trader*
 
     - Co-creator
-    - Collaborative project drawing from variety of expertises
+    - Collaborative Python-based project drawing from variety of expertises
     - Based on computational sciences & mathematicical and physical knowledge
     - Supported by state of the art cryptocurrency financial modelling & deep learning strategies
 
@@ -198,7 +202,7 @@ Oct '18
 
     *Capstone project for [Bayesian Methods for Machine Learning](#AML_course)*
 
-    - Helps you with getting face of suspect in crime
+    - Helps you with getting face of suspect in crime by generating faces
     - Employed variational autoencoder in Keras and Tensorflow to generate face images
     - Combined with Gaussian Process Optimization through GpyOpt
     - Interacts with you through simple binary *yes*/*no* questions
@@ -225,33 +229,32 @@ Communication
     * **[Insight Selling](https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505)** · Michael David Harris' story-telling approach to selling
 
 Computer
-:   * **[Linux](https://www.linux.org/)** · preferred operating system
-    * **[vim](https://www.vim.org/)** · preferred editor
-    * **[LaTeX](https://www.latex-project.org/)** · preferred tool for documents
+:   * **[Linux](https://www.linux.org/)** · used as preferred operating system
+    * **[vim](https://www.vim.org/)** · used as preferred editor
     * **[html, CSS](https://www.w3.org/standards/webdesign/htmlcss)** · used for this curriculum vitae (with markdown → Pandoc)
-    * **[git](https://git-scm.com/)** · ingeniously written collaborative version control
-    * **[jira](https://www.atlassian.com/software/jira)** · Agile by Atlassian
-    * **Azure**, **AWS** · Cloud Computing
-    * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · favorite 3-D visualization tools, combined with HDF5 and XDMF
-    * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · great data model, both for storage and for visualization
-    * **[Hadoop](https://hadoop.apache.org/)** · distributed data storage
-    * **[SurfSara](https://userinfo.surfsara.nl/)** · One of multiple HPC Science Gateways I worked with
-    * **[Office](https://www.office.com/)** · Enterprise collaboration tools
-    * **[SalesForce](https://www.salesforce.com/)** ·Professional Customer Relationship Management (CRM)
+    * **[git](https://git-scm.com/)** · standard tool for collaborative version control
+    * **Azure**, **AWS** · basic experience with cloud computing
+    * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · used as 3-D visualization tools, combined with HDF5 and XDMF
+    * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · used as performant parallel data model for HPC simulations, both for storage and for visualization
+    * **Apache [Hadoop](https://hadoop.apache.org/), [Spark](https://spark.apache.org/)** · in process of educating myself on de-facto Big Data though still limited practical experience in the form of explorative projects
+    * **[SurfSara](https://userinfo.surfsara.nl/)** · example of multiple HPC Science Gateways I worked with for scientific research
+    * **Microsoft [Office](https://www.office.com/)** & relatives · enterprise collaboration tools
+    * **[SalesForce](https://www.salesforce.com/)** · used for Customer Relationship Management (CRM)
 
 Programming
-:   * **MATLAB**, powerful toolset for engineers and scientists: Live Editor, Projects, Parallel and Cloud Computing, Continuous Integration & Version Control, Onramp, CodeGen, WebApps, ...
-    * **Fortran** · HPC application such as [PB3D](https://PB3D.github.io/)
-    * **Python** · numpy, scipy, pandas, cython, aioprocessing, ...
-    * **C++** · especially useful paired with the [BOOST](http://boost.org/) library
-    * **TensorFlow**, **Keras** · Deep Learning quick modelling
-    * **PyMC3**, **GPy**, **GPyOpt** · Bayesian Machine Learning
-    * **MPI**, **OpenMP** · parallelization for HPC
-    * **PBS Torque**, **SLURM** · job managers for cluster computing
-    * **jupyter notebooks** · exploratory programming
-    * **Bash**, **Make, ...** · scripting and development
-    * **MySQL** · simple database
-    * **LaTeX**, **LuaTeX** · large documents, such as Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf)
+:   * **MATLAB** · used as powerful toolset for engineers and scientists with full workflow experience, with expertise in Parallel and Cloud Computing, Continuous Integration & Version Control, Deployment, WebApps, ...
+    * **Fortran** · used as de-facto language for Nuclear Fusion HPC application, such as [PB3D](https://PB3D.github.io/)
+    * **Python** · used for side projects, through numpy, scipy, pandas, cython, aioprocessing, ...
+    * **C++** · used for side projects, especially useful paired with the [BOOST](http://boost.org/) library
+    * **Java** · limited experience, used during studies
+    * **TensorFlow**, **Keras** · used for education in Deep Learning 
+    * **PyMC3**, **GPy**, **GPyOpt** · used for Bayesian Machine Learning
+    * **MPI**, **OpenMP** · used extensively for parallelization with HPC work
+    * **PBS Torque**, **SLURM** · job managers used for cluster computing
+    * **jupyter notebooks** · used for exploratory programming
+    * **Bash**, **Make, ...** · experience with linux scripting and development
+    * **SQL, yaml** · used in side projects as simple database solutions
+    * **LaTeX**, **LuaTeX** · extensive experience formatting large documents (e.g. Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf))
 
 Other
 :   * **[Fusion DC](http://www.em-fusion-dc.org/)** 2016 Program Representative
