@@ -66,8 +66,8 @@ Jan ’19 - Current
             industry or product-specific seminars, webinars and
             workshops
     -   Areas of expertise: Data Science, Internet of Things, Parallel
-        and Cloud Computing, High-Performance Computing, Enterprise
-        Integration, Mathematical and Computational Physics
+        and Cloud Computing (AWS certified), High-Performance Computing,
+        Enterprise Integration, Mathematical and Computational Physics
 
 Jan ’17 - Dec ’18
 
@@ -303,7 +303,8 @@ Computer
     -   HTML, CSS · used for this curriculum vitae (with markdown →
         Pandoc)
     -   GIT · standard tool for collaborative version control
-    -   AZURE, AWS · basic experience with cloud computing
+    -   AWS · solution architect associate certified, AZURE · some
+        experience
     -   PARAVIEW, VISIT · used as 3-D visualization tools, combined with
         HDF5 and XDMF
     -   HDF5 WITH XDMF · used as performant parallel data model for HPC
