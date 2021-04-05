@@ -170,7 +170,7 @@ Jan '13 - Current
     
     *for experts:*
 
-    - Mathematical mimization of functional, leading to generalized eigenvalue equation
+    - Mathematical minimization of functional, leading to generalized eigenvalue equation
     - *high-n* instabilities easily excited by extreme temperature and pressure gradients from plasma (150 million °C) to the cold reactor walls (−260.8 °C)
     - General 3-D configurations, perturbed plasma edge [[Weyens et al, 2017, J.c.P, 330]](https://www.researchgate.net/publication/309620864_PB3D_A_new_code_for_edge_3-D_ideal_linear_peeling-ballooning_stability)
     - Postdoctoral research: investigate 3-D effects
@@ -180,7 +180,7 @@ Jan '13 - Current
     
     website: [PB3D.github.io](https://PB3D.github.io/)
     
-    source: [github](https://github.com/ToonWeyens/PB3D)
+    source: [GitHub](https://github.com/ToonWeyens/PB3D)
 
 Feb '18 - Current
 :   **Pylgrim**
@@ -193,7 +193,7 @@ Feb '18 - Current
         - [[Boland et all, 2006, Oper Res Lett]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjiroPsyvHcAhVNiRoKHXVFDz4QFjABegQICRAB&url=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem&usg=AOvVaw1kvbRCLlNamfAYo8r2AiRe)
     - problem is NP-hard, so efficient solution is interesting mathematical and computational problem
 
-    website: [github](https://github.com/ToonWeyens/pylgrim)
+    website: [GitHub](https://github.com/ToonWeyens/pylgrim)
 
 Jan '18 - Current
 :   **Kraemer**
@@ -201,9 +201,9 @@ Jan '18 - Current
     *High-frequency crypto automated arbitrage trader*
 
     - Co-creator
-    - Collaborative Python-based project drawing from variety of expertises
-    - Based on computational sciences & mathematicical and physical knowledge
-    - Supported by state of the art cryptocurrency financial modelling & deep learning strategies
+    - Collaborative Python-based project drawing from multiple areas of expertise
+    - Based on computational sciences & mathematical and physical knowledge
+    - Supported by state-of-the-art cryptocurrency financial modelling & deep learning strategies
 
 Oct '18
 :   **Facial Composits: Finding the Suspect**
@@ -211,7 +211,7 @@ Oct '18
     *Capstone project for [Bayesian Methods for Machine Learning](#AML_course)*
 
     - Helps you with getting face of suspect in crime by generating faces
-    - Employed variational autoencoder in Keras and Tensorflow to generate face images
+    - Employed variational autoencoder in Keras and TensorFlow to generate face images
     - Combined with Gaussian Process Optimization through GpyOpt
     - Interacts with you through simple binary *yes*/*no* questions
     - Optimized program to require minimal amount of interaction
@@ -261,7 +261,7 @@ Programming
     * **PBS Torque**, **SLURM** · job managers used for cluster computing
     * **jupyter notebooks** · used for exploratory programming
     * **Bash**, **Make, ...** · experience with linux scripting and development
-    * **SQL, yaml** · used in side projects as simple database solutions
+    * **SQL, yaml** · used in side-projects as simple database solutions
     * **LaTeX**, **LuaTeX** · extensive experience formatting large documents (e.g. Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf))
 
 Other
@@ -295,8 +295,8 @@ Awards, Scholarships & Grants
     *Principality of Monaco*
     
     
-    The Monaco/ITER Postdoctoral Fellowship Program allows young researchers to participate in one of the great scientific and technical challenges of the 21st century and to work closely with leading experts in fusion science and technology within a unique international setting
-    The principal motivation of the research fellowships is the development of excellence in research in fusion science and technology within the ITER framework. Brilliance and creativity, together with understanding of the relevance of the individual research interests to the ITER Project, are a key requirement
+    The Monaco/ITER Postdoctoral Fellowship Program allows young researchers to participate in one of the great scientific and technical challenges of the 21st century and to work closely with leading experts in fusion science and technology within a unique international setting.
+    The principal motivation of the research fellowships is the development of excellence in research in fusion science and technology within the ITER framework. Brilliance and creativity, together with understanding of the relevance of the individual research interests to the ITER Project, are a key requirement.
 
     website: [ITER](https://www.iter.org/education/international/postdoctoral)
 
