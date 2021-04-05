@@ -26,7 +26,7 @@ Values:
 :   Rational workplace, continuous improvement & persuit of excellence, respect, responsibility, personal development & long-term retention
 
 Competencies:
-:   Analytical mind, efficiency, customer devotion, proactivity, persistency, multilingual & multicultural orientation
+:   Analytical mind, efficiency, customer devotion, proactivity, persistency, multiculturality
 
 ----
 
