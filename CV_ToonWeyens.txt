@@ -221,7 +221,7 @@ Jan ’13 - Current
 
     _for experts:_
 
-    -   Mathematical mimization of functional, leading to generalized
+    -   Mathematical minimization of functional, leading to generalized
         eigenvalue equation
     -   _high-n_ instabilities easily excited by extreme temperature and
         pressure gradients from plasma (150 million °C) to the cold
@@ -234,7 +234,7 @@ Jan ’13 - Current
 
     website: PB3D.github.io
 
-    source: github
+    source: GitHub
 
 Feb ’18 - Current
 
@@ -251,7 +251,7 @@ Feb ’18 - Current
     -   problem is NP-hard, so efficient solution is interesting
         mathematical and computational problem
 
-    website: github
+    website: GitHub
 
 Jan ’18 - Current
 
@@ -260,11 +260,11 @@ Jan ’18 - Current
     _High-frequency crypto automated arbitrage trader_
 
     -   Co-creator
-    -   Collaborative Python-based project drawing from variety of
-        expertises
-    -   Based on computational sciences & mathematicical and physical
+    -   Collaborative Python-based project drawing from multiple areas
+        of expertise
+    -   Based on computational sciences & mathematical and physical
         knowledge
-    -   Supported by state of the art cryptocurrency financial modelling
+    -   Supported by state-of-the-art cryptocurrency financial modelling
         & deep learning strategies
 
 Oct ’18
@@ -275,7 +275,7 @@ Oct ’18
 
     -   Helps you with getting face of suspect in crime by generating
         faces
-    -   Employed variational autoencoder in Keras and Tensorflow to
+    -   Employed variational autoencoder in Keras and TensorFlow to
         generate face images
     -   Combined with Gaussian Process Optimization through GpyOpt
     -   Interacts with you through simple binary _yes_/_no_ questions
@@ -315,6 +315,7 @@ Computer
     -   GIT · standard tool for collaborative version control
     -   AWS · solution architect associate certified, AZURE · some
         experience
+    -   K8S · some experience
     -   PARAVIEW, VISIT · used as 3-D visualization tools, combined with
         HDF5 and XDMF
     -   HDF5 WITH XDMF · used as performant parallel data model for HPC
@@ -346,7 +347,7 @@ Programming
     -   PBS TORQUE, SLURM · job managers used for cluster computing
     -   JUPYTER NOTEBOOKS · used for exploratory programming
     -   BASH, MAKE, … · experience with linux scripting and development
-    -   SQL, YAML · used in side projects as simple database solutions
+    -   SQL, YAML · used in side-projects as simple database solutions
     -   LATEX, LUATEX · extensive experience formatting large documents
         (e.g. Ph.D. dissertation)
 
@@ -392,12 +393,12 @@ Awards, Scholarships & Grants
     researchers to participate in one of the great scientific and
     technical challenges of the 21st century and to work closely with
     leading experts in fusion science and technology within a unique
-    international setting The principal motivation of the research
+    international setting. The principal motivation of the research
     fellowships is the development of excellence in research in fusion
     science and technology within the ITER framework. Brilliance and
     creativity, together with understanding of the relevance of the
     individual research interests to the ITER Project, are a key
-    requirement
+    requirement.
 
     website: ITER
 
