@@ -74,7 +74,8 @@ Jan ’19 - Current
             tutoring in newer areas
         -   MATHWORKS PRODUCT CHAMPION: public speaking, organization of
             industry or product-specific seminars, webinars and
-            workshops
+            workshops (e.g. our 4 part Series on Deep Learning with
+            MATLAB)
     -   Areas of expertise: Data Science, Internet of Things, Parallel
         and Cloud Computing (AWS certified), High-Performance Computing,
         Enterprise Integration, Mathematical and Computational Physics

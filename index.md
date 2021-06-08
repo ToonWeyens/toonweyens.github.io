@@ -51,7 +51,7 @@ Jan '19 - Current
         - **Deep engagements**: Collaborate with strategic enterprise customers to design and subsequently coordinate creation of modern server-based Data Science & engineering platforms with browser-based access and predefined connectivity to data streams & CI/CD pipelines
         - **Technical advisor**: Guide MathWorks customers and connect internal and external resources
         - **Internal expertise**: Provide colleagues with expertise and tutoring in newer areas
-        - **MathWorks product champion**: public speaking, organization of industry or product-specific seminars, webinars and workshops
+        - **MathWorks product champion**: public speaking, organization of industry or product-specific seminars, webinars and workshops (e.g. [our 4 part Series on Deep Learning with MATLAB](https://www.mathworks.com/company/events/webinars/de-deep-learning-series.html))
     - Areas of expertise: Data Science, Internet of Things, Parallel and Cloud Computing (AWS certified), High-Performance Computing, Enterprise Integration, Mathematical and Computational Physics
 
 Jan '17 - Dec '18
