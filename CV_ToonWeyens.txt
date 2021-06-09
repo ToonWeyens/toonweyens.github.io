@@ -317,6 +317,7 @@ Computer
     -   AWS · solution architect associate certified, AZURE · some
         experience
     -   K8S · some experience
+    -   DOMINO DATA LAB · experience with enterprise MLOps platform
     -   PARAVIEW, VISIT · used as 3-D visualization tools, combined with
         HDF5 and XDMF
     -   HDF5 WITH XDMF · used as performant parallel data model for HPC

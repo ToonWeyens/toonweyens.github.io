@@ -243,6 +243,7 @@ Computer
     * **[git](https://git-scm.com/)** · standard tool for collaborative version control
     * **AWS** · solution architect associate certified, **Azure** · some experience
     * **K8S** · some experience
+    * **[Domino Data Lab](https://www.dominodatalab.com/)** · experience with enterprise MLOps platform
     * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · used as 3-D visualization tools, combined with HDF5 and XDMF
     * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · used as performant parallel data model for HPC simulations, both for storage and for visualization
     * **Apache [Hadoop](https://hadoop.apache.org/), [Spark](https://spark.apache.org/)** · in process of educating myself on de-facto Big Data though still limited practical experience in the form of explorative projects
