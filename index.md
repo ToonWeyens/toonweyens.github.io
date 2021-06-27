@@ -255,6 +255,7 @@ Programming
 :   * **MATLAB** · used as powerful toolset for engineers and scientists with full workflow experience, with expertise in Parallel and Cloud Computing, Continuous Integration & Version Control, Deployment, WebApps, ...
     * **Fortran** · used as de-facto language for Nuclear Fusion HPC application, such as [PB3D](https://PB3D.github.io/)
     * **Python** · used for side projects, through numpy, scipy, pandas, cython, aioprocessing, ...
+    * **R** · used for ad-hoc data analysis
     * **C++** · used for side projects, especially useful paired with the [BOOST](http://boost.org/) library
     * **Java** · limited experience, used during studies
     * **TensorFlow**, **Keras** · used for education in Deep Learning 

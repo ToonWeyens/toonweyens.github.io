@@ -340,6 +340,7 @@ Programming
         application, such as PB3D
     -   PYTHON · used for side projects, through numpy, scipy, pandas,
         cython, aioprocessing, …
+    -   R · used for ad-hoc data analysis
     -   C++ · used for side projects, especially useful paired with the
         BOOST library
     -   JAVA · limited experience, used during studies
