@@ -77,8 +77,9 @@ Jan ’19 - Current
             workshops (e.g. our 4 part Series on Deep Learning with
             MATLAB)
     -   Areas of expertise: Data Science, Internet of Things, Parallel
-        and Cloud Computing (AWS certified), High-Performance Computing,
-        Enterprise Integration, Mathematical and Computational Physics
+        and Cloud Computing (AWS & Kubernetes certified),
+        High-Performance Computing, Enterprise Integration, Mathematical
+        and Computational Physics
 
 Jan ’17 - Dec ’18
 
@@ -314,9 +315,9 @@ Computer
     -   HTML, CSS · used for this curriculum vitae (with markdown →
         Pandoc)
     -   GIT · standard tool for collaborative version control
-    -   AWS · solution architect associate certified, AZURE · some
-        experience
-    -   K8S · some experience
+    -   AWS · solution architect associate certified (Associate), AZURE
+        · some experience
+    -   K8S · certified Kubernetes Application developer (CKAD)
     -   DOMINO DATA LAB · experience with enterprise MLOps platform
     -   PARAVIEW, VISIT · used as 3-D visualization tools, combined with
         HDF5 and XDMF

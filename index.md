@@ -52,7 +52,7 @@ Jan '19 - Current
         - **Technical advisor**: Guide MathWorks customers and connect internal and external resources
         - **Internal expertise**: Provide colleagues with expertise and tutoring in newer areas
         - **MathWorks product champion**: public speaking, organization of industry or product-specific seminars, webinars and workshops (e.g. [our 4 part Series on Deep Learning with MATLAB](https://www.mathworks.com/company/events/webinars/de-deep-learning-series.html))
-    - Areas of expertise: Data Science, Internet of Things, Parallel and Cloud Computing (AWS certified), High-Performance Computing, Enterprise Integration, Mathematical and Computational Physics
+    - Areas of expertise: Data Science, Internet of Things, Parallel and Cloud Computing (AWS & Kubernetes certified), High-Performance Computing, Enterprise Integration, Mathematical and Computational Physics
 
 Jan '17 - Dec '18
 :   **Postdoctoral Monaco Fellow**
@@ -241,8 +241,8 @@ Computer
     * **[vim](https://www.vim.org/)** · used as preferred editor
     * **[html, CSS](https://www.w3.org/standards/webdesign/htmlcss)** · used for this curriculum vitae (with markdown → Pandoc)
     * **[git](https://git-scm.com/)** · standard tool for collaborative version control
-    * **AWS** · solution architect associate certified, **Azure** · some experience
-    * **K8S** · some experience
+    * **AWS** · solution architect associate certified ([Associate](https://www.credly.com/badges/68b5258b-ef59-4281-a2bb-1293c1fe70d4)), **Azure** · some experience
+    * **K8S** · certified Kubernetes Application developer ([CKAD](https://www.credly.com/badges/eec2a06d-ab4a-48bb-99e0-b45282d676f8/public_url))
     * **[Domino Data Lab](https://www.dominodatalab.com/)** · experience with enterprise MLOps platform
     * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · used as 3-D visualization tools, combined with HDF5 and XDMF
     * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · used as performant parallel data model for HPC simulations, both for storage and for visualization
