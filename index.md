@@ -1,13 +1,17 @@
 Toon Weyens
 ===========
 
-➤ EU · ✆ +32 494 39 92 19 · ✉  <weyenst@gmail.com>
+➤ EU · ✆ +31 615 09 80 82 · ✉  <weyenst@gmail.com>
 -----------------------------------------------------------------------
 > [LinkedIn](https://www.linkedin.com/in/toonweyens/)  
 > [GitHub](http://github.com/toonweyens)  
 > [Google Scholar](https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra)
 
 ----
+
+> I connect people to ideas, to solutions and to each other to help them solve their problems. 
+
+✆ Contact me for top quality complex customer-facing data science and engineering GTM work ✆
 
 > Adding value to society with technology is what drives me.
 My journey started with the study of energy engineering in multiple countries.
