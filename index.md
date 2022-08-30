@@ -57,7 +57,7 @@ Oct '21 - Current
       - Deliver unequivocal **proof of the value** of DataRobot through guided PoVs directly connected to higher level business outcomes
       - Serve as **trusted partner** for Data Science journeys our customers are going through
      
-    - DataRobot is the AI Cloud leader, delivering a unified platform for all users, all data types, and all environments to accelerate delivery of AI to production for every organization. DataRobot enables organizations to leverage the transformational power of AI by delivering the world’s only AI Cloud platform combined with an AI-native strategic success team to help customers rapidly turn data into value. DataRobot is trusted by global customers across industries and verticals, including a third of the Fortune 50, delivering over a trillion predictions for leading companies around the world.
+    - DataRobot delivers a unified platform for all users, all data types, and all environments to accelerate delivery of AI to production for every organization. It is trusted by global customers across industries and verticals, including a third of the Fortune 50, delivering over a trillion predictions for leading companies around the world.
 
 Jan '19 - Aug '21
 :   **Industrial Data Science Consultant**
