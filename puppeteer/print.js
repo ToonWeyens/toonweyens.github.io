@@ -3,7 +3,10 @@ const puppeteer = require("puppeteer");
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto("file://" + process.cwd() + "/" + "index.html");
+  // Need to use wait, from https://github.com/puppeteer/puppeteer/issues/1875#issuecomment-359448297
+  await page.goto("file://" + process.cwd() + "/" + "index.html", {
+    waitUntil:['domcontentloaded', 'networkidle0']
+});
   await page.emulateMediaType('screen');
   await page.pdf({
     path: "CV_ToonWeyens.pdf",
