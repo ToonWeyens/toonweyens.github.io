@@ -20,6 +20,6 @@
 * renamed the txt and pdf files.
 
 ## versions:
-* wkhtmltopdf: [0.12.4](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz) (with patched qt) (0.12.2.4 does **not** work)
 * pandoc: 1.16.0.2
+* puppeteer: 17.0.0
 

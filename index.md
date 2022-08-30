@@ -9,28 +9,26 @@ Toon Weyens
 
 ----
 
-> I connect people to ideas, to solutions and to each other to help them solve their problems. 
+> **I connect people to ideas, to solutions and to each other to help them solve their problems.**
 
-✆ Contact me for top quality complex customer-facing data science and engineering GTM work ✆
+> ✆ Contact me for top quality complex customer-facing data science and engineering GTM work
 
-> Adding value to society with technology is what drives me.
-My journey started with the study of energy engineering in multiple countries.
-This taught me how to act like an engineer.
-Afterwards, I took a deep dive into the physics of nuclear fusion, the most promising source of energy for the future.
-This taught me how to think like a scientist.
-It also resulted in a Ph.D. degree, and a postdoctoral Monaco Fellowship to perform research at the outstanding ITER Organization.
-To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence.
-This taught me how to integrate, communicate and operate like a project manager.
-I now enjoy applying my cross-domain knowledge and competencies at MathWorks, a company that operates between industry and academia, and whose vision I am thoroughly aligned with.
-At MathWorks, I have the privilege to guide and educate our partners so that they can make the best possible use of our toolset, enabling them to scale their industrial data science projects from idea to deployed application in the most efficient way with the lowest risk.
+> ▼
+> My story started with the study of energy engineering in multiple countries. This taught me how to act like an engineer. 
+
+> Afterwards, I took a deep dive into the physics of nuclear fusion, the most promising source of energy for the future. This taught me how to think like a scientist. It also resulted in a Ph.D. degree, and a postdoctoral Monaco Fellowship to perform research at the outstanding ITER Organization. 
+
+> To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence. This taught me how to integrate, communicate and operate like a project manager. 
+
+> I now enjoy applying my cross-domain knowledge and competencies at DataRobot that we are building into world's leading AI company.
 
 ----
 
 Values:
-:   Rational workplace, continuous improvement & pursuit of excellence, respect, responsibility, personal development & long-term retention
+:   Meaningful work | meaningful relationships | radical truth and transparency | explore and overcome weaknesses | ownership | excellence
 
-Competencies:
-:   Analytical mind, efficiency, customer devotion, proactivity, persistency, multiculturality
+Abilities:
+:   Curiosity | empathic and communicative | scientific and analytical | multicultural | proactive
 
 ----
 
@@ -38,7 +36,7 @@ Nationality:
 :   Belgian
 
 Date of birth:
-:   30/12/1987
+:   1987
 
 ----
 
