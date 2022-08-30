@@ -43,7 +43,23 @@ Date of birth:
 Experience
 ----------
 
-Jan '19 - Current
+Oct '21 - Current
+:   **Customer Facing Data Scientist**
+
+    *[DataRobot](https://www.datarobot.com/)*
+
+    - I connect prospective enterprise Data Science customers to the DataRobot platform so they can achieve their goals. The focus is on the enabling technology within the framework of business relevance.
+     
+    - My responsibilities include
+      - Drive incremental revenue through creation and maintenance of technical and business relationships with large **complex sales opportunities**
+      - Identify client business issues and connect them to technical capabilities of the DataRobot platform as well as partnership opportunities through **consultative approach**
+      - Manage **communication and internal cooperation** of DataRobot resources to drive team success
+      - Deliver unequivocal **proof of the value** of DataRobot through guided PoVs directly connected to higher level business outcomes
+      - Serve as **trusted partner** for Data Science journeys our customers are going through
+     
+    - DataRobot is the AI Cloud leader, delivering a unified platform for all users, all data types, and all environments to accelerate delivery of AI to production for every organization. DataRobot enables organizations to leverage the transformational power of AI by delivering the world’s only AI Cloud platform combined with an AI-native strategic success team to help customers rapidly turn data into value. DataRobot is trusted by global customers across industries and verticals, including a third of the Fortune 50, delivering over a trillion predictions for leading companies around the world.
+
+Jan '19 - Aug '21
 :   **Industrial Data Science Consultant**
     
     *[MathWorks](https://nl.mathworks.com/)*
