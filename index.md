@@ -57,6 +57,8 @@ Oct '21 - Current
       - Deliver unequivocal **proof of the value** of DataRobot through guided PoVs directly connected to higher level business outcomes
       - Serve as **trusted partner** for Data Science journeys our customers are going through
      
+    - I've been responsible for land-and-expand deals in companies in automotive, utilities, insurance, etc.
+
     - DataRobot delivers a unified platform for all users, all data types, and all environments to accelerate delivery of AI to production for every organization. It is trusted by global customers across industries and verticals, including a third of the Fortune 50, delivering over a trillion predictions for leading companies around the world.
 
 Jan '19 - Aug '21
