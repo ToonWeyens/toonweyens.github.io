@@ -200,7 +200,7 @@ Jan '13 - Current
     
     source: [GitHub](https://github.com/ToonWeyens/PB3D)
 
-Feb '18 - Current
+Feb '18 - Nov '18
 :   **Pylgrim**
     
     *Elementary Shortest Path Problem with or without Resource Constraint*
@@ -213,7 +213,7 @@ Feb '18 - Current
 
     website: [GitHub](https://github.com/ToonWeyens/pylgrim)
 
-Jan '18 - Current
+Jan '18 - Dec '18
 :   **Kraemer**
     
     *High-frequency crypto automated arbitrage trader*

@@ -272,7 +272,7 @@ Jan ’13 - Current
 
     source: GitHub
 
-Feb ’18 - Current
+Feb ’18 - Nov ’18
 
     Pylgrim
 
@@ -288,7 +288,7 @@ Feb ’18 - Current
 
     website: GitHub
 
-Jan ’18 - Current
+Jan ’18 - Dec ’18
 
     Kraemer
 
