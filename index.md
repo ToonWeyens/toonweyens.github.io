@@ -244,15 +244,18 @@ Languages
     | English    | ★★★★★ |
     | Dutch      | ★★★★★ |
     | Spanish    | ★★★★★ |
+    | Portuguese | ★★★★☆ |
     | French     | ★★★★☆ |
-    | German     | ★★★★☆ |
-    | Portuguese | ★★★☆☆ |
+    | German     | ★★★☆☆ |
     | Italian    | ★★☆☆☆ |
+
+Sales
+:    * **[MEDDICC](https://meddicc.com/meddic/)** · Sales Qualification Framework used by some world's most successful enterprise sales teams, including [DataRobot](https://www.datarobot.com/)
+    * **[Insight Selling](https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505)** · Michael David Harris' story-telling approach to selling
 
 Communication
 :   * **Audience Focused Presentation** · TU/e doctoral training course
     * **Write to the Top** · [Julia Bindmans](http://www.jbsp.co.uk/)' course on customer-oriented writing skills
-    * **[Insight Selling](https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505)** · Michael David Harris' story-telling approach to selling
 
 Computer
 :   * **[Linux](https://www.linux.org/)** · used as preferred operating system
@@ -261,6 +264,7 @@ Computer
     * **[git](https://git-scm.com/)** · standard tool for collaborative version control
     * **AWS** · solution architect associate certified ([Associate](https://www.credly.com/badges/68b5258b-ef59-4281-a2bb-1293c1fe70d4)), **Azure** · some experience
     * **K8S** · certified Kubernetes Application developer ([CKAD](https://www.credly.com/badges/eec2a06d-ab4a-48bb-99e0-b45282d676f8/public_url))
+    * **[DataRobot](https://www.datarobot.com/)** · detailed knowledge gained as DataRobot employee
     * **[Domino Data Lab](https://www.dominodatalab.com/)** · experience with enterprise MLOps platform
     * **[ParaView](https://www.paraview.org/), [VisIt](https://visit.llnl.gov/)** · used as 3-D visualization tools, combined with HDF5 and XDMF
     * **[HDF5](https://www.hdfgroup.org/HDF5/) with [XDMF](https://xmswiki.com/wiki/XMDF)** · used as performant parallel data model for HPC simulations, both for storage and for visualization
@@ -321,14 +325,14 @@ Awards, Scholarships & Grants
 
     website: [ITER](https://www.iter.org/education/international/postdoctoral)
 
-2019
-:   **PyTorch Scholarship Challenge**
+2021
+:   **MVP Award**
     
-    *Facebook*
+    *DataRobot*
     
-    10k recipients selected worldwide to start using PyTorch for deep learning
+    Most valuable award for Pre-Sales
     
-    website: [Udacity](https://www.udacity.com/facebook-pytorch-scholarship)
+    website: [DataRobog](https://www.datarobot.com)
 
 ----
 
@@ -368,7 +372,7 @@ References
 ----
 -->
 
-> ➤ Utrecht, Netherlands · ✆ +32 494 39 92 19 · ✉  <weyenst@gmail.com>
+> ➤ Utrecht, Netherlands · ✆ +31 615 09 80 82 · ✉  <weyenst@gmail.com>
 
 > [pdf version](https://raw.githubusercontent.com/ToonWeyens/toonweyens.github.io/master/CV_ToonWeyens.pdf) · [txt version](https://raw.githubusercontent.com/ToonWeyens/toonweyens.github.io/master/CV_ToonWeyens.txt) · [html version](https://toonweyens.github.io/) · [source](https://github.com/ToonWeyens/toonweyens.github.io)
 

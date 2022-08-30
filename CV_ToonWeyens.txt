@@ -330,19 +330,24 @@ Languages
       English      ★★★★★
       Dutch        ★★★★★
       Spanish      ★★★★★
+      Portuguese   ★★★★☆
       French       ★★★★☆
-      German       ★★★★☆
-      Portuguese   ★★★☆☆
+      German       ★★★☆☆
       Italian      ★★☆☆☆
       ------------ -------
+
+Sales
+
+    -   MEDDICC · Sales Qualification Framework used by some world’s
+        most successful enterprise sales teams, including DataRobot
+    -   Insight Selling · Michael David Harris’ story-telling approach
+        to selling
 
 Communication
 
     -   Audience Focused Presentation · TU/e doctoral training course
     -   Write to the Top · Julia Bindmans’ course on customer-oriented
         writing skills
-    -   Insight Selling · Michael David Harris’ story-telling approach
-        to selling
 
 Computer
 
@@ -354,6 +359,7 @@ Computer
     -   AWS · solution architect associate certified (Associate), Azure
         · some experience
     -   K8S · certified Kubernetes Application developer (CKAD)
+    -   DataRobot · detailed knowledge gained as DataRobot employee
     -   Domino Data Lab · experience with enterprise MLOps platform
     -   ParaView, VisIt · used as 3-D visualization tools, combined with
         HDF5 and XDMF
@@ -441,19 +447,18 @@ Awards, Scholarships & Grants
 
     website: ITER
 
-2019
+2021
 
-    PyTorch Scholarship Challenge
+    MVP Award
 
-    Facebook
+    DataRobot
 
-    10k recipients selected worldwide to start using PyTorch for deep
-    learning
+    Most valuable award for Pre-Sales
 
-    website: Udacity
+    website: DataRobog
 
 ------------------------------------------------------------------------
 
-  ➤ Utrecht, Netherlands · ✆ +32 494 39 92 19 · ✉ weyenst@gmail.com
+  ➤ Utrecht, Netherlands · ✆ +31 615 09 80 82 · ✉ weyenst@gmail.com
 
   pdf version · txt version · html version · source
