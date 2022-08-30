@@ -4,6 +4,7 @@ const puppeteer = require("puppeteer");
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto("file://" + process.cwd() + "/" + "index.html");
+  await page.emulateMediaType('screen');
   await page.pdf({
     path: "CV_ToonWeyens.pdf",
     format: "A4",

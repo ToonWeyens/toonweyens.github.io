@@ -5,7 +5,7 @@ Toon Weyens
 -----------------------------------------------------------------------
 > [LinkedIn](https://www.linkedin.com/in/toonweyens/)  
 > [GitHub](http://github.com/toonweyens)  
-> [Google Scholar](https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra)
+> [Google_Scholar](https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra)
 
 ----
 
