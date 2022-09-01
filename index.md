@@ -20,7 +20,9 @@ Toon Weyens
 
 > To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence. This taught me how to integrate, communicate and operate like a project manager. 
 
-> I now enjoy applying my cross-domain knowledge and competencies at DataRobot that we are building into world's leading AI company.
+> Until recently I enjoyed applying my cross-domain knowledge and competencies at DataRobot, that we are building into the world's leading AI company.
+
+> Now it is time for a new challenge.
 
 ----
 
