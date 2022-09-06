@@ -259,7 +259,7 @@ Sales
 
 Communication
 :   * **Audience Focused Presentation** · TU/e doctoral training course
-    * **Write to the Top** · [Julia Bindmans](http://www.jbsp.co.uk/)' course on customer-oriented writing skills
+    * **Write to the Top** · [Julia Bindmans](https://www.arielgroup.com/team/julia-bindman/)' course on customer-oriented writing skills
 
 Computer
 :   * **[Linux](https://www.linux.org/)** · used as preferred operating system
