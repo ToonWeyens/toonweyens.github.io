@@ -284,7 +284,7 @@ Programming
     * **R** · used for ad-hoc data analysis
     * **C++** · used for side projects, especially useful paired with the [BOOST](http://boost.org/) library
     * **Java** · limited experience, used during studies
-    * **TensorFlow**, **Keras** · used for education in Deep Learning 
+    * **TensorFlow**, **Keras** · **PyTorch** · default deep learning tools
     * **PyMC3**, **GPy**, **GPyOpt** · used for Bayesian Machine Learning
     * **MPI**, **OpenMP** · used extensively for parallelization with HPC work
     * **PBS Torque**, **SLURM** · job managers used for cluster computing
