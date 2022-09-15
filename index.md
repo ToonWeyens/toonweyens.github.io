@@ -283,6 +283,7 @@ Programming
     * **Python** · used for side projects, through numpy, scipy, pandas, cython, aioprocessing, ...
     * **R** · used for ad-hoc data analysis
     * **C++** · used for side projects, especially useful paired with the [BOOST](http://boost.org/) library
+    * **SQL** · experience for data prep
     * **Java** · limited experience, used during studies
     * **TensorFlow**, **Keras** · **PyTorch** · default deep learning tools
     * **scikit-learn** · default classical machine learning tools
