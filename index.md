@@ -283,7 +283,7 @@ Programming
     * **Python** · used for side projects, through numpy, scipy, pandas, cython, aioprocessing, ...
     * **R** · used for ad-hoc data analysis
     * **C++** · used for side projects, especially useful paired with the [BOOST](http://boost.org/) library
-    * **SQL** · experience for data prep
+    * **SQL** · experience for data access
     * **Java** · limited experience, used during studies
     * **TensorFlow**, **Keras** · **PyTorch** · default deep learning tools
     * **scikit-learn** · default classical machine learning tools
@@ -292,7 +292,7 @@ Programming
     * **PBS Torque**, **SLURM** · job managers used for cluster computing
     * **jupyter notebooks** · used for exploratory programming
     * **Bash**, **Make, ...** · experience with linux scripting and development
-    * **SQL, yaml** · used in side-projects as simple database solutions
+    * **yaml** · used in side-projects as simple database solutions
     * **LaTeX**, **LuaTeX** · extensive experience formatting large documents (e.g. Ph.D. [dissertation](https://toonweyens.github.io/PB3D/dissertation_TOON_WEYENS.pdf))
 
 Other
