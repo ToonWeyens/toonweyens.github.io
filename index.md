@@ -46,7 +46,7 @@ Experience
 ----------
 
 Oct '21 - Current
-:   **Customer Facing Data Scientist**
+:   **Customer Facing Data Scientist, Pre-Sales**
 
     *[DataRobot](https://www.datarobot.com/)*
 
