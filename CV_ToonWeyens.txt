@@ -388,7 +388,7 @@ Programming
     -   R · used for ad-hoc data analysis
     -   C++ · used for side projects, especially useful paired with the
         BOOST library
-    -   SQL · experience for data access
+    -   SQL · used to get access to data for data science projects
     -   Java · limited experience, used during studies
     -   TensorFlow, Keras · PyTorch · default deep learning tools
     -   scikit-learn · default classical machine learning tools
