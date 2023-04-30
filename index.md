@@ -43,7 +43,22 @@ Date of birth:
 Experience
 ----------
 
-Oct '21 - Current
+
+Nov '22 - Current
+:   **Presales Solutions Architect**
+
+    *[Dataloop](https://dataloop.ai/)*
+
+    - I help prospective and existing customers adopt Dataloop as the data engine for all of their AI initiatives.
+
+    - My responsibilities include:
+      - Champion the Dataloop platform
+      - Guide customers through the full cycle of AI initiatives
+      - Manage and coordinate trials and PoVs
+      - Train and coach different customer personas
+      - Work closely with R&D to define and answer new technical requirements
+
+Oct '21 - Nov '22
 :   **Customer Facing Data Scientist, Pre-Sales**
 
     *[DataRobot](https://www.datarobot.com/)*
