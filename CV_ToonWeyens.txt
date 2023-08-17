@@ -11,9 +11,6 @@ Toon Weyens
   I connect people to ideas, to solutions and to each other to help them
   solve their problems.
 
-  ✆ Contact me for top quality complex customer-facing data science and
-  engineering GTM work
-
   ▼ My story started with the study of energy engineering in multiple
   countries. This taught me how to act like an engineer.
 
@@ -29,9 +26,8 @@ Toon Weyens
   like a project manager.
 
   After spending some high quality time at DataRobot, where I enjoyed
-  applying my cross-domain knowledge and competencies, I have recently
-  decided to join Dataloop, where we are building the world’s first AI
-  Operating System.
+  applying my cross-domain knowledge and competencies, I joined
+  Dataloop, where we are building the world’s first AI Operating System.
 
 ------------------------------------------------------------------------
 
@@ -67,12 +63,16 @@ Nov ’22 - Current
 
     -   My responsibilities include:
 
-        -   Champion the Dataloop platform
+        -   Champion the Dataloop platform for computer vision (CV),
+            natural language processing (NLP), audio and LiDAR use cases
         -   Guide customers through the full cycle of AI initiatives
-        -   Manage and coordinate trials and PoVs
-        -   Train and coach different customer personas
+        -   Train and coach different customer personas and cultivate
+            strong professional relationships
         -   Work closely with R&D to define and answer new technical
             requirements
+        -   Create technical content such as presentations, demo
+            artifacts and MVPs to facilitate the sales process
+        -   Manage and coordinate trials and PoVs
 
 Oct ’21 - Nov ’22
 

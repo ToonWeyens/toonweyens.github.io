@@ -11,8 +11,6 @@ Toon Weyens
 
 > **I connect people to ideas, to solutions and to each other to help them solve their problems.**
 
-> ✆ Contact me for top quality complex customer-facing data science and engineering GTM work
-
 > ▼
 > My story started with the study of energy engineering in multiple countries. This taught me how to act like an engineer. 
 
@@ -20,7 +18,7 @@ Toon Weyens
 
 > To satisfy my inner mathematician, without losing sight of what drives me, I finally redirected my career towards Data Science and Artificial Intelligence. This taught me how to integrate, communicate and operate like a project manager. 
 
-> After spending some high quality time at DataRobot, where I enjoyed applying my cross-domain knowledge and competencies, I have recently decided to join Dataloop, where we are building the world's first AI Operating System.
+> After spending some high quality time at DataRobot, where I enjoyed applying my cross-domain knowledge and competencies, I joined Dataloop, where we are building the world's first AI Operating System.
 
 ----
 
@@ -52,11 +50,12 @@ Nov '22 - Current
     - I help prospective and existing customers adopt Dataloop as the data engine for all of their AI initiatives.
 
     - My responsibilities include:
-      - Champion the Dataloop platform
-      - Guide customers through the full cycle of AI initiatives
-      - Manage and coordinate trials and PoVs
-      - Train and coach different customer personas
-      - Work closely with R&D to define and answer new technical requirements
+      - **Champion** the Dataloop platform for computer vision (CV), natural language processing (NLP), audio and LiDAR use cases
+      - Guide customers through the **full cycle** of AI initiatives
+      - **Train and coach** different customer personas and cultivate strong professional relationships
+      - Work closely with **R&D** to define and answer new technical requirements
+      - Create **technical content** such as presentations, demo artifacts and MVPs to facilitate the sales process
+      - Manage and coordinate trials and **PoV**s
 
 Oct '21 - Nov '22
 :   **Customer Facing Data Scientist, Pre-Sales**
