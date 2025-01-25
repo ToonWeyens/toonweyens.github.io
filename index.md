@@ -41,8 +41,16 @@ Date of birth:
 Experience
 ----------
 
+Mar '24 - Current
+:   **Senior Sales Engineer**
 
-Nov '22 - Current
+    *[Anomalo](https://anomalo.com/)*
+
+    - Anomalo helps enterprises trust their data using proprietary ML algorithms for data quality. Besides the unprecedented level of automation, our platform is used by some of the world's top companies because of its secure enterprise focus and its excellent user experience, catering to domain experts and business owners, as well as to data professionals.
+
+    - As data scientist and product champion, my responsibilities include working with our prospects on technical feasibility and business value. I perform demos and lead PoCs, often together with our partners including Databricks and Alation.
+
+Nov '22 - Mar '24
 :   **Presales Solutions Architect**
 
     *[Dataloop](https://dataloop.ai/)*
