@@ -57,10 +57,9 @@ Mar '24 - Current
 
     - **Navigate enterprise sales** cycles involving procurement, security, and data governance teams to accelerate platform adoption.
 
-    - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact.
+    - **Champion platform capabilities** across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches.
 
-    - **Champion platform capabilities** across technical and business audiences.
-
+    - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's Unstructured product which leverages genAI to create agentic DQ.
 
 
 Nov '22 - Mar '24
@@ -173,6 +172,22 @@ Sep '08 - Aug '10
     - **Graduated in top 15%** of class.
 
 
+May '24 - July '24
+:   **Online Course – Mastering LLMs for Developers & Data Scientists** – [Maven](https://maven.com/parlance-labs/fine-tuning) (by Dan Becker & Hamel Husain)
+
+    State of the art crash course in everything required to work with LLMs, taught by two recognized experts, as well as a host of guest speakers.
+
+    - **Fine-tuning** OSS LLMs with Axolotl; when/why to fine-tune.
+
+    - **Instrumentation & evals** with Inspect, LangSmith; Text2SQL evals.
+ 
+    - **RAG** design and iterative improvement.
+
+    - **Scaling & efficiency**: PyTorch FSDP, torchao; OOM avoidance.
+
+    - **Prototyping & deployment**: Gradio apps; Modal/Predibase/Replicate; Hugging Face AutoTrain.
+
+
 December '18
 :   **Online Course - Computability, Complexity & Algorithms** - [Udacity](https://www.udacity.com/) advanced, by [Georgia Institute of Technology](https://www.gatech.edu/)
 
@@ -203,7 +218,7 @@ May '18
 
 
 May '14
-:   **Summer School - [23rd Summer School on Parallel Computing](http://www.hpc.cineca.it/content/23th-summer-school-parallel-computing)** - [CINECA](https://www.cineca.it/en), Casalecchio Di Reno
+:   **Summer School - [23rd Summer School on Parallel Computing](http://www.hpc.cineca.it/content/23th-summer-school-parallel-computing)** - [CINECA](https://www.cineca.it/en), Casalecchio di Reno
     
     - Intensive 10-day graduate program on modern High-Performance Computing (HPC) systems.
 
@@ -279,27 +294,32 @@ Sales & Communication
     * **Audience Focused Presentation** · TU/e doctoral training course
 
 
-Computer
+Computer & Cloud
 :   * **Linux**: Preferred operating system for development
-    * **Cloud**: AWS (Certified Solution Architect), Azure (workign knowledge)
+    * **Cloud**: AWS (Certified Solution Architect), Azure (working knowledge)
     * **Containerization**: Docker, Kubernetes (CKAD certified)
     * **Version control**: git, GitHub, GitLab
     * **MLOps Platforms**: HuggingFace, Datarobot, Domino Data Lab
     * **HPC & Visualization**: ParaView, VisIt, HDF5, SurfSara gateways
     * **Big Data**: Hadoop, Spark
+    * **Infrastructure as Code**: Currently upskilling in Terraform, Ansible
+    * **OSS**: Maintainer of PB3D
 
 Programming
 :   * **Python**: data analysis, ML/DL, parallel processing (numpy, pandas, PyTorch, TensorFlow, Keras)
     * **Fortran**: scientific computing and HPC (PB3D)
     * **MATLAB**: powerful toolset for engineers and scientists
     * **C++**: algorithmic prototyping ([BOOST](http://boost.org/) library)
-    * **MPI**, **OpenMP**, **SLURM**, **PBS Torque**: parallel and distributed computing
+    * **HPC and GPU-aware computing**: MPI, OpenMP; SLURM, PBS Torque, familiarity with CUDA concepts
     * **SQL**: data access and preprocessing
     * **PBS Torque**, **SLURM**: job managers used for cluster computing
     * **Bash**, **Make**, **YAML**: experience with linux scripting and development
+    * **API-based**: experience with REST for integrations with platforms such as Anomalo. Currently upskilling on FastAPI & Streamlit
 
 ML & AI
-:   * Classical ML (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt).
+:   * Generative AI and LLMs: Experience with prompting and tool calling. Exposure to Hugging Face, Modal.
+    * Agentic AI: Exposure to LangChain. Currently upskilling with personal projects
+    * Classical ML (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt).
     * Deep learning architectures (CNNs, RNNs, VAEs, sequence models).
     * Optimization and regularization (Adam, dropout, BatchNorm).
 
@@ -346,7 +366,7 @@ Awards, Scholarships & Grants
     
     Most valuable award for Pre-Sales
     
-    website: [DataRobog](https://www.datarobot.com)
+    website: [DataRobot](https://www.datarobot.com)
 
 ----
 
