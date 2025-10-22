@@ -4,7 +4,7 @@ all: html pdf txt
 
 html: index.md style.css
 	pandoc --standalone -c style.css --from markdown --to html -o index.html index.md metadata.yaml
-	@./scripts/modify_html.sh
+	@./scripts/modify_html.sh index.html
 
 pdf: index.html
 ifeq ($(NODE_EXISTS), 1)
