@@ -86,8 +86,8 @@ Mar ’24 - Current
 
     -   Collaborate cross-functionally with product, R&D, and customer
         success teams to translate field insight into roadmap impact.
-        Special focus on Anomalo’s Unstructured product which leverages
-        genAI to create agentic DQ.
+        Special focus on Anomalo’s new Unstructured product which
+        leverages genAI to create agentic DQ.
 
 Nov ’22 - Mar ’24
 
@@ -335,7 +335,7 @@ May ’18
 May ’14
 
     Summer School - 23rd Summer School on Parallel Computing - CINECA,
-    Casalecchio Di Reno
+    Casalecchio di Reno
 
     -   Intensive 10-day graduate program on modern High-Performance
         Computing (HPC) systems.
@@ -443,7 +443,7 @@ Sales & Communication
 Computer & Cloud
 
     -   Linux: Preferred operating system for development
-    -   Cloud: AWS (Certified Solution Architect), Azure (workign
+    -   Cloud: AWS (Certified Solution Architect), Azure (working
         knowledge)
     -   Containerization: Docker, Kubernetes (CKAD certified)
     -   Version control: git, GitHub, GitLab
@@ -461,10 +461,12 @@ Programming
     -   Fortran: scientific computing and HPC (PB3D)
     -   MATLAB: powerful toolset for engineers and scientists
     -   C++: algorithmic prototyping (BOOST library)
-    -   HPC and GPU-aware computing: MPI, OpenMP; SLURM, PBS Torque,
-        familiarity with CUDA concepts
+    -   HPC and GPU-aware computing: MPI, OpenMP, SLURM, PBS Torque,
+        Petsc, Slepsc, familiarity with CUDA concepts
     -   SQL: data access and preprocessing
     -   PBS Torque, SLURM: job managers used for cluster computing
+    -   Numerical algorithm design: Experience with creation, analysis
+        and usage of performant numerical algorithms
     -   Bash, Make, YAML: experience with linux scripting and
         development
     -   API-based: experience with REST for integrations with platforms
@@ -472,10 +474,16 @@ Programming
 
 ML & AI
 
-    -   Classical ML (scikit-learn), Bayesian modeling (PyMC3, GPy,
+    -   Generative AI and LLMs: Experience with prompting, tool calling
+        and some RAG. Exposure to Hugging Face, Modal.
+    -   Agentic AI: Exposure to LangChain. Currently upskilling with
+        personal projects
+    -   Classical ML: (scikit-learn), Bayesian modeling (PyMC3, GPy,
         GPyOpt).
-    -   Deep learning architectures (CNNs, RNNs, VAEs, sequence models).
-    -   Optimization and regularization (Adam, dropout, BatchNorm).
+    -   Deep learning architectures: Understanding of Transformers,
+        CNNs, RNNs, VAEs, sequence models, etc.
+    -   Optimization and regularization: Understanding of Adam, dropout,
+        BatchNorm
 
 Other
 
@@ -535,7 +543,7 @@ Awards, Scholarships & Grants
 
     Most valuable award for Pre-Sales
 
-    website: DataRobog
+    website: DataRobot
 
 ------------------------------------------------------------------------
 

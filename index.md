@@ -59,7 +59,7 @@ Mar '24 - Current
 
     - **Champion platform capabilities** across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches.
 
-    - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's Unstructured product which leverages genAI to create agentic DQ.
+    - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ.
 
 
 Nov '22 - Mar '24
@@ -310,18 +310,19 @@ Programming
     * **Fortran**: scientific computing and HPC (PB3D)
     * **MATLAB**: powerful toolset for engineers and scientists
     * **C++**: algorithmic prototyping ([BOOST](http://boost.org/) library)
-    * **HPC and GPU-aware computing**: MPI, OpenMP; SLURM, PBS Torque, familiarity with CUDA concepts
+    * **HPC and GPU-aware computing**: MPI, OpenMP, SLURM, PBS Torque, Petsc, Slepsc, familiarity with CUDA concepts
     * **SQL**: data access and preprocessing
     * **PBS Torque**, **SLURM**: job managers used for cluster computing
+    * **Numerical algorithm design**: Experience with creation, analysis and usage of performant numerical algorithms
     * **Bash**, **Make**, **YAML**: experience with linux scripting and development
     * **API-based**: experience with REST for integrations with platforms such as Anomalo. Currently upskilling on FastAPI & Streamlit
 
 ML & AI
-:   * Generative AI and LLMs: Experience with prompting and tool calling. Exposure to Hugging Face, Modal.
-    * Agentic AI: Exposure to LangChain. Currently upskilling with personal projects
-    * Classical ML (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt).
-    * Deep learning architectures (CNNs, RNNs, VAEs, sequence models).
-    * Optimization and regularization (Adam, dropout, BatchNorm).
+:   * **Generative AI and LLMs**: Experience with prompting, tool calling and some RAG. Exposure to Hugging Face, Modal.
+    * **Agentic AI**: Exposure to LangChain. Currently upskilling with personal projects
+    * **Classical ML**: (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt).
+    * **Deep learning architectures**: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc.
+    * **Optimization and regularization**: Understanding of Adam, dropout, BatchNorm
 
 Other
 :   * **[Fusion DC](http://www.em-fusion-dc.org/)** 2016 Program Representative
