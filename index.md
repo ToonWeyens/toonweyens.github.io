@@ -171,6 +171,22 @@ Sep '08 - Aug '10
 
     - **Graduated in top 15%** of class.
 
+Oct '25 - Oct '25
+:   **Online Course - Agentic AI** - [DeepLearning.AI](https://learn.deeplearning.ai/courses/agentic-ai/)
+
+    Course aimed at teaching practical skills with agentic AI, building systems from the ground up. Taught by Andrew Ng.
+
+    - **Evals**: Build robust testing frameworks, conduct systematic error analysis, and optimize systems for production deployment.
+
+    - **Reflection**: AI critiques its own work and iterates to improve quality—like code review, but automated.
+
+    - **Tool Use**: Connect AI to databases, APIs, and external services so it can actually perform actions, not just generate text.
+    
+    - **Planning**: Break complex tasks into executable steps that AI can follow and adapt when things don’t go as expected.
+
+    - **Multi-Agent**: Coordinate multiple specialized AI systems to handle different parts of a complex workflow.
+
+
 
 May '24 - July '24
 :   **Online Course – Mastering LLMs for Developers & Data Scientists** – [Maven](https://maven.com/parlance-labs/fine-tuning) (by Dan Becker & Hamel Husain)
