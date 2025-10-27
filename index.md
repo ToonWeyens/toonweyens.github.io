@@ -25,7 +25,7 @@ Values:
 :   Meaningful work · Authentic relationships · Radical transparency · Curiosity and experimentation · Ownership and excellence · Efficiency · Positive impact
 
 Abilities:
-:   Empathic and communicative · Analytical · Culturally adaptive · Scientifically rigorous · Proactive and collaborative
+:   Empathic and communicative · Analytical · Culturally adaptive · Scientifically rigorous · Self-motivated and Proactive · Collaborative
 
 ----
 
