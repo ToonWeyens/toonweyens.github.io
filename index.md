@@ -40,12 +40,6 @@ Date of birth:
 Experience
 ----------
 
-Jan '25 - Current
-:   **University Lecturer** - [Eindhoven University of Technology](https://www.tue.nl/en/)
-
-    Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
-
-
 Mar '24 - Current
 :   **Senior Sales Engineer** - [Anomalo](https://anomalo.com/)
 
@@ -60,6 +54,12 @@ Mar '24 - Current
     - **Champion platform capabilities** across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches.
 
     - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ.
+
+
+Jan '25 - Current
+:   **University Lecturer** - [Eindhoven University of Technology](https://www.tue.nl/en/)
+
+    Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
 
 
 Nov '22 - Mar '24

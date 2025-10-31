@@ -50,14 +50,6 @@ Date of birth:
 
 Experience
 
-Jan ’25 - Current
-
-    University Lecturer - Eindhoven University of Technology
-
-    Teach in both the Bachelor in Applied Physics and the Master in
-    Nuclear Fusion programs, covering plasma physics and computational
-    methods for High-Performance Computing (HPC).
-
 Mar ’24 - Current
 
     Senior Sales Engineer - Anomalo
@@ -89,6 +81,14 @@ Mar ’24 - Current
         success teams to translate field insight into roadmap impact.
         Special focus on Anomalo’s new Unstructured product which
         leverages genAI to create agentic DQ.
+
+Jan ’25 - Current
+
+    University Lecturer - Eindhoven University of Technology
+
+    Teach in both the Bachelor in Applied Physics and the Master in
+    Nuclear Fusion programs, covering plasma physics and computational
+    methods for High-Performance Computing (HPC).
 
 Nov ’22 - Mar ’24
 
