@@ -5,63 +5,52 @@ navbar_entries:
   - title: blog
     url: blog
 
+  - title: CV
+    url: cv
+
   - title: website
-    url: https://www.abhinav.co
+    url: https://toonweyens.github.io/
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: PB3D
+    url: https://pb3d.github.io/
+    desc: modern high performance Fortran code for analyzing peeling-ballooning stability in toroidal magnetic confinement devices.
+      Designed for high-performance and parallel computation, supporting general 3-D plasma configurations.
+  
+  - title: Pylgrim
+    url: https://github.com/ToonWeyens/pylgrim
+    desc: Elementary Shortest Path Problem with or without Resource Constraint (ESPPRC), for ingle source to single destination.
+      It uses a two-fold dominance strategy allowing for negative cycles.
+      By the knowledge of the author this was the fastest open source implementation at the time.
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: PylgrimX
+    url: https://github.com/ToonWeyens/pylgrimX
+    desc: Highly optimized Boost C++ implementation of pylgrim (ESPPRC).
+      Useful for automated trading strategies for discovering arbitrage opportunities.
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: PB3D tools
+    url: https://github.com/ToonWeyens/PB3D_tools
+    desc: HPC tools and scripts to setup, run and analyze PB3D simulations on local and remote HPC systems.
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+# old_project_entries:
+#   - title: Soopr
+#     url: https://www.soopr.co
+#     desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+#     highlight: NEW
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
-
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Homepage
+    url: https://toonweyens.github.io/
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: GitHub
+    url: http://linkedin.com/in/toonweyens
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/ToonWeyens
+
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra
 
   - title: feed
     url: feed.xml
