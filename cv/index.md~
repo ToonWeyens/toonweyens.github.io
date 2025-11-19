@@ -40,12 +40,6 @@ Date of birth:
 Experience
 ----------
 
-Jan '25 - Current
-:   **University Lecturer** - [Eindhoven University of Technology](https://www.tue.nl/en/)
-
-    Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
-
-
 Mar '24 - Current
 :   **Senior Sales Engineer** - [Anomalo](https://anomalo.com/)
 
@@ -60,6 +54,12 @@ Mar '24 - Current
     - **Champion platform capabilities** across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches.
 
     - **Collaborate cross-functionally** with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ.
+
+
+Jan '25 - Current
+:   **University Lecturer** - [Eindhoven University of Technology](https://www.tue.nl/en/)
+
+    Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
 
 
 Nov '22 - Mar '24
@@ -170,6 +170,21 @@ Sep '08 - Aug '10
     - **Completed academic exchange at TU Berlin**, focusing on applied energy economics.
 
     - **Graduated in top 15%** of class.
+
+Nov '25 - Nov '25
+:   **Online Course - Fine-tuning & RL for LLMs: Intro to Post-training** - [DeepLearning.AI](https://learn.deeplearning.ai/courses/fine-tuning-and-reinforcement-learning-for-llms-intro-to-post-training)
+
+    Course aimed at transforming raw LLMs into production-ready applications using post-training techniques like SFT and RLHF. Taught by Sharon Zhou.
+
+    Alignment: Use Supervised Fine-Tuning (SFT) and Reinforcement Learning (RLHF) to shape model behavior, improve reasoning, and ensure safety.
+
+    Algorithms: Implement advanced optimization techniques like PPO and GRPO (Group Relative Policy Optimization) to guide models toward desired outcomes.
+
+    Evaluation: Design rigorous testing frameworks to detect "reward hacking" and diagnose failures, ensuring models are reliable before deployment.
+
+    Efficiency: Apply Low-Rank Adaptation (LoRA) to fine-tune massive models on standard hardware without the heavy computational cost of full training.
+
+    Ops: Build production pipelines that monitor model performance and use real-world logs to create data feedback loops for continuous improvement.
 
 Oct '25 - Oct '25
 :   **Online Course - Agentic AI** - [DeepLearning.AI](https://learn.deeplearning.ai/courses/agentic-ai/)
