@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<header style="text-align:center; margin-bottom:2em;">
+  <h1 style="font-weight:100; margin-bottom:0;">{{ page.cv.first_name | default: page.title }} <span style="color:#125687;">{{ page.cv.last_name }}</span></h1>
+  <h2 class="h2_subtitle" style="font-size:1.1em; font-weight:400; margin-top:0.2em;">
+    <span class="fas fa-map-marker-alt"></span> {{ page.cv.location | default: 'EU' }} &nbsp;·&nbsp;
+    <span class="fas fa-phone"></span> {{ page.cv.phone }} &nbsp;·&nbsp;
+    <span class="fas fa-envelope"></span> <a href="mailto:{{ page.cv.email }}">{{ page.cv.email }}</a>
+  </h2>
+  <div style="text-align:center; margin-bottom:15px">
+    {% if page.cv.linkedin %}
+    <a href="{{ page.cv.linkedin }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
+    {% endif %}
+    {% if page.cv.github %}
+    <a href="{{ page.cv.github }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+    {% endif %}
+    {% if page.cv.scholar %}
+    <a href="{{ page.cv.scholar }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-google fa-stack-1x fa-inverse"></i></span></a>
+    {% endif %}
+  </div>
+  {% if page.cv.tagline %}
+  <blockquote><strong>{{ page.cv.tagline }}</strong></blockquote>
+{% endif %}
+  {% if page.cv.summary %}
+  <blockquote>{{ page.cv.summary | markdownify }}</blockquote>
+  {% endif %}
+</header>
+<section class="cv-meta" style="margin-bottom:2em;">
+  <dl>
+    {% if page.cv.values %}
+    <dt>Values:</dt>
+    <dd>{{ page.cv.values }}</dd>
+    {% endif %}
+    {% if page.cv.abilities %}
+    <dt>Abilities:</dt>
+    <dd>{{ page.cv.abilities }}</dd>
+    {% endif %}
+    {% if page.cv.nationality %}
+    <dt>Nationality:</dt>
+    <dd>{{ page.cv.nationality }}</dd>
+    {% endif %}
+    {% if page.cv.birthdate %}
+    <dt>Date of birth:</dt>
+    <dd>{{ page.cv.birthdate }}</dd>
+    {% endif %}
+  </dl>
+</section>
+<section class="cv-content">
+  {{ content }}
+</section>
+{% if site.theme_config.appearance_toggle %}
+  {% include toggle_theme_button.html %}
+{% endif %}
+<div class="credits">
+  {% if page.cv.location or page.cv.phone or page.cv.email %}
+  <p>
+    <span class="fas fa-map-marker-alt"></span> {{ page.cv.location }} &nbsp;·&nbsp;
+    <span class="fas fa-phone"></span> {{ page.cv.phone }} &nbsp;·&nbsp;
+    <span class="fas fa-envelope"></span> <a href="mailto:{{ page.cv.email }}">{{ page.cv.email }}</a>
+  </p>
+  {% endif %}
+  {% if page.cv.pdf or page.cv.txt or page.cv.html or page.cv.source %}
+  <p>
+    {% if page.cv.pdf %}<a href="{{ page.cv.pdf }}">pdf version</a> · {% endif %}
+    {% if page.cv.txt %}<a href="{{ page.cv.txt }}">txt version</a> · {% endif %}
+    {% if page.cv.html %}<a href="{{ page.cv.html }}">html version</a> · {% endif %}
+    {% if page.cv.source %}<a href="{{ page.cv.source }}">source</a>{% endif %}
+  </p>
+  {% endif %}
+</div>
