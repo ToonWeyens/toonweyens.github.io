@@ -1,5 +1,16 @@
 title: Toon Weyens
-author: Toon Weyens
+author: 
+  firstname: Toon
+  lastname: Weyens
+  honorific: Ph.D.
+  location: Utrecht, NL
+  nationality: Belgian
+  # birthdate: 1987
+  phone: "+31 615 098082"
+  email: weyenst@gmail.com
+  linkedin: "https://www.linkedin.com/in/toonweyens/"
+  github: "https://github.com/toonweyens"
+  scholar: "https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra"
 url: https://toonweyens.github.io # root address of the site
 headline: Bridging science, data, and business to build AI solutions that drive real impact.
 description: > # description of the site (multiple lines allowed)
@@ -16,7 +27,7 @@ permalink: /:slug
 mathjax: true
 
 twitter:
-    username: abhinav # update or delete this
+    # username: # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk

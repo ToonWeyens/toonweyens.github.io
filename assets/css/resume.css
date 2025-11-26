@@ -1,0 +1,178 @@
+/* 1. Ensure this is at the top of your CSS file. 
+   This ensures padding doesn't expand the width beyond 160px. */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --sidebar-width: 160px;
+}
+
+/* --- GRID LAYOUT (Values, Skills, etc.) --- */
+.info-grid {
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+    gap: 0; 
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    align-items: baseline; /* Aligns text perfectly */
+}
+
+.label {
+    color: var(--headings);
+    font-weight: bold;
+    padding-right: 20px; 
+}
+
+/* --- HORIZONTAL RULE --- */
+hr.cv-divider {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
+
+/* --- JOB ENTRY LAYOUT --- */
+.job-entry {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.job-date {
+    width: var(--sidebar-width);
+    flex-shrink: 0;
+    font-weight: bold;
+    color: var(--headings);
+    padding-right: 20px; 
+}
+
+.job-details {
+    flex-grow: 1;
+}
+
+/* --- MOBILE FIX --- */
+@media (max-width: 600px) {
+    .info-grid, .job-entry { display: block; }
+    .job-date, .label { margin-bottom: 5px; }
+}
+
+/* --- BLOCKQUOTE STYLES --- */
+.cv-blockquote {
+  text-align: justify;
+  width: 100%;
+  margin: 1em 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  font-style: normal;
+}
+
+/* =========================================
+   COLLAPSIBLE / TOGGLE LOGIC
+   ========================================= */
+
+/* The clickable header row (Role + Company) */
+.job-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0; /* Adds a little touch area */
+    transition: background-color 0.2s;
+}
+
+.job-header:hover {
+    background-color: rgba(0,0,0,0.02); /* Subtle hover effect */
+}
+
+/* The Arrow Icon */
+.toggle-icon {
+    font-size: 0.8em;
+    color: var(--accent-blue);
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+}
+
+/* Rotate arrow when the entry is 'active' */
+.job-entry.active .toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* The Hidden Content (Summary + Bullets) */
+.job-content {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Show content when 'active' class is present */
+.job-entry.active .job-content {
+    display: block;
+}
+
+/* Fade animation for smooth opening */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* The Expand/Collapse Buttons */
+.global-toggle-btn {
+    background: none;
+    border: 1px solid var(--accent-blue);
+    color: var(--accent-blue);
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.75em;
+    margin-left: 5px;
+    transition: all 0.2s;
+}
+
+.global-toggle-btn:hover {
+    background-color: var(--accent-blue);
+    color: white;
+}
+
+/* =========================================
+   PRINT STYLES (Command/Ctrl + P)
+   ========================================= */
+@media print {
+    /* 1. Force all content to be visible */
+    .job-content {
+        display: block !important;
+        opacity: 1 !important;
+    }
+
+    /* 2. Hide interactive elements (Buttons, Icons) */
+    .global-toggle-btn, 
+    .toggle-icon {
+        display: none !important;
+    }
+
+    /* 3. Remove hover effects and pointers */
+    .job-header {
+        cursor: default;
+        pointer-events: none; /* Disables clicking */
+    }
+
+    /* 4. Ensure background colors (like the progress bar) print */
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    /* 5. Clean up page margins */
+    body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .page-container {
+        box-shadow: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

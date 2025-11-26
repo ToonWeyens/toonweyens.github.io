@@ -4,13 +4,22 @@
   <body>
     <main class="page-content" aria-label="Content">
       <div class="w">
+
+        <header>
+          {% if site.theme_config.show_navbar == true %}
+            {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+            <div class="dashed"></div>
+          {% endif %}
+        </header>
+
         {{ content }}
+
         {% if site.theme_config.appearance_toggle %}
           {% include toggle_theme_button.html %}
         {% endif %}
         <div class="credits">
           {%- if site.theme_config.show_copyright == true -%}
-          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
+          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author.firstname}} {{site.author.lastname}}
           &nbsp;
           •
           &nbsp;

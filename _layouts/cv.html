@@ -1,72 +1,227 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="/assets/css/resume.css">
 
 <header style="text-align:center; margin-bottom:2em;">
-  <h1 style="font-weight:100; margin-bottom:0;">{{ page.cv.first_name | default: page.title }} <span style="color:#125687;">{{ page.cv.last_name }}</span></h1>
+  <h1 style="font-weight:100; margin-bottom:0;">{{site.author.firstname}} <span style="color:#125687;">{{site.author.lastname }}</span>, {{site.author.honorific}}</h1>
   <h2 class="h2_subtitle" style="font-size:1.1em; font-weight:400; margin-top:0.2em;">
-    <span class="fas fa-map-marker-alt"></span> {{ page.cv.location | default: 'EU' }} &nbsp;·&nbsp;
-    <span class="fas fa-phone"></span> {{ page.cv.phone }} &nbsp;·&nbsp;
-    <span class="fas fa-envelope"></span> <a href="mailto:{{ page.cv.email }}">{{ page.cv.email }}</a>
+    {% if page.config.contact.location %} 
+      <span class="fas fa-map-marker-alt"></span> {{site.author.location}} &nbsp;·&nbsp;  
+    {% endif %}
+    {% if page.config.contact.phone %}    
+      <span class="fas fa-phone"></span> {{ site.author.phone }} &nbsp;·&nbsp; 
+    {% endif %}
+    {% if page.config.contact.email %}    
+      <span class="fas fa-envelope"></span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> 
+    {% endif %}
   </h2>
   <div style="text-align:center; margin-bottom:15px">
-    {% if page.cv.linkedin %}
-    <a href="{{ page.cv.linkedin }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a>
+    {% if page.config.social.linkedin %} 
+      <a href={{site.author.linkedin}} target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a> 
     {% endif %}
-    {% if page.cv.github %}
-    <a href="{{ page.cv.github }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a>
+    {% if page.config.social.github %}   
+      <a href={{site.author.github}} target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a> 
     {% endif %}
-    {% if page.cv.scholar %}
-    <a href="{{ page.cv.scholar }}" target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-google fa-stack-1x fa-inverse"></i></span></a>
+    {% if page.config.social.scholar %}  
+      <a href={{site.author.scholar}} target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-google fa-stack-1x fa-inverse"></i></span></a> 
     {% endif %}
   </div>
-  {% if page.cv.tagline %}
-  <blockquote><strong>{{ page.cv.tagline }}</strong></blockquote>
-{% endif %}
-  {% if page.cv.summary %}
-  <blockquote>{{ page.cv.summary | markdownify }}</blockquote>
-  {% endif %}
 </header>
-<section class="cv-meta" style="margin-bottom:2em;">
-  <dl>
-    {% if page.cv.values %}
-    <dt>Values:</dt>
-    <dd>{{ page.cv.values }}</dd>
-    {% endif %}
-    {% if page.cv.abilities %}
-    <dt>Abilities:</dt>
-    <dd>{{ page.cv.abilities }}</dd>
-    {% endif %}
-    {% if page.cv.nationality %}
-    <dt>Nationality:</dt>
-    <dd>{{ page.cv.nationality }}</dd>
-    {% endif %}
-    {% if page.cv.birthdate %}
-    <dt>Date of birth:</dt>
-    <dd>{{ page.cv.birthdate }}</dd>
-    {% endif %}
-  </dl>
-</section>
-<section class="cv-content">
-  {{ content }}
-</section>
-{% if site.theme_config.appearance_toggle %}
-  {% include toggle_theme_button.html %}
+
+{% if page.tagline or page.summary %}
+  <blockquote class="cv-blockquote">
+    {% if page.tagline %} <div style="margin-bottom: 0.5em; text-align: center;"><strong>{{ page.tagline }}</strong></div> {% endif %}
+    {% if page.summary %} <div>{{ page.summary }}</div> {% endif %}
+  </blockquote>
 {% endif %}
-<div class="credits">
-  {% if page.cv.location or page.cv.phone or page.cv.email %}
-  <p>
-    <span class="fas fa-map-marker-alt"></span> {{ page.cv.location }} &nbsp;·&nbsp;
-    <span class="fas fa-phone"></span> {{ page.cv.phone }} &nbsp;·&nbsp;
-    <span class="fas fa-envelope"></span> <a href="mailto:{{ page.cv.email }}">{{ page.cv.email }}</a>
-  </p>
-  {% endif %}
-  {% if page.cv.pdf or page.cv.txt or page.cv.html or page.cv.source %}
-  <p>
-    {% if page.cv.pdf %}<a href="{{ page.cv.pdf }}">pdf version</a> · {% endif %}
-    {% if page.cv.txt %}<a href="{{ page.cv.txt }}">txt version</a> · {% endif %}
-    {% if page.cv.html %}<a href="{{ page.cv.html }}">html version</a> · {% endif %}
-    {% if page.cv.source %}<a href="{{ page.cv.source }}">source</a>{% endif %}
-  </p>
-  {% endif %}
+
+<hr class="cv-divider">
+
+<div class="info-grid">
+    {% if page.values %}
+      <div class="label">Values:</div>
+      <div class="content">{{ page.values }}</div>
+    {% endif %}
+
+    {% if page.abilities %}
+      <div class="label">Abilities:</div>
+      <div class="content">{{ page.abilities }}</div>
+    {% endif %}
+
+    {% if site.author.nationality %}
+      <div class="label">Nationality:</div>
+      <div class="content">{{ site.author.nationality }}</div>
+    {% endif %}
+
+    {% if site.author.birthdate %}
+      <div class="label">Date of birth:</div>
+      <div class="content">{{ site.author.birthdate }}</div>
+    {% endif %}
 </div>
+
+{% if page.experience %}
+<hr class="cv-divider">
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <h1 style="margin:0;">Experience</h1>
+    <div>
+        <button class="global-toggle-btn" onclick="toggleAll(true)">Expand All</button>
+        <button class="global-toggle-btn" onclick="toggleAll(false)">Collapse</button>
+    </div>
+</div>
+
+{% for job in page.experience %}
+<div class="job-entry">
+    <div class="job-date">{{ job.dates }}</div>
+    <div class="job-details">
+        <div class="job-header" onclick="toggleJob(this)">
+            <div style="flex-grow: 1;">
+                <strong>{{ job.role }}</strong> - {{ job.company }}
+            </div>
+            <span class="fas fa-chevron-down toggle-icon"></span>
+        </div>
+        
+        <div class="job-content">
+            {% if job.summary %}
+            <div style="margin-bottom: 10px;">{{ job.summary }}</div>
+            {% endif %}
+
+            {% if job.bullets %}
+            <ul>
+                {% for point in job.bullets %}
+                <li>{{ point }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+
+{% if page.education %}
+<hr class="cv-divider">
+<h1>Education</h1>
+
+{% for edu in page.education %}
+<div class="job-entry">
+    <div class="job-date">{{ edu.dates }}</div>
+    <div class="job-details">
+        <div class="job-header" onclick="toggleJob(this)">
+            <div style="flex-grow: 1;">
+                <strong>{{ edu.degree }}</strong> - {{ edu.uni }}
+            </div>
+            <span class="fas fa-chevron-down toggle-icon"></span>
+        </div>
+        
+        <div class="job-content">
+            {% if edu.summary %}
+            <div>{{ edu.summary }}</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+<hr class="cv-divider">
+{% endif %}
+
+
+{% if page.projects %}
+<h1>Selected Projects</h1>
+
+{% for project in page.projects %}
+<div class="job-entry">
+    <div class="job-date">{{ project.dates }}</div>
+    <div class="job-details">
+        <div class="job-header" onclick="toggleJob(this)">
+            <div style="flex-grow: 1;">
+                <strong>{{ project.name }}</strong>
+            </div>
+            <span class="fas fa-chevron-down toggle-icon"></span>
+        </div>
+        
+        <div class="job-content">
+            <div>{{ project.description }}</div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+
+{% if page.skills %}
+<hr class="cv-divider">
+<h1>Skills</h1>
+
+<div class="info-grid">
+    {% for skill in page.skills %}
+        <div class="label">{{ skill.category }}:</div>
+
+        <div class="content">
+            {% if skill.text %}
+                {{ skill.text }}
+            {% endif %}
+
+            {% if skill.bullets %}
+                <ul style="margin-top: 0; padding-left: 20px; margin-bottom: 0;">
+                    {% for bullet in skill.bullets %}
+                        <li>{{ bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% if page.awards %}
+<hr class="cv-divider">
+<h1>Awards & Honors</h1>
+
+{% for award in page.awards %}
+<div class="job-entry">
+    <div class="job-date">{{ award.date }}</div>
+    <div class="job-details">
+        <div class="job-header" onclick="toggleJob(this)">
+            <div style="flex-grow: 1;">
+                <strong>{{ award.title }}</strong>
+                {% if award.issuer %}
+                - <span>{{ award.issuer }}</span>
+                {% endif %}
+            </div>
+            <span class="fas fa-chevron-down toggle-icon"></span>
+        </div>
+        
+        <div class="job-content">
+            {% if award.summary %}
+            <div>{{ award.summary }}</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+
+<script>
+    // 1. Toggle individual job entry
+    function toggleJob(headerElement) {
+        // Find the parent .job-entry div
+        const entry = headerElement.closest('.job-entry');
+        entry.classList.toggle('active');
+    }
+
+    // 2. Expand or Collapse All
+    function toggleAll(shouldExpand) {
+        const allEntries = document.querySelectorAll('.job-entry');
+        allEntries.forEach(entry => {
+            if (shouldExpand) {
+                entry.classList.add('active');
+            } else {
+                entry.classList.remove('active');
+            }
+        });
+    }
+</script>
