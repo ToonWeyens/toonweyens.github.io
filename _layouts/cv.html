@@ -66,10 +66,7 @@ layout: default
 <div id="experience-section">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
         <h1 style="margin:0;">Experience</h1>
-        <div>
-            <button class="global-toggle-btn" onclick="toggleSection('experience-section', true)">Expand All</button>
-            <button class="global-toggle-btn" onclick="toggleSection('experience-section', false)">Collapse</button>
-        </div>
+        <button class="global-toggle-btn" onclick="toggleSection('experience-section', this)">Expand All</button>
     </div>
 
     {% for job in page.experience %}
@@ -100,11 +97,9 @@ layout: default
 <div id="education-section">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
         <h1 style="margin:0;">Education</h1>
-        <div>
-            <button class="global-toggle-btn" onclick="toggleSection('education-section', true)">Expand All</button>
-            <button class="global-toggle-btn" onclick="toggleSection('education-section', false)">Collapse</button>
-        </div>
+        <button class="global-toggle-btn" onclick="toggleSection('education-section', this)">Expand All</button>
     </div>
+    
 
     {% for edu in page.education %}
     <div class="job-entry">
@@ -129,11 +124,8 @@ layout: default
 
 <div id="projects-section">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-        <h1 style="margin:0;">Selected Projects</h1>
-        <div>
-            <button class="global-toggle-btn" onclick="toggleSection('projects-section', true)">Expand All</button>
-            <button class="global-toggle-btn" onclick="toggleSection('projects-section', false)">Collapse</button>
-        </div>
+        <h1 style="margin:0;">Projects</h1>
+        <button class="global-toggle-btn" onclick="toggleSection('projects-section', this)">Expand All</button>
     </div>
 
     {% for project in page.projects %}
@@ -157,10 +149,7 @@ layout: default
 <div id="awards-section">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
         <h1 style="margin:0;">Awards & Honors</h1>
-        <div>
-            <button class="global-toggle-btn" onclick="toggleSection('awards-section', true)">Expand All</button>
-            <button class="global-toggle-btn" onclick="toggleSection('awards-section', false)">Collapse</button>
-        </div>
+        <button class="global-toggle-btn" onclick="toggleSection('awards-section', this)">Expand All</button>
     </div>
 
     {% for award in page.awards %}
@@ -182,27 +171,59 @@ layout: default
 
 
 <script>
-    // 1. Toggle individual job entry (Same as before)
+    // 1. Helper: Check the state of the section and update the button text
+    function updateButtonState(section) {
+        const btn = section.querySelector('.global-toggle-btn');
+        const entries = section.querySelectorAll('.job-entry');
+        
+        // Check if ANY entry is currently closed
+        let hasClosedEntries = false;
+        entries.forEach(entry => {
+            if (!entry.classList.contains('active')) {
+                hasClosedEntries = true;
+            }
+        });
+
+        // Logic:
+        // If even ONE item is closed -> Button should say "Expand All"
+        // If ALL items are open -> Button should say "Collapse All"
+        if (hasClosedEntries) {
+            btn.innerText = "Expand All";
+        } else {
+            btn.innerText = "Collapse All";
+        }
+    }
+
+    // 2. Toggle individual job entry
     function toggleJob(headerElement) {
         const entry = headerElement.closest('.job-entry');
         entry.classList.toggle('active');
+
+        // NEW: Find the parent section and update the main button immediately
+        // This looks for the closest parent div with an ID (e.g., experience-section)
+        const section = entry.closest('div[id]');
+        if (section) {
+            updateButtonState(section);
+        }
     }
 
-    // 2. Toggle ONLY a specific section
-    function toggleSection(sectionId, shouldExpand) {
-        // Find the specific section (e.g., "experience-section")
+    // 3. Main Button Logic
+    function toggleSection(sectionId, btnElement) {
         const section = document.getElementById(sectionId);
-        if (!section) return;
-
-        // Find only job entries INSIDE that section
         const entries = section.querySelectorAll('.job-entry');
         
+        // Deciding factor: What does the button currently say?
+        const isExpandAction = btnElement.innerText === "Expand All";
+        
         entries.forEach(entry => {
-            if (shouldExpand) {
-                entry.classList.add('active');
+            if (isExpandAction) {
+                entry.classList.add('active'); // Open everything
             } else {
-                entry.classList.remove('active');
+                entry.classList.remove('active'); // Close everything
             }
         });
+
+        // Update the button text to match the new state
+        updateButtonState(section);
     }
 </script>
