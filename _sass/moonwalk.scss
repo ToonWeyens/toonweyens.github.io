@@ -6,7 +6,7 @@ html { height: 100%; }
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
   font-size: 1.0rem;
-  line-height: 2;
+  line-height: 1.6;
   margin: 0;
   min-height: 100%;
 }
@@ -32,7 +32,7 @@ p { margin: 1em 0; }
 li { margin: 0.4em 0; }
 
 .w {
-  max-width: 720px;
+  max-width: 904px;
   margin: 0 auto;
   padding: 4em 2em;
 }
@@ -65,15 +65,15 @@ img {
 }
 @mixin light-appearance {
   html, body {
-      --bg: #FFF;
-      --bg-secondary: #f3f4f6;
-      --headings: #1e293b;
-      --text: #374151;
-      --text-secondary: #6b7280;
-      --links: #6366f1;
-      --highlight: #FFECB2; // light yellow
+      --bg: #ffffff;
+      --bg-secondary: #f1f5f9; 
+      --headings: #0f172a;     
+      --text: #334155;         
+      --text-secondary: #64748b; 
+      --links: #1e5b98;        
+      --highlight: #FFECB2; 
       --code-text: #9D174D;
-      --share-text: #999;
+      --share-text: #94a3b8;
   }
 }
 // -------------- THEME SWITCHER -------------- //

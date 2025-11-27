@@ -3,7 +3,8 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/css/resume.css">
 
-<header style="text-align:center; margin-bottom:2em;">
+
+<header class="cv-header" style="text-align:center; margin-bottom:2em;">
   <h1 style="font-weight:100; margin-bottom:0;">{{site.author.firstname}} <span style="color:#125687;">{{site.author.lastname }}</span>, {{site.author.honorific}}</h1>
   <h2 class="h2_subtitle" style="font-size:1.1em; font-weight:400; margin-top:0.2em;">
     {% if page.config.contact.location %} 
@@ -49,12 +50,12 @@ layout: default
       <div class="content">{{ page.abilities }}</div>
     {% endif %}
 
-    {% if site.author.nationality %}
+    {% if page.config.author.nationality %}
       <div class="label">Nationality:</div>
       <div class="content">{{ site.author.nationality }}</div>
     {% endif %}
 
-    {% if site.author.birthdate %}
+    {% if page.config.author.birthdate %}
       <div class="label">Date of birth:</div>
       <div class="content">{{ site.author.birthdate }}</div>
     {% endif %}
@@ -170,60 +171,11 @@ layout: default
 {% endif %}
 
 
-<script>
-    // 1. Helper: Check the state of the section and update the button text
-    function updateButtonState(section) {
-        const btn = section.querySelector('.global-toggle-btn');
-        const entries = section.querySelectorAll('.job-entry');
-        
-        // Check if ANY entry is currently closed
-        let hasClosedEntries = false;
-        entries.forEach(entry => {
-            if (!entry.classList.contains('active')) {
-                hasClosedEntries = true;
-            }
-        });
+<div style="text-align: center; margin-top: 50px; margin-bottom: 0px;">
+    <button onclick="window.print()" class="global-toggle-btn">
+        <i class="fas fa-file-pdf"></i> Save as PDF
+    </button>
+</div>
 
-        // Logic:
-        // If even ONE item is closed -> Button should say "Expand All"
-        // If ALL items are open -> Button should say "Collapse All"
-        if (hasClosedEntries) {
-            btn.innerText = "Expand All";
-        } else {
-            btn.innerText = "Collapse All";
-        }
-    }
 
-    // 2. Toggle individual job entry
-    function toggleJob(headerElement) {
-        const entry = headerElement.closest('.job-entry');
-        entry.classList.toggle('active');
-
-        // NEW: Find the parent section and update the main button immediately
-        // This looks for the closest parent div with an ID (e.g., experience-section)
-        const section = entry.closest('div[id]');
-        if (section) {
-            updateButtonState(section);
-        }
-    }
-
-    // 3. Main Button Logic
-    function toggleSection(sectionId, btnElement) {
-        const section = document.getElementById(sectionId);
-        const entries = section.querySelectorAll('.job-entry');
-        
-        // Deciding factor: What does the button currently say?
-        const isExpandAction = btnElement.innerText === "Expand All";
-        
-        entries.forEach(entry => {
-            if (isExpandAction) {
-                entry.classList.add('active'); // Open everything
-            } else {
-                entry.classList.remove('active'); // Close everything
-            }
-        });
-
-        // Update the button text to match the new state
-        updateButtonState(section);
-    }
-</script>
+<script src="/assets/js/resume.js"></script>

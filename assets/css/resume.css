@@ -2,47 +2,67 @@
    This ensures padding doesn't expand the width beyond 160px. */
 * {
     box-sizing: border-box;
+
+    --cv-item-spacing: 15px; 
+    --cv-bullet-spacing: 6px;
 }
 
 :root {
-    --sidebar-width: 160px;
+    --sidebar-width: 165px;
 }
 
 /* --- GRID LAYOUT (Values, Skills, etc.) --- */
 .info-grid {
     display: grid;
     grid-template-columns: var(--sidebar-width) 1fr;
-    gap: 0; 
+    row-gap: var(--cv-item-spacing); 
+    column-gap: 0;
     margin-bottom: 20px;
     font-family: sans-serif;
     align-items: baseline; /* Aligns text perfectly */
+
+    /* Inherit font from your main theme */
+    font-family: inherit;
+}
+
+.content {
+    color: var(--text); 
 }
 
 .label {
-    color: var(--headings);
+    color: var(--links);
     font-weight: bold;
     padding-right: 20px; 
+
 }
 
 /* --- HORIZONTAL RULE --- */
 hr.cv-divider {
     border: 0;
-    border-top: 1px solid #e0e0e0;
+    height: 0px;
+    border-top: 1px solid var(--bg-secondary);
     margin: 25px 0;
+}
+
+/* 1. Global Box Sizing for Resume elements */
+.job-entry, .info-grid, .job-content {
+    box-sizing: border-box;
 }
 
 /* --- JOB ENTRY LAYOUT --- */
 .job-entry {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: var(--cv-item-spacing);
+    align-items: baseline; 
 }
 
 .job-date {
     width: var(--sidebar-width);
     flex-shrink: 0;
     font-weight: bold;
-    color: var(--headings);
+    color: var(--links);
     padding-right: 20px; 
+    padding-top: 0;
 }
 
 .job-details {
@@ -65,7 +85,9 @@ hr.cv-divider {
   -ms-hyphens: auto;
   hyphens: auto;
   font-style: normal;
+  color: var(--text);
 }
+
 
 /* =========================================
    COLLAPSIBLE / TOGGLE LOGIC
@@ -77,19 +99,24 @@ hr.cv-divider {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 0; /* Adds a little touch area */
+    padding: 2px 0; /* Adds a little touch area */
     transition: background-color 0.2s;
+
+    /* Ensure title uses heading color */
+    color: var(--links);
 }
 
 .job-header:hover {
-    background-color: rgba(0,0,0,0.02); /* Subtle hover effect */
+    background-color: var(--bg-secondary);
+    border-radius: 4px;
 }
 
 /* The Arrow Icon */
 .toggle-icon {
     font-size: 0.8em;
-    color: var(--accent-blue);
+    color: var(--headings);
     transition: transform 0.3s ease;
+    margin-left: 10px;
     margin-left: 10px;
 }
 
@@ -103,7 +130,13 @@ hr.cv-divider {
     display: none; /* Hidden by default */
     margin-top: 10px;
     animation: fadeIn 0.3s ease-in-out;
+    color: var(--text);
 }
+
+.job-content li {
+    /* This adds space between individual bullet points, 
+       so they remain distinct even though the text inside them is tighter. */
+    margin-bottom: var(--cv-bullet-spacing);}
 
 /* Show content when 'active' class is present */
 .job-entry.active .job-content {
@@ -119,8 +152,8 @@ hr.cv-divider {
 /* The Expand/Collapse Buttons */
 .global-toggle-btn {
     background: none;
-    border: 1px solid var(--accent-blue);
-    color: var(--accent-blue);
+    border: 1px solid var(--headings);
+    color: var(--headings);
     padding: 4px 12px;
     border-radius: 20px;
     cursor: pointer;
@@ -130,49 +163,118 @@ hr.cv-divider {
 }
 
 .global-toggle-btn:hover {
-    background-color: var(--accent-blue);
-    color: white;
+    background-color: var(--headings);
+    /* Invert text color on hover (uses main bg color) */
+    color: var(--bg);
 }
 
 /* =========================================
    PRINT STYLES (Command/Ctrl + P)
    ========================================= */
 @media print {
-    /* 1. Force all content to be visible */
-    .job-content {
-        display: block !important;
-        opacity: 1 !important;
+
+    /* 1. RESET PAGE MARGINS (The Padding Trick) */
+    @page {
+        margin: 0;
+        size: A4;
+    }
+    body {
+        margin: 0 !important;
+        /* Adjust these numbers for your desired white space */
+        padding: 2cm 2cm !important; 
+        background-color: white !important;
     }
 
-    /* 2. Hide interactive elements (Buttons, Icons) */
-    .global-toggle-btn, 
-    .toggle-icon {
+    /* 2. FORCE LIGHT MODE VARIABLES */
+    :root, html, body, html[data-theme="dark"] {
+        font-size: 10pt !important;
+        --bg: #FFFFFF !important;
+        --bg-secondary: #f3f4f6 !important; 
+        --headings: #1e293b !important;
+        --text: #374151 !important;
+        --text-secondary: #6b7280 !important;
+    }
+
+    /* 3. FORCE EXPANSION (The "Nothing Expanded" Fix) */
+    .job-entry .job-content {
+        display: block !important;   /* Force display */
+        opacity: 1 !important;       /* Force fully visible */
+        visibility: visible !important; 
+        height: auto !important;
+        animation: none !important;  /* CRITICAL: Disables fade animation */
+        transition: none !important; /* CRITICAL: Disables transition */
+    }
+
+    /* 4. FIX ICONS (The "Black & White" Fix) */
+    /* Force the Circle to be Blue (or Black if you prefer) */
+    .fa-stack .fa-circle {
+        color: #1e5b98 !important; 
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    /* Force the Icon inside to be White */
+    .fa-stack .fa-inverse, 
+    .fa-stack .fab {
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* 5. HIDE UI ELEMENTS */
+    header, footer, .theme-toggle, .global-toggle-btn, 
+    .toggle-icon, .credits, .dashed {
         display: none !important;
     }
+    .job-header { pointer-events: none; }
 
-    /* 3. Remove hover effects and pointers */
-    .job-header {
-        cursor: default;
-        pointer-events: none; /* Disables clicking */
+    /* 6. SHOW RESUME HEADER */
+    header.cv-header {
+        display: block !important;
+        margin-bottom: 25px !important;
+        text-align: center !important;
     }
 
-    /* 4. Ensure background colors (like the progress bar) print */
-    * {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    /* 7. LAYOUT & GRID ADJUSTMENTS */
+    .info-grid {
+        display: grid !important;
+        grid-template-columns: 140px 1fr !important; 
+        grid-gap: 10px !important;
+    }
+    .job-date { width: 140px !important; }
+
+    /* 8. SCALE HEADERS */
+    h1 {
+        font-size: 14pt !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+        color: #1e293b !important; /* Force color explicitly */
+    }
+    header.cv-header h1 {
+        font-size: 20pt !important;
+        margin-bottom: 5px !important;
+    }
+    header.cv-header h2 {
+        font-size: 10pt !important;
+        margin-top: 0 !important;
+    }
+
+    /* 9. PAGE BREAK LOGIC */
+    .job-entry {
+        break-inside: auto; 
+        page-break-inside: auto;
+        margin-bottom: 10px !important;
+        align-items: baseline;
+    }
+    .job-header {
+        break-after: avoid;
+        page-break-after: avoid;
     }
     
-    /* 5. Clean up page margins */
-    body {
-        background-color: white;
-        padding: 0;
-        margin: 0;
-    }
-    .page-container {
-        box-shadow: none;
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
+    /* 10. UNLOCK CONTAINER WIDTHS */
+    .w, .page-content, .page-container {
+        width: 100% !important;
+        max-width: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 }

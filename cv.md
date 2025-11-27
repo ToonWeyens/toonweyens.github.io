@@ -10,6 +10,10 @@ config:
     location: true
     phone: false
     email: true
+  author:
+    birthdate: false
+    nationality: true
+
 role: AI Solutions Architect & HPC Expert
 tagline: Bridging science, data, and business to build AI solutions that drive real impact.
 summary: |
@@ -49,11 +53,11 @@ experience:
     summary: >-
       Partner with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combine data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
     bullets:
-      - "Led multi-stakeholder PoCs and enterprise evaluations with customers including BP, Kingfisher, Zalando, and others — representing over €4.5M in multi-year enterprise contracts."
-      - "Engage directly with executive sponsors (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
-      - "Navigate enterprise sales cycles involving procurement, security, and data governance teams to accelerate platform adoption."
-      - "Champion platform capabilities across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
-      - "Collaborate cross-functionally with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo’s new Unstructured product which leverages genAI to create agentic DQ."
+      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Kingfisher, Zalando, and others — representing over €4.5M in multi-year enterprise contracts."
+      - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
+      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams to accelerate platform adoption."
+      - "<strong>Champion platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
+      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ."
 
   - role: University Lecturer
     company: Eindhoven University of Technology
@@ -67,102 +71,177 @@ experience:
     summary: >-
       Enabled large enterprises and AI-native organizations to operationalize data pipelines for computer vision, NLP, and multimodal AI at scale. Combined deep technical expertise with business acumen to lead complex, high-value engagements and mentor a global presales team.
     bullets:
-      - "Generated approximately €1M in new annual recurring revenue (ARR) over 18 months by leading enterprise AI data initiatives across automotive, defense, insurance, and telco sectors."
-      - "Led the global Presales Solutions Architecture team, aligning regional priorities, sharing best practices, and elevating technical sales performance company-wide."
-      - "Partnered with senior technical and business leaders to define architecture, KPIs, and success criteria for strategic AI programs."
-      - "Designed methodology for full-cycle PoCs and solution evaluations, ensuring alignment between business objectives and technical feasibility."
-      - "Collaborated closely with R&D and Product Management to shape platform evolution based on customer feedback from the field."
-      - "Created technical content and enablement materials that improved sales efficiency and shortened enterprise sales cycles."
+      - "<strong>Generated approximately €1M in new annual recurring revenue (ARR)</strong> over 18 months by leading enterprise AI data initiatives across automotive, defense, insurance, and telco sectors."
+      - "<strong>Led the global Presales Solutions Architecture team</strong>, aligning regional priorities, sharing best practices, and elevating technical sales performance company-wide."
+      - "<strong>Partnered with senior technical and business leaders</strong> to define architecture, KPIs, and success criteria for strategic AI programs."
+      - "<strong>Designed methodology for full-cycle PoCs and solution evaluations</strong>, ensuring alignment between business objectives and technical feasibility."
+      - "<strong>Collaborated closely with R&D and Product Management</strong> to shape platform evolution based on customer feedback from the field."
+      - "<strong>Created technical content and enablement materials</strong> that improved sales efficiency and shortened enterprise sales cycles."
+      - "<strong>Built and maintained strategic relationships</strong> across both technical and executive levels to secure long-term customer success."
 
   - role: Customer Facing Data Scientist, Pre-Sales
     company: DataRobot
     dates: Oct '21 - Nov '22
     summary: >-
-      Joined DataRobot’s European pre-sales organization during its global expansion phase. Helped large organizations accelerate their AI maturity by translating complex machine learning capabilities into clear business value.
+      Joined DataRobot's European pre-sales organization during its global expansion phase, working alongside some of the industry's most experienced enterprise AI professionals. Helped large organizations accelerate their AI maturity by translating complex machine learning capabilities into clear business value.
     bullets:
-      - "Led technical PoVs for enterprise customers in utilities, insurance, and manufacturing, connecting AI initiatives to strategic KPIs and ROI."
-      - "Collaborated with account teams and global sales leadership, applying best-in-class enterprise sales methodologies (MEDDICC, consultative storytelling)."
-      - "Partnered with IT directors and data science leaders to align AI strategy with existing data infrastructure and governance frameworks."
-      - "Delivered executive-level demos and workshops that demonstrated how to scale AI safely and effectively."
-      - "Provided structured field feedback to R&D and product teams to inform roadmap priorities."
+      - "<strong>Led technical PoVs</strong> for enterprise customers in utilities, insurance, and manufacturing, connecting AI initiatives to strategic KPIs and ROI."
+      - "<strong>Collaborated with account teams and global sales leadership</strong>, learning and applying best-in-class enterprise sales methodologies (MEDDICC, consultative storytelling, value framing)."
+      - "<strong>Partnered with IT directors and data science leaders</strong> to align AI strategy with existing data infrastructure and governance frameworks."
+      - "<strong>Delivered executive-level demos and workshops</strong> that demonstrated how to scale AI safely and effectively across the enterprise."
+      - "<strong>Provided structured field feedback</strong> to R&D and product teams to inform roadmap priorities and improve enterprise readiness."
 
   - role: Industrial Data Science Consultant
     company: MathWorks
     dates: Jan '19 - Aug '21
     summary: >-
-      Played a key role in expanding MathWorks’ footprint from traditional licensing toward enterprise-scale data science platforms. Partnered with R&D engineers and IT leaders to enable scalable, secure environments.
+      Played a key role in expanding MathWorks' footprint from traditional individual and departmental licensing toward enterprise-scale data science and engineering platforms in the Benelux region. Partnered with both R&D engineers and IT leaders to enable scalable, secure, and collaborative environments for MATLAB and Simulink users.
     bullets:
-      - "Drove over €1.5M in additional ARR by establishing server-based enterprise data science platforms across key industrial accounts."
-      - "Led strategic customer engagements to design and implement modern, browser-accessible data and engineering environments integrated with live data streams."
-      - "Specialized in Data Science, IoT, Parallel and Cloud Computing (AWS & Kubernetes certified), and HPC."
-      - "Championed MathWorks products through public speaking, webinars, and workshops."
+      - "<strong>Drove over €1.5M in additional annual recurring revenue (ARR)</strong> by establishing server-based enterprise data science platforms across key industrial accounts."
+      - "<strong>Led strategic customer engagements</strong> to design and implement modern, browser-accessible data and engineering environments integrated with live data streams and CI/CD pipelines."
+      - "<strong>Advised internal and external stakeholders</strong> on architecture, deployment, and best practices to ensure scalability and compliance."
+      - "<strong>Enabled cross-functional collaboration</strong> by connecting internal experts, mentoring colleagues on emerging technologies, and aligning resources for strategic accounts."
+      - "<strong>Championed MathWorks products</strong> through public speaking, webinars, and workshops, including the Deep Learning with MATLAB series."
+      - "<strong>Specialized in Data Science, IoT, Parallel and Cloud Computing</strong> (AWS & Kubernetes certified), High-Performance Computing, Enterprise Integration, and Computational Physics."
 
   - role: Postdoctoral Monaco Fellow
     company: ITER Organization
     dates: Jan '17 - Dec '18
     summary: >-
-      Conducted advanced research in plasma physics and magnetohydrodynamic stability at the world’s leading nuclear fusion project. Awarded the prestigious Monaco Fellowship.
+      Conducted advanced research in plasma physics and magnetohydrodynamic stability at the world's leading nuclear fusion project. Awarded the prestigious Monaco Fellowship.
     bullets:
-      - "Published multiple first-author papers in peer-reviewed journals advancing understanding of plasma edge stability."
-      - "Investigated 3D effects on Edge-Localized Mode (ELM) stability, combining analytical modeling and HPC simulation."
-      - "Applied and extended the numerical code PB3D to model nonlinear plasma behavior in fusion devices."
+      - "<strong>Published multiple first-author papers</strong> in peer-reviewed journals advancing understanding of plasma edge stability."
+      - "<strong>Investigated 3D effects on Edge-Localized Mode (ELM) stability</strong>, combining analytical modeling and HPC simulation."
+      - "<strong>Applied and extended the numerical code PB3D</strong> to model nonlinear plasma behavior in fusion devices."
+      - "<strong>Collaborated with international research teams</strong> to validate simulation outcomes against experimental results and support ITER design objectives."
 
 # --- 3. EDUCATION ---
 education:
   - degree: Ph.D. in Plasma Physics
     uni: Universidad Carlos III de Madrid · TU/e · ITER
     dates: Jan '12 - Dec '16
-    summary: >-
-      Advanced research on plasma stability and 3-D effects in magnetic confinement fusion. Authored multiple first-author publications and developed the optimized numerical code PB3D.
+    summary: |
+      Advanced research on plasma stability and 3-D effects in magnetic confinement fusion.
+      <ul>
+        <li><strong>Authored multiple first-author publications</strong> in quality peer-reviewed journals.</li>
+        <li><strong>Designed research project</strong> to improve understanding of high-n instabilities important for toroidal magnetic confinement devices for nuclear fusion.</li>
+        <li><strong>Developed dedicated mathematical theory</strong> (<a href="https://www.researchgate.net/publication/263054885_Three-dimensional_linear_peeling-ballooning_theory_in_magnetic_fusion_devices">Weyens et al, 2014, P.o.P, 21, 4</a>).</li>
+        <li><strong>Designed optimized numerical code, PB3D</strong> (<a href="https://www.researchgate.net/publication/309620864_PB3D_A_new_code_for_edge_3-D_ideal_linear_peeling-ballooning_stability">Weyens et al, 2017, J.c.P, 330</a>).</li>
+        <li><strong>Became expert</strong> in modern Fortran and high-performance parallel computing techniques.</li>
+      </ul>
 
   - degree: Master of Science - Nuclear Fusion Science & Technology
     uni: Ghent University · UC3M · Université de Lorraine
     dates: Sep '10 - Aug '12
-    summary: >-
-      Erasmus Mundus joint master’s program. Graduated in top 5% of class.
+    summary: |
+      European Erasmus Mundus joint master's program in fusion engineering and science.
+      <ul>
+        <li><strong>Studied advanced plasma physics and reactor design</strong> with interdisciplinary coursework across three European universities.</li>
+        <li><strong>Engaged in international academic collaboration</strong> with strong focus on cultural and linguistic immersion.</li>
+        <li><strong>Graduated in top 5%</strong> of class.</li>
+      </ul>
 
   - degree: Master of Science - Energy Engineering
     uni: University of Leuven · TU Berlin
     dates: Sep '08 - Aug '10
-    summary: >-
-      Multidisciplinary engineering program focused on energy systems. Graduated in top 15% of class.
+    summary: |
+      Multidisciplinary engineering program focused on energy systems, economics, and sustainability.
+      <ul>
+        <li><strong>Studied</strong> integrated thermomechanical, electrical, and economic analysis of energy systems.</li>
+        <li><strong>Completed academic exchange at TU Berlin</strong>, focusing on applied energy economics.</li>
+        <li><strong>Graduated in top 15%</strong> of class.</li>
+      </ul>
 
   - degree: "Cert: Fine-tuning & RL for LLMs"
     uni: DeepLearning.AI
     dates: Nov '25
-    summary: "Intro to Post-training (SFT, RLHF, PPO, LoRA) taught by Sharon Zhou."
+    summary: |
+      Intro to post-training for LLMs, taught by Sharon Zhou.
+      <ul>
+        <li><strong>Alignment</strong>: Supervised Fine-Tuning and Reinforcement Learning (RLHF) to shape model behavior and ensure safety.</li>
+        <li><strong>Algorithms</strong>: Advanced optimization techniques like PPO and GRPO to guide models toward desired outcomes.</li>
+        <li><strong>Evaluation</strong>: Testing frameworks to detect reward hacking and diagnose failures before deployment.</li>
+        <li><strong>Efficiency</strong>: Low-Rank Adaptation (LoRA) to fine-tune massive models on standard hardware.</li>
+        <li><strong>Ops</strong>: Production pipelines that monitor performance and create data feedback loops for continuous improvement.</li>
+      </ul>
 
   - degree: "Cert: Agentic AI"
     uni: DeepLearning.AI
     dates: Oct '25
-    summary: "Building systems with tool use, planning, and multi-agent coordination. Taught by Andrew Ng."
+    summary: |
+      Building agentic AI systems with tool use, planning, and multi-agent coordination. Taught by Andrew Ng.
+      <ul>
+        <li><strong>Evals</strong>: Robust testing frameworks, systematic error analysis, and production optimization.</li>
+        <li><strong>Reflection</strong>: AI critiques its own work and iterates to improve quality.</li>
+        <li><strong>Tool Use</strong>: Connect AI to databases, APIs, and external services to perform actions.</li>
+        <li><strong>Planning</strong>: Break complex tasks into executable steps and adapt when conditions change.</li>
+        <li><strong>Multi-Agent</strong>: Coordinate multiple specialized AI systems across complex workflows.</li>
+      </ul>
 
   - degree: "Cert: Mastering LLMs for Developers"
     uni: Maven
     dates: May '24 - July '24
-    summary: "Fine-tuning OSS LLMs, RAG design, and scaling efficiency (FSDP)."
+    summary: |
+      State-of-the-art crash course in working with LLMs, taught by Dan Becker, Hamel Husain, and guest speakers.
+      <ul>
+        <li><strong>Fine-tuning</strong> OSS LLMs with Axolotl, including when and why to fine-tune.</li>
+        <li><strong>Instrumentation & evals</strong> with Inspect and LangSmith; Text2SQL evaluations.</li>
+        <li><strong>RAG</strong> design and iterative improvement.</li>
+        <li><strong>Scaling & efficiency</strong>: PyTorch FSDP, torchao, OOM avoidance.</li>
+        <li><strong>Prototyping & deployment</strong>: Gradio apps; Modal, Predibase, Replicate; Hugging Face AutoTrain.</li>
+      </ul>
+
+  - degree: Online Course - Computability, Complexity & Algorithms
+    uni: Udacity (Georgia Institute of Technology)
+    dates: Dec '18
+    summary: |
+      Computational theory including languages, countability, and Turing machines, plus implementation of advanced algorithms such as dynamic programming, FFT, and maximum flow.
+
+  - degree: Online Course - Bayesian Methods for Machine Learning
+    uni: Coursera (Higher School of Economics)
+    dates: Oct '18
+    summary: |
+      Applied Expectation-Maximization, Variational Inference, and MCMC for probabilistic modeling; implemented Variational Autoencoders and Gaussian Processes using PyMC3, GPy, and GPyOpt; graduated with honors (<a href="https://www.coursera.org/account/accomplishments/verify/X8NMJJA5ZCAR">certificate</a>).
+
+  - degree: Online Specialization - Deep Learning
+    uni: Coursera (Andrew Ng)
+    dates: May '18
+    summary: |
+      Studied deep learning foundations, convolutional and recurrent neural networks. Implemented CNNs, RNNs (BiLSTM, GRU), and sequence models in TensorFlow and Keras. Applied optimization and regularization techniques including Adam, AdaMax, BatchNorm, and dropout (<a href="https://www.coursera.org/account/accomplishments/specialization/LGBBTZSV3E3S">certificate</a>).
+
+  - degree: Summer School - 23rd Summer School on Parallel Computing
+    uni: CINECA
+    dates: May '14
+    summary: |
+      Intensive graduate program on modern high-performance computing systems covering parallel architectures, MPI, OpenMP, profiling, and debugging, with hands-on code optimization.
 
 # --- 4. SELECTED PROJECTS ---
 projects:
   - name: PB3D - Peeling-Ballooning in 3-D
     dates: Jan '13 - Current
-    description: >-
-      Developed a modern high-performance Fortran code for analyzing peeling-ballooning stability in toroidal magnetic confinement devices. Designed for HPC and parallel computation. (Website: PB3D.github.io)
+    description: |
+      Developed a modern high-performance Fortran code for analyzing peeling-ballooning stability in toroidal magnetic confinement devices. Designed for high-performance and parallel computation supporting general 3-D plasma configurations; applied in nuclear fusion research for studying high-n instabilities and plasma edge stability. Website: <a href="https://github.com/ToonWeyens/PB3D">PB3D.github.io</a>.
+      <ul>
+        <li>Mathematical minimization of functional, leading to a generalized eigenvalue equation.</li>
+        <li>High-n instabilities excited by extreme temperature and pressure gradients from plasma to reactor walls.</li>
+        <li>General 3-D configurations and perturbed plasma edge, including resonance effects.</li>
+        <li>Postdoctoral research investigated 3-D effects such as RMP for ELM control or toroidal field coil ripple.</li>
+      </ul>
 
   - name: Pylgrim
     dates: Feb '18 - Mar '18
-    description: >-
-      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP), benchmarking recent academic methods for constrained routing optimization.
+    description: |
+      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
 
   - name: Kraemer
     dates: Jan '18 - Dec '18
-    description: >-
-      Co-created automated trading framework using Python for high-frequency arbitrage across exchanges, integrating deep learning and financial data engineering.
+    description: |
+      Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
   - name: "Facial Composits: Finding the Suspect"
     dates: Oct '18
-    description: >-
-      Capstone project for Bayesian Methods for Machine Learning. Implemented Variational Autoencoders and Gaussian Processes.
+    description: |
+      Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
 # --- 5. SKILLS ---
 skills:
@@ -171,58 +250,65 @@ skills:
 
   - category: Sales & Comm
     bullets:
-      - "**[MEDDICC](https://meddicc.com/meddic/)**: Enterprise sales qualification framework."
-      - "**[Insight Selling](https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505)**: Storytelling-based consultative sales methodology."
-      - "**Write to the Top**: Julia Bindman's course on customer-oriented writing skills."
-      - "**Audience Focused Presentation**: TU/e doctoral training course."
+      - "<strong><a href=\"https://meddicc.com/meddic/\">MEDDICC</a></strong>: Enterprise sales qualification framework."
+      - "<strong><a href=\"https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505\">Insight Selling</a></strong>: Storytelling-based consultative sales methodology."
+      - "<strong>Write to the Top</strong>: Julia Bindman's course on customer-oriented writing skills."
+      - "<strong>Audience Focused Presentation</strong>: TU/e doctoral training course."
 
   - category: Computer & Cloud
     bullets:
-      - "**Linux**: Preferred operating system for development"
-      - "**Cloud**: AWS (Certified Solution Architect), Azure (working knowledge)"
-      - "**Containerization**: Docker, Kubernetes (CKAD certified)"
-      - "**Version control**: git, GitHub, GitLab"
-      - "**MLOps Platforms**: HuggingFace, Datarobot, Domino Data Lab"
-      - "**HPC & Visualization**: ParaView, VisIt, HDF5, SurfSara gateways"
-      - "**Infrastructure as Code**: Currently upskilling in Terraform, Ansible"
+      - "<strong>Linux</strong>: Preferred operating system for development."
+      - "<strong>Cloud</strong>: AWS (Certified Solution Architect), Azure (working knowledge)."
+      - "<strong>Containerization</strong>: Docker, Kubernetes (CKAD certified)."
+      - "<strong>Version control</strong>: git, GitHub, GitLab."
+      - "<strong>MLOps Platforms</strong>: HuggingFace, Datarobot, Domino Data Lab."
+      - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways."
+      - "<strong>Big Data</strong>: Hadoop, Spark."
+      - "<strong>Infrastructure as Code</strong>: Currently upskilling in Terraform, Ansible."
+      - "<strong>OSS</strong>: Maintainer of PB3D."
 
   - category: Programming
     bullets:
-      - "**Python**: data analysis, ML/DL, parallel processing (numpy, pandas, PyTorch, TensorFlow, Keras)"
-      - "**Fortran**: scientific computing and HPC (PB3D)"
-      - "**MATLAB**: powerful toolset for engineers and scientists"
-      - "**C++**: algorithmic prototyping (BOOST library)"
-      - "**HPC**: MPI, OpenMP, SLURM, PBS Torque, Petsc, Slepsc, familiarity with CUDA concepts"
-      - "**API-based**: experience with REST for integrations. Currently upskilling on FastAPI & Streamlit"
+      - "<strong>Python</strong>: data analysis, ML/DL, parallel processing (numpy, pandas, PyTorch, TensorFlow, Keras)."
+      - "<strong>Fortran</strong>: scientific computing and HPC (PB3D)."
+      - "<strong>MATLAB</strong>: powerful toolset for engineers and scientists."
+      - "<strong>C++</strong>: algorithmic prototyping (BOOST library)."
+      - "<strong>HPC and GPU-aware computing</strong>: MPI, OpenMP, SLURM, PBS Torque, Petsc, Slepsc, familiarity with CUDA concepts."
+      - "<strong>SQL</strong>: data access and preprocessing."
+      - "<strong>PBS Torque</strong>, <strong>SLURM</strong>: job managers used for cluster computing."
+      - "<strong>Numerical algorithm design</strong>: Experience with creation, analysis, and usage of performant numerical algorithms."
+      - "<strong>Bash</strong>, <strong>Make</strong>, <strong>YAML</strong>: experience with linux scripting and development."
+      - "<strong>API-based</strong>: experience with REST for integrations with platforms such as Anomalo. Currently upskilling on FastAPI and Streamlit."
 
   - category: ML & AI
     bullets:
-      - "**Generative AI**: Experience with prompting, tool calling and some RAG. Exposure to Hugging Face, Modal."
-      - "**Agentic AI**: Exposure to LangChain. Currently upskilling with personal projects."
-      - "**Classical ML**: (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
-      - "**Deep learning**: Transformers, CNNs, RNNs, VAEs, sequence models, etc."
+      - "<strong>Generative AI and LLMs</strong>: Experience with prompting, tool calling, and some RAG. Exposure to Hugging Face and Modal."
+      - "<strong>Agentic AI</strong>: Exposure to LangChain. Currently upskilling with personal projects."
+      - "<strong>Classical ML</strong>: (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
+      - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
+      - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
 
   - category: Other
     bullets:
-      - "**[Fusion DC](http://www.em-fusion-dc.org/)**: 2016 Program Representative"
-      - "**[TGD Solutions](http://tgdsolutions.net/)**: 2018 Board Member"
+      - "<strong><a href=\"http://www.em-fusion-dc.org/\">Fusion DC</a></strong>: 2016 Program Representative."
+      - "<strong><a href=\"http://tgdsolutions.net/\">TGD Solutions</a></strong>: 2018 Board Member."
 
 # --- 6. AWARDS ---
 awards:
   - date: "2021"
     title: "MVP Award"
     issuer: "DataRobot"
-    summary: "Most valuable award for Pre-Sales."
+    summary: "Most valuable award for Pre-Sales (<a href=\"https://www.datarobot.com\">DataRobot</a>)."
 
   - date: "2019"
     title: "Monaco/ITER Postdoctoral Fellowship"
     issuer: "Principality of Monaco"
-    summary: "Highly competitive research grant supporting excellence in fusion energy science within the ITER framework."
+    summary: "The Monaco/ITER Postdoctoral Fellowship Program enables young researchers to contribute to fusion energy science within the ITER framework, working closely with leading experts in a unique international setting. Website: <a href=\"https://www.iter.org/education/international/postdoctoral\">ITER</a>."
 
   - date: "2017"
     title: "Ph.D. Research Award"
     issuer: "European Physical Society"
-    summary: "Granted annually to young scientists in recognition of truly outstanding research achievements associated with their PhD study."
+    summary: "Up to four prizes annually recognizing truly outstanding Ph.D.-level research achievements in plasma physics across 38 European countries. Website: <a href=\"http://plasma.ciemat.es/eps/awards/phd-research-award/\">EPS</a>."
 
   - date: "2012-2016"
     title: "Doctoral Scholarship"
