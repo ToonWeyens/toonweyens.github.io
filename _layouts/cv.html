@@ -63,160 +63,141 @@ layout: default
 {% if page.experience %}
 <hr class="cv-divider">
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <h1 style="margin:0;">Experience</h1>
-    <div>
-        <button class="global-toggle-btn" onclick="toggleAll(true)">Expand All</button>
-        <button class="global-toggle-btn" onclick="toggleAll(false)">Collapse</button>
+<div id="experience-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Experience</h1>
+        <div>
+            <button class="global-toggle-btn" onclick="toggleSection('experience-section', true)">Expand All</button>
+            <button class="global-toggle-btn" onclick="toggleSection('experience-section', false)">Collapse</button>
+        </div>
     </div>
-</div>
 
-{% for job in page.experience %}
-<div class="job-entry">
-    <div class="job-date">{{ job.dates }}</div>
-    <div class="job-details">
-        <div class="job-header" onclick="toggleJob(this)">
-            <div style="flex-grow: 1;">
-                <strong>{{ job.role }}</strong> - {{ job.company }}
+    {% for job in page.experience %}
+    <div class="job-entry">
+        <div class="job-date">{{ job.dates }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;"><strong>{{ job.role }}</strong> - {{ job.company }}</div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
             </div>
-            <span class="fas fa-chevron-down toggle-icon"></span>
-        </div>
-        
-        <div class="job-content">
-            {% if job.summary %}
-            <div style="margin-bottom: 10px;">{{ job.summary }}</div>
-            {% endif %}
-
-            {% if job.bullets %}
-            <ul>
-                {% for point in job.bullets %}
-                <li>{{ point }}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </div>
-    </div>
-</div>
-{% endfor %}
-{% endif %}
-
-
-{% if page.education %}
-<hr class="cv-divider">
-<h1>Education</h1>
-
-{% for edu in page.education %}
-<div class="job-entry">
-    <div class="job-date">{{ edu.dates }}</div>
-    <div class="job-details">
-        <div class="job-header" onclick="toggleJob(this)">
-            <div style="flex-grow: 1;">
-                <strong>{{ edu.degree }}</strong> - {{ edu.uni }}
+            <div class="job-content">
+                {% if job.summary %}<div style="margin-bottom: 10px;">{{ job.summary }}</div>{% endif %}
+                {% if job.bullets %}
+                <ul>{% for point in job.bullets %}<li>{{ point }}</li>{% endfor %}</ul>
+                {% endif %}
             </div>
-            <span class="fas fa-chevron-down toggle-icon"></span>
-        </div>
-        
-        <div class="job-content">
-            {% if edu.summary %}
-            <div>{{ edu.summary }}</div>
-            {% endif %}
         </div>
     </div>
-</div>
-{% endfor %}
-<hr class="cv-divider">
-{% endif %}
-
-
-{% if page.projects %}
-<h1>Selected Projects</h1>
-
-{% for project in page.projects %}
-<div class="job-entry">
-    <div class="job-date">{{ project.dates }}</div>
-    <div class="job-details">
-        <div class="job-header" onclick="toggleJob(this)">
-            <div style="flex-grow: 1;">
-                <strong>{{ project.name }}</strong>
-            </div>
-            <span class="fas fa-chevron-down toggle-icon"></span>
-        </div>
-        
-        <div class="job-content">
-            <div>{{ project.description }}</div>
-        </div>
-    </div>
-</div>
-{% endfor %}
-{% endif %}
-
-
-{% if page.skills %}
-<hr class="cv-divider">
-<h1>Skills</h1>
-
-<div class="info-grid">
-    {% for skill in page.skills %}
-        <div class="label">{{ skill.category }}:</div>
-
-        <div class="content">
-            {% if skill.text %}
-                {{ skill.text }}
-            {% endif %}
-
-            {% if skill.bullets %}
-                <ul style="margin-top: 0; padding-left: 20px; margin-bottom: 0;">
-                    {% for bullet in skill.bullets %}
-                        <li>{{ bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-        </div>
     {% endfor %}
 </div>
 {% endif %}
 
 
-{% if page.awards %}
-<hr class="cv-divider">
-<h1>Awards & Honors</h1>
 
-{% for award in page.awards %}
-<div class="job-entry">
-    <div class="job-date">{{ award.date }}</div>
-    <div class="job-details">
-        <div class="job-header" onclick="toggleJob(this)">
-            <div style="flex-grow: 1;">
-                <strong>{{ award.title }}</strong>
-                {% if award.issuer %}
-                - <span>{{ award.issuer }}</span>
-                {% endif %}
-            </div>
-            <span class="fas fa-chevron-down toggle-icon"></span>
-        </div>
-        
-        <div class="job-content">
-            {% if award.summary %}
-            <div>{{ award.summary }}</div>
-            {% endif %}
+{% if page.education %}
+<hr class="cv-divider">
+
+<div id="education-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Education</h1>
+        <div>
+            <button class="global-toggle-btn" onclick="toggleSection('education-section', true)">Expand All</button>
+            <button class="global-toggle-btn" onclick="toggleSection('education-section', false)">Collapse</button>
         </div>
     </div>
+
+    {% for edu in page.education %}
+    <div class="job-entry">
+        <div class="job-date">{{ edu.dates }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;"><strong>{{ edu.degree }}</strong> - {{ edu.uni }}</div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
+            </div>
+            <div class="job-content">
+                {% if edu.summary %}<div>{{ edu.summary }}</div>{% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>
-{% endfor %}
 {% endif %}
 
+
+{% if page.projects %}
+<hr class="cv-divider">
+
+<div id="projects-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Selected Projects</h1>
+        <div>
+            <button class="global-toggle-btn" onclick="toggleSection('projects-section', true)">Expand All</button>
+            <button class="global-toggle-btn" onclick="toggleSection('projects-section', false)">Collapse</button>
+        </div>
+    </div>
+
+    {% for project in page.projects %}
+    <div class="job-entry">
+        <div class="job-date">{{ project.dates }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;"><strong>{{ project.name }}</strong></div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
+            </div>
+            <div class="job-content"><div>{{ project.description }}</div></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if page.awards %}
+<hr class="cv-divider">
+
+<div id="awards-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Awards & Honors</h1>
+        <div>
+            <button class="global-toggle-btn" onclick="toggleSection('awards-section', true)">Expand All</button>
+            <button class="global-toggle-btn" onclick="toggleSection('awards-section', false)">Collapse</button>
+        </div>
+    </div>
+
+    {% for award in page.awards %}
+    <div class="job-entry">
+        <div class="job-date">{{ award.date }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;">
+                    <strong>{{ award.title }}</strong>{% if award.issuer %} - <span>{{ award.issuer }}</span>{% endif %}
+                </div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
+            </div>
+            <div class="job-content">{% if award.summary %}<div>{{ award.summary }}</div>{% endif %}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
 <script>
-    // 1. Toggle individual job entry
+    // 1. Toggle individual job entry (Same as before)
     function toggleJob(headerElement) {
-        // Find the parent .job-entry div
         const entry = headerElement.closest('.job-entry');
         entry.classList.toggle('active');
     }
 
-    // 2. Expand or Collapse All
-    function toggleAll(shouldExpand) {
-        const allEntries = document.querySelectorAll('.job-entry');
-        allEntries.forEach(entry => {
+    // 2. Toggle ONLY a specific section
+    function toggleSection(sectionId, shouldExpand) {
+        // Find the specific section (e.g., "experience-section")
+        const section = document.getElementById(sectionId);
+        if (!section) return;
+
+        // Find only job entries INSIDE that section
+        const entries = section.querySelectorAll('.job-entry');
+        
+        entries.forEach(entry => {
             if (shouldExpand) {
                 entry.classList.add('active');
             } else {
