@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: CV
+title: Curriculum Vitae
 permalink: /cv.html
 config:
   social:
