@@ -35,7 +35,7 @@
 /* --- HORIZONTAL RULE --- */
 hr.cv-divider {
   border: 0;
-  height: 2px;
+  height: 1px;
   background-color: var(--text);
   margin: 25px 0;
 }
@@ -48,7 +48,6 @@ hr.cv-divider {
 .job-entry {
   display: flex;
   margin-bottom: var(--cv-item-spacing);
-  align-items: baseline;
 }
 
 .job-date {
@@ -145,6 +144,13 @@ hr.cv-divider {
     margin: 0 !important;
     padding: 2cm 2cm !important;
     background-color: white !important;
+  }
+
+  /* Hide navigation, controls, and footer when printing */
+  .nav-wrapper,
+  .credits,
+  .global-toggle-btn {
+    display: none !important;
   }
 
   :root, html, body, html[data-theme="dark"] {
