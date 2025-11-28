@@ -4,11 +4,11 @@ layout: default
 
 <header>
 
-  <h1>{{ site.title }}</h1>
+  <h1>{{ site.title }} - {{ site.author.role }}</h1>
   {% if site.theme_config.show_description == true %}
     <div class="intro-block">
-      {% if site.headline %}<div class="intro-tagline"><strong>{{ site.headline }}</strong></div>{% endif %}
-      {% if site.description %}<div class="intro-summary">{{ site.description }}</div>{% endif %}
+      {% if site.headline %} <div class="intro-tagline"><strong>{{ site.headline }}</strong></div> {% endif %}
+      {% if site.profile_summary %} <div class="intro-summary">{{ site.profile_summary }}</div> {% endif %}
     </div>
   {% endif %}
 </header>

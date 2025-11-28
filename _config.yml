@@ -6,20 +6,22 @@ author:
   location: Utrecht, NL
   nationality: Belgian
   birthdate: 1987
+  role: AI Solutions Architect & HPC Expert
   phone: "+31 615 09 80 82"
   email: weyenst@gmail.com
   linkedin: "https://www.linkedin.com/in/toonweyens/"
   github: "https://github.com/toonweyens"
   scholar: "https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra"
+  baseurl: ""
 url: https://toonweyens.github.io # root address of the site
 headline: Bridging science, data, and business to build AI solutions that drive real impact.
-description: > # description of the site (multiple lines allowed)
+profile_summary: > # summary of the profile
   AI Solutions Architect with more than a decade of experience across pre-sales, enterprise AI platforms, and scientific High-Performance Computing (HPC).
   Strong expertise in building relationships of trust and navigating complex technical discussions.
   Experience in architecting data and AI solutions tailored to client objectives, while providing critical feedback directly from the field to R&D and product teams.
   Deep technical proficiency in HPC, distributed and cloud computing, as well as modern ML/DL techniques, coding and scripting methods.
   Passionate about building the solutions of the future by transforming customer needs into innovative, scalable, cost-efficient AI implementations that drive real business value and measurable impact.
-  Commited to fostering lasting technical relationships that ensure sustained success and long-term growth throughout the customer journey.
+  Committed to fostering lasting technical relationships that ensure sustained success and long-term growth throughout the customer journey.
 
 
 permalink: /:slug
@@ -34,7 +36,7 @@ twitter:
 remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance: "light" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
   back_home_text: "home.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted

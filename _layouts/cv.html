@@ -26,14 +26,15 @@ layout: default
       <a href={{site.author.scholar}} target="_blank"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i><i class="fab fa-google fa-stack-1x fa-inverse"></i></span></a> 
     {% endif %}
   </div>
-</header>
 
-{% if page.tagline or page.summary %}
-  <blockquote class="intro-block">
-    {% if page.tagline %} <div class="intro-tagline"><strong>{{ page.tagline }}</strong></div> {% endif %}
-    {% if page.summary %} <div class="intro-summary">{{ page.summary }}</div> {% endif %}
-  </blockquote>
-{% endif %}
+    {% if site.headline or site.profile_summary %}
+    <blockquote class="intro-block">
+        {% if site.headline %} <div class="intro-tagline"><strong>{{ site.headline }}</strong></div> {% endif %}
+        {% if site.profile_summary %} <div class="intro-summary">{{ site.profile_summary }}</div> {% endif %}
+    </blockquote>
+    {% endif %}
+
+</header>
 
 <hr class="cv-divider">
 

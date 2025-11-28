@@ -15,16 +15,6 @@ config:
     birthdate: false
     nationality: true
 
-role: AI Solutions Architect & HPC Expert
-tagline: Bridging science, data, and business to build AI solutions that drive real impact.
-summary: |
-  AI Solutions Architect with more than a decade of experience across pre-sales, enterprise AI platforms, and scientific High-Performance Computing (HPC).
-  Strong expertise in building relationships of trust and navigating complex technical discussions.
-  Experience in architecting data and AI solutions tailored to client objectives, while providing critical feedback directly from the field to R&D and product teams.
-  Deep technical proficiency in HPC, distributed and cloud computing, as well as modern ML/DL techniques, coding and scripting methods.
-  Passionate about building the solutions of the future by transforming customer needs into innovative, scalable, cost-efficient AI implementations that drive real business value and measurable impact.
-  Commited to fostering lasting technical relationships that ensure sustained success and long-term growth throughout the customer journey.
-
 values:
   Meaningful work
   Authentic relationships
@@ -154,6 +144,12 @@ education:
       </ul>
 
 certifications:
+  - name: Autumn HPC School 2025
+    issuer: Supercomputing center at the TU/e
+    dates: 2025
+    summary: |
+      Focused mainly on deep dive into GPU computing, learning how to accelerate Python workloads. Starting from an understanding of the fundamentals and comparison of the performance of scientific applications to optimization of parallel execution and identification of performance bottlenecks with profiling techniques. Special focus on deep-learning workloads with Large Language Models (<a href="https://supercomputing.tue.nl/blog/2025/autumn-hpc-school/">website</a>).
+
   - name: Fine-tuning & RL for LLMs
     issuer: AMD (DeepLearning.AI)
     dates: 2025
@@ -221,7 +217,7 @@ projects:
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
   - name: "Facial Composits: Finding the Suspect"
-    dates: 20g18
+    dates: 2018
     description: |
       Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
