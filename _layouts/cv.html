@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/assets/css/resume.css">
-
 
 <header class="cv-header" style="text-align:center; margin-bottom:2em;">
   <h1 style="font-weight:100; margin-bottom:0;">{{site.author.firstname}} <span style="color:#125687;">{{site.author.lastname }}</span>, {{site.author.honorific}}</h1>
@@ -31,9 +29,9 @@ layout: default
 </header>
 
 {% if page.tagline or page.summary %}
-  <blockquote class="cv-blockquote">
-    {% if page.tagline %} <div style="margin-bottom: 0.5em; text-align: center;"><strong>{{ page.tagline }}</strong></div> {% endif %}
-    {% if page.summary %} <div>{{ page.summary }}</div> {% endif %}
+  <blockquote class="intro-block">
+    {% if page.tagline %} <div class="intro-tagline"><strong>{{ page.tagline }}</strong></div> {% endif %}
+    {% if page.summary %} <div class="intro-summary">{{ page.summary }}</div> {% endif %}
   </blockquote>
 {% endif %}
 

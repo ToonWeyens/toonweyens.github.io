@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: CV
+permalink: /cv.html
 config:
   social:
     linkedin: true
@@ -220,7 +221,7 @@ projects:
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
   - name: "Facial Composits: Finding the Suspect"
-    dates: 2018
+    dates: 20g18
     description: |
       Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 

@@ -37,6 +37,107 @@ li { margin: 0.4em 0; }
   padding: 4em 2em;
 }
 
+// Rounded navigation pill in the header
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1.5rem;
+  width: 100%;
+}
+/* 1. THE CONTAINER */
+.nav-pill {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  
+  /* CRITICAL: Force it to fill the horizontal space */
+  width: 100% !important; 
+  max-width: 100% !important; 
+  
+  /* Ensure items stay on one line */
+  flex-wrap: nowrap;
+  
+  /* Standard spacing */
+  gap: 0.35rem; 
+  padding: 0.5rem 0.35rem; 
+  
+  margin: 0;
+  border-radius: 0.5em;
+  background: var(--bg-secondary);
+  border: 1px solid var(--text);
+  
+  /* Start aligning from the left */
+  justify-content: flex-start;
+}
+
+/* 2. THE TOGGLE WRAPPER */
+.nav-toggle {
+  display: flex;
+  align-items: center;
+  
+  /* CRITICAL: This pushes the toggle to the far right edge */
+  margin-left: auto !important; 
+  
+  flex-shrink: 0;
+  padding: 0; 
+}
+
+/* 3. OPTIONAL: Ensure the parent wrapper allows expansion */
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}  
+
+.nav-pill li {
+  margin: 0;
+  position: relative;
+}
+.nav-pill a {
+  display: block;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5em;
+  color: var(--links);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
+}
+.nav-pill a:hover,
+.nav-pill a:focus-visible {
+  color: var(--headings);
+  background-color: rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+// Shared intro block (home + CV tagline)
+.intro-block {
+  background: var(--bg-secondary);
+  border: 1px solid var(--text);
+  border-radius: 0.6em;
+  padding: 1.2rem 1.4rem;
+  margin: 1rem 0 1.8rem;
+  color: var(--text);
+  text-align: center;
+  font-style: normal;
+}
+.intro-tagline {
+  color: var(--headings);
+  margin-bottom: 0.6rem;
+}
+.intro-summary {
+  color: var(--text);
+  margin: 0;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 table, th, td {
   width: 100%;
   border: thin solid black;
@@ -136,18 +237,21 @@ html.transition *:after {
 .theme-toggle {
   color: var(--text);
   background-color: transparent;
-  padding: 4px;
+  padding: 0.35rem 0.65rem;
   cursor: pointer;
-  margin: 1em;
-  position: fixed;
-  right: 0;
-  top: 0;
-  border: 2px transparent solid;
+  margin: 0;
+  border: none;
   outline: none;
+  border-radius: 0.4em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
 }
 
 .theme-toggle:hover {
   color: var(--links);
+  background-color: rgba(255, 255, 255, 0.08);
   outline: none;
 }
 .theme-toggle:focus {
@@ -221,3 +325,5 @@ p code, li code {
   text-transform: lowercase;
   //border: 1px solid var(--text-secondary);
 }
+
+.nav-spacer { width: 15rem; }

@@ -1,0 +1,179 @@
+/* Shared CV/home layout helpers */
+
+/* 1. Ensure consistent box sizing and spacing variables */
+* {
+  box-sizing: border-box;
+  --cv-item-spacing: 15px;
+  --cv-bullet-spacing: 6px;
+}
+
+:root {
+  --sidebar-width: 165px;
+}
+
+/* --- GRID LAYOUT (Values, Skills, etc.) --- */
+.info-grid {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  row-gap: var(--cv-item-spacing);
+  column-gap: 0;
+  margin-bottom: 20px;
+  font-family: inherit;
+  align-items: baseline;
+}
+
+.content {
+  color: var(--text);
+}
+
+.label {
+  color: var(--links);
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+/* --- HORIZONTAL RULE --- */
+hr.cv-divider {
+  border: 0;
+  height: 2px;
+  background-color: var(--text);
+  margin: 25px 0;
+}
+
+.job-entry, .info-grid, .job-content {
+  box-sizing: border-box;
+}
+
+/* --- JOB ENTRY LAYOUT --- */
+.job-entry {
+  display: flex;
+  margin-bottom: var(--cv-item-spacing);
+  align-items: baseline;
+}
+
+.job-date {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  font-weight: bold;
+  color: var(--links);
+  padding-right: 20px;
+  padding-top: 0;
+}
+
+.job-details {
+  flex-grow: 1;
+}
+
+/* --- MOBILE FIX --- */
+@media (max-width: 600px) {
+  .info-grid, .job-entry { display: block; }
+  .job-date, .label { margin-bottom: 5px; }
+}
+
+/* Shared intro block styles (home + CV) are in _sass/moonwalk.scss */
+
+/* =========================================
+   COLLAPSIBLE / TOGGLE LOGIC
+   ========================================= */
+
+.job-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+  transition: background-color 0.2s;
+  color: var(--links);
+}
+
+.job-header:hover {
+  background-color: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.toggle-icon {
+  font-size: 0.8em;
+  color: var(--headings);
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.job-entry.active .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.job-content {
+  display: none;
+  margin-top: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+  color: var(--text);
+}
+
+.job-content li {
+  margin-bottom: var(--cv-bullet-spacing);
+}
+
+.job-entry.active .job-content {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.global-toggle-btn {
+  background: none;
+  border: 1px solid var(--headings);
+  color: var(--headings);
+  padding: 4px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.75em;
+  margin-left: 5px;
+  transition: all 0.2s;
+}
+
+.global-toggle-btn:hover {
+  background-color: var(--headings);
+  color: var(--bg);
+}
+
+@media print {
+  @page { margin: 0; size: A4; }
+  body {
+    margin: 0 !important;
+    padding: 2cm 2cm !important;
+    background-color: white !important;
+  }
+
+  :root, html, body, html[data-theme="dark"] {
+    font-size: 10pt !important;
+    --bg: #FFFFFF !important;
+    --bg-secondary: #f3f4f6 !important;
+    --headings: #1e293b !important;
+    --text: #374151 !important;
+    --text-secondary: #6b7280 !important;
+  }
+
+  .job-entry .job-content {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .fa-stack .fa-circle {
+    color: #1e5b98 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .fa-stack .fa-inverse,
+  .fa-stack .fab {
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

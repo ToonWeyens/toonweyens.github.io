@@ -1,4 +1,7 @@
 navbar_entries:
+  - title: home
+    url: /
+
   - title: about
     url: /about
 
@@ -7,9 +10,6 @@ navbar_entries:
 
   - title: CV
     url: /cv
-
-  - title: website
-    url: https://toonweyens.github.io/
 
 project_entries:
   - title: PB3D
@@ -86,4 +86,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-

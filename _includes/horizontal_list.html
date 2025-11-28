@@ -1,10 +1,17 @@
-<ul class="horizontal-list">
-  {% for item in include.collection %}
-    <li>
-      <a href="{{ item.url }}">
-        {{ item.title }}
-      </a>
-      &nbsp;&nbsp;
-    </li>
-  {% endfor %}
-</ul>
+<nav class="nav-wrapper" aria-label="Primary">
+  <ul class="nav-pill">
+    {% for item in include.collection %}
+      <li>
+        <a href="{{ item.url }}">
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+    <li class="nav-spacer" aria-hidden="true"></li>
+    {% if include.show_toggle %}
+      <li class="nav-toggle">
+        {% include toggle_theme_button.html %}
+      </li>
+    {% endif %}
+  </ul>
+</nav>

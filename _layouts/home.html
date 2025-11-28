@@ -6,8 +6,10 @@ layout: default
 
   <h1>{{ site.title }}</h1>
   {% if site.theme_config.show_description == true %}
-    <p><b>{{ site.headline }}</b></p>
-    <p>{{ site.description }}</p>
+    <div class="intro-block">
+      {% if site.headline %}<div class="intro-tagline"><strong>{{ site.headline }}</strong></div>{% endif %}
+      {% if site.description %}<div class="intro-summary">{{ site.description }}</div>{% endif %}
+    </div>
   {% endif %}
 </header>
 
@@ -36,7 +38,6 @@ layout: default
 
 {% if site.theme_config.show_footer == true %}
   <footer>
-    <div class="dashed"></div>
     {% include horizontal_list.html collection=site.data.home.footer_entries %}
   </footer>
 {% endif %}
