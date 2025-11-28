@@ -119,6 +119,34 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.certifications %}
+<hr class="cv-divider">
+
+<div id="certs-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Professional Development</h1>
+        <button class="global-toggle-btn" onclick="toggleSection('certs-section', this)">Expand All</button>
+    </div>
+
+    {% for cert in page.certifications %}
+    <div class="job-entry">
+        <div class="job-date">{{ cert.dates }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;">
+                    <strong>{{ cert.name }}</strong> - {{ cert.issuer }}
+                </div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
+            </div>
+            <div class="job-content">
+                {% if cert.summary %}<div>{{ cert.summary }}</div>{% endif %}
+            </div> 
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
 
 {% if page.projects %}
 <hr class="cv-divider">

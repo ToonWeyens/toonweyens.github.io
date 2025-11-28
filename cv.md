@@ -65,7 +65,7 @@ experience:
     summary: >-
       Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
 
-  - role: Presales Solutions Architect | Global Team Lead
+  - role: Presales Solutions Architect > Global Team Lead
     company: Dataloop
     dates: Nov '22 - Mar '24
     summary: >-
@@ -115,11 +115,11 @@ experience:
       - "<strong>Applied and extended the numerical code PB3D</strong> to model nonlinear plasma behavior in fusion devices."
       - "<strong>Collaborated with international research teams</strong> to validate simulation outcomes against experimental results and support ITER design objectives."
 
-# --- 3. EDUCATION ---
+# --- 3. EDUCATION AND CERTIFICATIONS ---
 education:
   - degree: Ph.D. in Plasma Physics
     uni: Universidad Carlos III de Madrid · TU/e · ITER
-    dates: Jan '12 - Dec '16
+    dates: 2012 - 2016
     summary: |
       Advanced research on plasma stability and 3-D effects in magnetic confinement fusion.
       <ul>
@@ -132,7 +132,7 @@ education:
 
   - degree: Master of Science - Nuclear Fusion Science & Technology
     uni: Ghent University · UC3M · Université de Lorraine
-    dates: Sep '10 - Aug '12
+    dates: 2010 - 2012
     summary: |
       European Erasmus Mundus joint master's program in fusion engineering and science.
       <ul>
@@ -143,7 +143,7 @@ education:
 
   - degree: Master of Science - Energy Engineering
     uni: University of Leuven · TU Berlin
-    dates: Sep '08 - Aug '10
+    dates: 2008 - 2010
     summary: |
       Multidisciplinary engineering program focused on energy systems, economics, and sustainability.
       <ul>
@@ -152,75 +152,56 @@ education:
         <li><strong>Graduated in top 15%</strong> of class.</li>
       </ul>
 
-  - degree: "Cert: Fine-tuning & RL for LLMs"
-    uni: DeepLearning.AI
-    dates: Nov '25
+certifications:
+  - name: Fine-tuning & RL for LLMs
+    issuer: AMD (DeepLearning.AI)
+    dates: 2025
     summary: |
-      Intro to post-training for LLMs, taught by Sharon Zhou.
-      <ul>
-        <li><strong>Alignment</strong>: Supervised Fine-Tuning and Reinforcement Learning (RLHF) to shape model behavior and ensure safety.</li>
-        <li><strong>Algorithms</strong>: Advanced optimization techniques like PPO and GRPO to guide models toward desired outcomes.</li>
-        <li><strong>Evaluation</strong>: Testing frameworks to detect reward hacking and diagnose failures before deployment.</li>
-        <li><strong>Efficiency</strong>: Low-Rank Adaptation (LoRA) to fine-tune massive models on standard hardware.</li>
-        <li><strong>Ops</strong>: Production pipelines that monitor performance and create data feedback loops for continuous improvement.</li>
-      </ul>
+      Studied post-training techniques for LLMs under Sharon Zhou. Covered alignment via Supervised Fine-Tuning and RLHF, advanced optimization algorithms like PPO and GRPO, and evaluation frameworks to detect reward hacking. Implemented efficiency methods such as Low-Rank Adaptation (LoRA) and built production pipelines for continuous feedback (<a href="https://learn.deeplearning.ai/certificates/1285f616-ed75-4045-af2e-735c42188bf1?usp=sharing">cert</a>).
 
-  - degree: "Cert: Agentic AI"
-    uni: DeepLearning.AI
-    dates: Oct '25
+  - name: Agentic AI
+    issuer: Andrew Ng (DeepLearning.AI)
+    dates: 2025
     summary: |
-      Building agentic AI systems with tool use, planning, and multi-agent coordination. Taught by Andrew Ng.
-      <ul>
-        <li><strong>Evals</strong>: Robust testing frameworks, systematic error analysis, and production optimization.</li>
-        <li><strong>Reflection</strong>: AI critiques its own work and iterates to improve quality.</li>
-        <li><strong>Tool Use</strong>: Connect AI to databases, APIs, and external services to perform actions.</li>
-        <li><strong>Planning</strong>: Break complex tasks into executable steps and adapt when conditions change.</li>
-        <li><strong>Multi-Agent</strong>: Coordinate multiple specialized AI systems across complex workflows.</li>
-      </ul>
+      Focused on building agentic AI systems including tool use, planning, and multi-agent coordination. Implemented robust evaluation frameworks and reflection patterns for iterative improvement. Designed systems connecting to external APIs and databases, utilizing planning algorithms to execute complex workflows across specialized agents (<a href="https://learn.deeplearning.ai/certificates/20e9e975-a086-486e-a49b-8c362f70b3b6?usp=sharing">cert</a>).
 
-  - degree: "Cert: Mastering LLMs for Developers"
-    uni: Maven
-    dates: May '24 - July '24
+  - name: Mastering LLMs for Developers
+    issuer: Dan Becker, Hamel Husain (Maven)
+    dates: 2024
     summary: |
-      State-of-the-art crash course in working with LLMs, taught by Dan Becker, Hamel Husain, and guest speakers.
-      <ul>
-        <li><strong>Fine-tuning</strong> OSS LLMs with Axolotl, including when and why to fine-tune.</li>
-        <li><strong>Instrumentation & evals</strong> with Inspect and LangSmith; Text2SQL evaluations.</li>
-        <li><strong>RAG</strong> design and iterative improvement.</li>
-        <li><strong>Scaling & efficiency</strong>: PyTorch FSDP, torchao, OOM avoidance.</li>
-        <li><strong>Prototyping & deployment</strong>: Gradio apps; Modal, Predibase, Replicate; Hugging Face AutoTrain.</li>
-      </ul>
+      State-of-the-art course on LLM development. Covered fine-tuning open-source models with Axolotl, instrumentation using Inspect and LangSmith, and iterative RAG design. Applied scaling techniques like PyTorch FSDP and torchao for efficiency, and deployed prototypes using Gradio, Modal, and Hugging Face AutoTrain (<a href="https://maven.com/certificate/qlKgeXcL">cert</a>).
 
-  - degree: Online Course - Computability, Complexity & Algorithms
-    uni: Udacity (Georgia Institute of Technology)
-    dates: Dec '18
+  - name: Computability, Complexity & Algorithms
+    issuer: Georgia Institute of Technology (Udacity)
+    dates: 2018
     summary: |
-      Computational theory including languages, countability, and Turing machines, plus implementation of advanced algorithms such as dynamic programming, FFT, and maximum flow.
+      Computational theory including languages, countability, and Turing machines, plus implementation of advanced algorithms such as dynamic programming, FFT, and maximum flow (<a href="http://omscs.wikidot.com/courses:cs6505">website</a>).
 
-  - degree: Online Course - Bayesian Methods for Machine Learning
-    uni: Coursera (Higher School of Economics)
-    dates: Oct '18
+  - name: Bayesian Methods for Machine Learning
+    issuer: Higher School of Economics Moscow (Coursera)
+    dates: 2018
     summary: |
       Applied Expectation-Maximization, Variational Inference, and MCMC for probabilistic modeling; implemented Variational Autoencoders and Gaussian Processes using PyMC3, GPy, and GPyOpt; graduated with honors (<a href="https://www.coursera.org/account/accomplishments/verify/X8NMJJA5ZCAR">certificate</a>).
 
-  - degree: Online Specialization - Deep Learning
-    uni: Coursera (Andrew Ng)
-    dates: May '18
+  - name: Deep Learning
+    issuer: Andrew Ng (Coursera)
+    dates: 2018
     summary: |
       Studied deep learning foundations, convolutional and recurrent neural networks. Implemented CNNs, RNNs (BiLSTM, GRU), and sequence models in TensorFlow and Keras. Applied optimization and regularization techniques including Adam, AdaMax, BatchNorm, and dropout (<a href="https://www.coursera.org/account/accomplishments/specialization/LGBBTZSV3E3S">certificate</a>).
 
-  - degree: Summer School - 23rd Summer School on Parallel Computing
-    uni: CINECA
-    dates: May '14
+  - name: 23rd Summer School on Parallel Computing
+    issuer: CINECA
+    dates: 2014
     summary: |
-      Intensive graduate program on modern high-performance computing systems covering parallel architectures, MPI, OpenMP, profiling, and debugging, with hands-on code optimization.
+      Intensive graduate program on modern high-performance computing systems covering parallel architectures, MPI, OpenMP, profiling, and debugging, with hands-on code optimization (<a href="http://www.hpc.cineca.it/content/23th-summer-school-parallel-computing">website</a>).
+
 
 # --- 4. SELECTED PROJECTS ---
 projects:
   - name: PB3D - Peeling-Ballooning in 3-D
-    dates: Jan '13 - Current
+    dates: 2013 - Current
     description: |
-      Developed a modern high-performance Fortran code for analyzing peeling-ballooning stability in toroidal magnetic confinement devices. Designed for high-performance and parallel computation supporting general 3-D plasma configurations; applied in nuclear fusion research for studying high-n instabilities and plasma edge stability. Website: <a href="https://github.com/ToonWeyens/PB3D">PB3D.github.io</a>.
+      Developed a modern high-performance Fortran code for analyzing peeling-ballooning stability in toroidal magnetic confinement devices. Designed for high-performance and parallel computation supporting general 3-D plasma configurations; applied in nuclear fusion research for studying high-n instabilities and plasma edge stability. Website: <a href="https://github.com/ToonWeyens/PB3D">PB3D.github.io</a>. For subject matter experts:
       <ul>
         <li>Mathematical minimization of functional, leading to a generalized eigenvalue equation.</li>
         <li>High-n instabilities excited by extreme temperature and pressure gradients from plasma to reactor walls.</li>
@@ -229,17 +210,17 @@ projects:
       </ul>
 
   - name: Pylgrim
-    dates: Feb '18 - Mar '18
+    dates: 2018
     description: |
-      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
+      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked and improved upon recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
 
   - name: Kraemer
-    dates: Jan '18 - Dec '18
+    dates: 2018
     description: |
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
   - name: "Facial Composits: Finding the Suspect"
-    dates: Oct '18
+    dates: 2018
     description: |
       Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
