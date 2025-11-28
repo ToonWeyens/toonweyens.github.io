@@ -1,6 +1,6 @@
 # curriculum vitae
 
-* Based on [moonwalk](https://github.com/abhinavs/moonwalk) by  =Abhinav Saxena.
+* Based on [moonwalk](https://github.com/abhinavs/moonwalk) by Abhinav Saxena.
 * Modified to fit my needs and embellished.
 
 ## To use:
