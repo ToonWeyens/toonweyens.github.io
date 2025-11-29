@@ -39,5 +39,40 @@
         <script async defer src="https://sdk.soopr.co/soopr.js"></script>
       {%- endif -%}
     {%- endif -%}
-  </body>
+  
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+      document.addEventListener('DOMContentLoaded', () => {
+          
+          // --- THEME DETECTION LOGIC ---
+          const htmlTag = document.documentElement;
+          const currentAttr = htmlTag.getAttribute('data-theme');
+          const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          
+          let myTheme = 'forest'; // Default to Forest (Light)
+
+          // If site is explicitly dark, OR site is auto and system is dark
+          if (currentAttr === 'dark' || (currentAttr === 'auto' && systemDark)) {
+              myTheme = 'dark';
+          }
+          // -----------------------------
+
+          // Initialize with the determined theme
+          mermaid.initialize({
+            startOnLoad: false,
+            theme: myTheme, 
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true
+            }
+          });
+
+          // Render the graphs
+          mermaid.run({
+            querySelector: '.language-mermaid'
+          });
+      });
+    </script>
+</body>
 </html>
