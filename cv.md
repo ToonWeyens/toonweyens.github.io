@@ -263,7 +263,7 @@ skills:
 
   - category: ML & AI
     bullets:
-      - "<strong>Agentic AI and LLMs</strong>: Experience with multistep workflows, orchestration, tool calling, prompting (LangChain, HuggingFace, TogetherAI)"
+      - "<strong>Agentic AI and LLMs</strong>: Experience with multistep workflows, orchestration, tool calling, prompting, structured output (LangChain, HuggingFace, TogetherAI)"
       - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
       - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
       - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
