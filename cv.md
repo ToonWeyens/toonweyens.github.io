@@ -235,19 +235,21 @@ skills:
 
   - category: Computer & Cloud
     bullets:
-      - "<strong>Linux</strong>: Preferred operating system for development."
+      - "<strong>Linux</strong>: Linux-native since 2008."
       - "<strong>Cloud</strong>: AWS (Certified Solution Architect), Azure (working knowledge)."
       - "<strong>Containerization</strong>: Docker, Kubernetes (CKAD certified)."
       - "<strong>Version control</strong>: git, GitHub, GitLab."
+      - "<strong>API and Web</strong>: REST, Javascript, currently upskilling in FastAPI, Streamlit." 
+      - "<strong>Observability</strong> Anomalo, Sentry, Prometheus/Grafana." 
       - "<strong>MLOps Platforms</strong>: HuggingFace, Datarobot, Domino Data Lab."
-      - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways."
+      - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways (I teach an HPC course)."
       - "<strong>Big Data</strong>: Hadoop, Spark."
-      - "<strong>Infrastructure as Code</strong>: Currently upskilling in Terraform, Ansible."
+      - "<strong>Infrastructure as Code</strong>: Exposure to Terraform, Ansible."
       - "<strong>OSS</strong>: Maintainer of PB3D."
 
   - category: Programming
     bullets:
-      - "<strong>Python</strong>: data analysis, ML/DL, parallel processing (numpy, pandas, PyTorch, TensorFlow, Keras)."
+      - "<strong>Python</strong>: Code structure, package management, data analysis, ML/DL, parallel processing (uv, numpy, pandas, PyTorch, TensorFlow, Keras)."
       - "<strong>Fortran</strong>: scientific computing and HPC (PB3D)."
       - "<strong>MATLAB</strong>: powerful toolset for engineers and scientists."
       - "<strong>C++</strong>: algorithmic prototyping (BOOST library)."
@@ -256,13 +258,12 @@ skills:
       - "<strong>PBS Torque</strong>, <strong>SLURM</strong>: job managers used for cluster computing."
       - "<strong>Numerical algorithm design</strong>: Experience with creation, analysis, and usage of performant numerical algorithms."
       - "<strong>Bash</strong>, <strong>Make</strong>, <strong>YAML</strong>: experience with linux scripting and development."
-      - "<strong>API-based</strong>: experience with REST for integrations with platforms such as Anomalo. Currently upskilling on FastAPI and Streamlit."
+      - "<strong>Javascript</strong>: Working knowledge, including TypeScript."
 
   - category: ML & AI
     bullets:
-      - "<strong>Generative AI and LLMs</strong>: Experience with prompting, tool calling, and some RAG. Exposure to Hugging Face and Modal."
-      - "<strong>Agentic AI</strong>: Exposure to LangChain. Currently upskilling with personal projects."
-      - "<strong>Classical ML</strong>: (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
+      - "<strong>Agentic AI and LLMs</strong>: Experience with multistep workflows, orchestration, tool calling, prompting (LangChain, HuggingFace, TogetherAI)"
+      - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
       - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
       - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
 

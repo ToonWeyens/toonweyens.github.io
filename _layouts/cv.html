@@ -175,6 +175,37 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.skills %}
+<hr class="cv-divider">
+
+<div id="skills-section">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h1 style="margin:0;">Skills</h1>
+        <button class="global-toggle-btn" onclick="toggleSection('skills-section', this)">Expand All</button>
+    </div>
+
+    {% for skill in page.skills %}
+    <div class="job-entry">
+        <div class="job-date">{{ skill.category }}</div>
+        <div class="job-details">
+            <div class="job-header" onclick="toggleJob(this)">
+                <div style="flex-grow: 1;"><strong>{{ skill.category }}</strong></div>
+                <span class="fas fa-chevron-down toggle-icon"></span>
+            </div>
+            <div class="job-content">
+                {% if skill.text %}
+                <div>{{ skill.text }}</div>
+                {% endif %}
+                {% if skill.bullets %}
+                <ul>{% for point in skill.bullets %}<li>{{ point }}</li>{% endfor %}</ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
 {% if page.awards %}
 <hr class="cv-divider">
 
