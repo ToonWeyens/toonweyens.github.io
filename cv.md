@@ -44,12 +44,14 @@ experience:
     summary: >-
       Partner with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combine data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
     bullets:
-      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
-      - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
+      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others, representing over €5M in multi-year enterprise contracts."
+      - "<strong>Architected enterprise data-trust and governance solutions</strong> across modern cloud data warehouses and lakehouses, with the majority of engagements running on Databricks as Anomalo's primary platform partner: hands-on with Unity Catalog for governance, lineage, and access control, alongside native and third-party data-quality tooling, to operationalize trusted data for analytics and AI."
+      - "<strong>Built ETL/ELT pipelines during enterprise PoCs</strong> using Airflow, Python, and dbt to land and transform customer data for downstream data-quality and analytics workloads, integrating directly with lakehouse and warehouse environments."
+      - "<strong>Drove adoption of Generative AI for data quality</strong>, including Anomalo's agentic, genAI-powered Unstructured product, translating capabilities into measurable business outcomes for both technical and executive audiences alongside classical machine learning approaches."
       - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
       - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams to accelerate platform adoption."
-      - "<strong>Champion platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
-      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ."
+      - "<strong>Operate through ambiguity in early-stage evaluations</strong>, identifying technical and commercial risks early and mobilizing cross-functional stakeholders to act before requirements are fully defined."
+      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact."
 
   - role: University Lecturer
     company: Eindhoven University of Technology
@@ -217,7 +219,7 @@ projects:
     description: |
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
-  - name: "Facial Composits: Finding the Suspect"
+  - name: "Facial Composites: Finding the Suspect"
     dates: 2018
     description: |
       Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
@@ -242,14 +244,16 @@ skills:
       - "<strong>Version control</strong>: git, GitHub, GitLab."
       - "<strong>API and Web</strong>: REST, Javascript, currently upskilling in FastAPI, Streamlit." 
       - "<strong>Observability</strong> Anomalo, Sentry, Prometheus/Grafana." 
-      - "<strong>MLOps Platforms</strong>: HuggingFace, Datarobot, Domino Data Lab."
+      - "<strong>MLOps Platforms</strong>: experiment tracking and model-registry workflows (MLflow concepts via DataRobot, Domino Data Lab, HuggingFace)."
       - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways (I teach an HPC course)."
-      - "<strong>Big Data</strong>: Hadoop, Spark."
+      - "<strong>Lakehouse & Data Platform</strong>: Unity Catalog (governance, lineage, access control), Delta Lake, and the Databricks Lakehouse including its data-quality and monitoring tooling; ran the majority of enterprise PoCs on Databricks. Apache Spark (working exposure) on a foundation of deep distributed-compute experience."
+      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and dbt; hands-on across modern cloud data warehouses and lakehouses; pipeline and integration design delivered in enterprise customer PoCs."
       - "<strong>Infrastructure as Code</strong>: Exposure to Terraform, Ansible."
       - "<strong>OSS</strong>: Maintainer of PB3D."
 
   - category: Programming
     bullets:
+      - "<strong>AI-assisted & agentic engineering</strong>: build production projects end-to-end with spec-driven agentic workflows (Architecture Decision Records, well-scoped work tickets, agentic automation, human PR review, testing, and iteration)."
       - "<strong>Python</strong>: Code structure, package management, data analysis, ML/DL, parallel processing (uv, numpy, pandas, PyTorch, TensorFlow, Keras)."
       - "<strong>Fortran</strong>: scientific computing and HPC (PB3D)."
       - "<strong>MATLAB</strong>: powerful toolset for engineers and scientists."
