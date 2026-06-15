@@ -198,6 +198,16 @@ certifications:
 
 # --- 4. SELECTED PROJECTS ---
 projects:
+  - name: Decentralized Stablecoin Risk Architecture
+    dates: 2026
+    description: |
+      Interim technical lead on a pilot to determine the optimal storage architecture for the risk formulas underpinning a major decentralized stablecoin protocol's next-generation, autonomous (agentic) on-chain capital framework. Bridged external stakeholders and internal developers to scope, run, and validate the pilot through to a successful outcome. For subject matter experts:
+      <ul>
+        <li><strong>Decentralized stablecoins and DeFi</strong>: framed the storage and data-modeling options for the risk engine governing automated capital allocation across an autonomous, agent-driven on-chain protocol.</li>
+        <li><strong>Architecture trade-offs</strong>: evaluated candidate storage approaches against the access patterns, performance, and verifiability requirements of on-chain risk computation.</li>
+        <li><strong>Technical leadership</strong>: aligned external stakeholders and internal engineers on requirements, drove execution of the pilot, and ensured it met its objectives.</li>
+      </ul>
+
   - name: PB3D - Peeling-Ballooning in 3-D
     dates: 2013 - Current
     description: |
@@ -209,20 +219,20 @@ projects:
         <li>Postdoctoral research investigated 3-D effects such as RMP for ELM control or toroidal field coil ripple.</li>
       </ul>
 
-  - name: Pylgrim
-    dates: 2018
-    description: |
-      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked and improved upon recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
-
   - name: Kraemer
     dates: 2018
     description: |
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
+  - name: Pylgrim
+    dates: 2018
+    description: |
+      Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked and improved upon recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
+
   - name: "Facial Composites: Finding the Suspect"
     dates: 2018
     description: |
-      Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
+      Capstone project for Bayesian Methods for Machine Learning. Built a system to reconstruct a target face from human feedback by combining a Variational Autoencoder (VAE) over a face latent space with Bayesian optimization (Gaussian Processes via GPyOpt): a witness iteratively rates generated faces, and the optimizer searches the latent space to converge on the suspect's likeness.
 
 # --- 5. SKILLS ---
 skills:
