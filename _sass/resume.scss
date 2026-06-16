@@ -139,10 +139,14 @@ hr.cv-divider {
 }
 
 @media print {
-  @page { margin: 0; size: A4; }
+  /* Real per-page margins so every page (including inner page breaks) gets a
+     proper bottom/top margin. The old @page{margin:0} + body{padding:2cm} hack
+     only margined the very top/bottom of the whole document, leaving page
+     breaks running to the paper edge. */
+  @page { margin: 1.5cm 2cm; size: A4; }
   body {
     margin: 0 !important;
-    padding: 2cm 2cm !important;
+    padding: 0 !important;
     background-color: white !important;
   }
 
