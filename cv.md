@@ -15,23 +15,6 @@ config:
     birthdate: false
     nationality: true
 
-values:
-  Meaningful work
-  Authentic relationships
-  Radical transparency
-  Curiosity and experimentation
-  Ownership and excellence
-  Efficiency
-  Positive impact
-
-abilities:
-  Empathic and communicative
-  Analytical
-  Culturally adaptive
-  Scientifically rigorous
-  Self-motivated and Proactive
-  Collaborative
-
 # --- 1. VALUES & ABILITIES ---
 values: "Meaningful work · Authentic relationships · Radical transparency · Curiosity and experimentation · Ownership and excellence · Efficiency · Positive impact"
 abilities: "Empathic and communicative · Analytical · Culturally adaptive · Scientifically rigorous · Self-motivated and Proactive · Collaborative"
@@ -47,7 +30,7 @@ experience:
       - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
       - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
       - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
-      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams to accelerate platform adoption."
+      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams, operating through ambiguity in early-stage evaluations to surface technical and commercial risks early and accelerate platform adoption."
       - "<strong>Champion platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
       - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ."
 
@@ -196,6 +179,16 @@ certifications:
 
 # --- 4. SELECTED PROJECTS ---
 projects:
+  - name: Decentralized Stablecoin Risk Architecture
+    dates: 2026
+    description: |
+      Interim technical lead on a pilot to determine the optimal storage architecture for the risk formulas underpinning a major decentralized stablecoin protocol's next-generation, autonomous (agentic) on-chain capital framework. Bridged external stakeholders and internal developers to scope, run, and validate the pilot through to a successful outcome. For subject matter experts:
+      <ul>
+        <li><strong>Decentralized stablecoins and DeFi</strong>: framed the storage and data-modeling options for the risk engine governing automated capital allocation across an autonomous, agent-driven on-chain protocol.</li>
+        <li><strong>Architecture trade-offs</strong>: evaluated candidate storage approaches against the access patterns, performance, and verifiability requirements of on-chain risk computation.</li>
+        <li><strong>Technical leadership</strong>: aligned external stakeholders and internal engineers on requirements, drove execution of the pilot, and ensured it met its objectives.</li>
+      </ul>
+
   - name: PB3D - Peeling-Ballooning in 3-D
     dates: 2013 - Current
     description: |
@@ -217,10 +210,10 @@ projects:
     description: |
       Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
-  - name: "Facial Composits: Finding the Suspect"
+  - name: "Facial Composites: Finding the Suspect"
     dates: 2018
     description: |
-      Capstone project for Bayesian Methods for Machine Learning. Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges, integrating mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
+      Capstone project for Bayesian Methods for Machine Learning. Built a system to reconstruct a target face from human feedback by combining a Variational Autoencoder (VAE) over a face latent space with Bayesian optimization (Gaussian Processes via GPyOpt): a witness iteratively rates generated faces, and the optimizer searches the latent space to converge on the suspect's likeness.
 
 # --- 5. SKILLS ---
 skills:
@@ -242,14 +235,16 @@ skills:
       - "<strong>Version control</strong>: git, GitHub, GitLab."
       - "<strong>API and Web</strong>: REST, Javascript, currently upskilling in FastAPI, Streamlit." 
       - "<strong>Observability</strong> Anomalo, Sentry, Prometheus/Grafana." 
-      - "<strong>MLOps Platforms</strong>: HuggingFace, Datarobot, Domino Data Lab."
+      - "<strong>MLOps Platforms</strong>: experiment tracking and model-registry workflows (MLflow concepts via DataRobot, Domino Data Lab, HuggingFace)."
       - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways (I teach an HPC course)."
-      - "<strong>Big Data</strong>: Hadoop, Spark."
+      - "<strong>Big Data & Lakehouse</strong>: Apache Spark and Delta Lake, on a foundation of deep distributed-compute (HPC) experience."
+      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and other integrations across modern cloud data warehouses and lakehouses like Databricks and Snowflake; pipeline and integration design delivered in enterprise customer PoCs."
       - "<strong>Infrastructure as Code</strong>: Exposure to Terraform, Ansible."
       - "<strong>OSS</strong>: Maintainer of PB3D."
 
   - category: Programming
     bullets:
+      - "<strong>AI-assisted & agentic engineering</strong>: build production projects end-to-end with spec-driven agentic workflows (Architecture Decision Records, well-scoped work tickets, agentic automation, human PR review, testing, and iteration)."
       - "<strong>Python</strong>: Code structure, package management, data analysis, ML/DL, parallel processing (uv, numpy, pandas, PyTorch, TensorFlow, Keras)."
       - "<strong>Fortran</strong>: scientific computing and HPC (PB3D)."
       - "<strong>MATLAB</strong>: powerful toolset for engineers and scientists."
@@ -263,7 +258,8 @@ skills:
 
   - category: ML & AI
     bullets:
-      - "<strong>Agentic AI and LLMs</strong>: Experience with multistep workflows, orchestration, tool calling, prompting, structured output (LangChain, HuggingFace, TogetherAI)"
+      - "<strong>Agentic AI and LLMs</strong>: Build tool-calling agents with LangChain and LangGraph, using middleware (human-in-the-loop, PII redaction, summarization), memory and context management, MCP, and structured output."
+      - "<strong>LLMOps and evaluation</strong>: Tracing, datasets, LLM-as-judge evaluation, and monitoring with LangSmith; RAG/retrieval, provider-agnostic model design. Some familiarity with self-hosted open-weights model deployment."
       - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
       - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
       - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
