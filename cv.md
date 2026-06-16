@@ -257,7 +257,7 @@ skills:
       - "<strong>MLOps Platforms</strong>: experiment tracking and model-registry workflows (MLflow concepts via DataRobot, Domino Data Lab, HuggingFace)."
       - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways (I teach an HPC course)."
       - "<strong>Lakehouse & Data Platform</strong>: Unity Catalog (governance, lineage, access control), Delta Lake, and the Databricks Lakehouse including its data-quality and monitoring tooling; ran the majority of enterprise PoCs on Databricks. Apache Spark (working exposure) on a foundation of deep distributed-compute experience."
-      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and dbt; hands-on across modern cloud data warehouses and lakehouses; pipeline and integration design delivered in enterprise customer PoCs."
+      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and other integrations; hands-on across modern cloud data warehouses and lakehouses; pipeline and integration design delivered in enterprise customer PoCs."
       - "<strong>Infrastructure as Code</strong>: Exposure to Terraform, Ansible."
       - "<strong>OSS</strong>: Maintainer of PB3D."
 

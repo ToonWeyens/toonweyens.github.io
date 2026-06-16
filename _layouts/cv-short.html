@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<style>
+  /* Compact, static, print-first 2-page CV. Reuses site theme variables. */
+  .cv-short { line-height: 1.35; }
+
+  .cv-short .cv-s-header { text-align: center; margin-bottom: 1em; }
+  .cv-short .cv-s-header h1 { font-weight: 200; margin: 0; font-size: 1.9em; }
+  .cv-short .cv-s-header h1 span { color: #125687; }
+  .cv-short .cv-s-role { font-size: 1em; color: var(--text-secondary); margin: 2px 0 6px; }
+  .cv-short .cv-s-contact { font-size: 0.85em; margin-bottom: 8px; }
+  .cv-short .cv-s-contact a { color: var(--links); }
+  .cv-short .cv-s-summary { font-size: 0.9em; max-width: 48em; margin: 0 auto; color: var(--text); }
+
+  .cv-short h2.cv-s-section {
+    font-size: 1.05em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--headings);
+    border-bottom: 1px solid var(--text);
+    padding-bottom: 2px;
+    margin: 16px 0 8px;
+  }
+
+  .cv-short .s-entry { display: flex; margin-bottom: 9px; }
+  .cv-short .s-date {
+    width: 135px; flex-shrink: 0; font-weight: bold;
+    color: var(--links); font-size: 0.85em; padding-right: 12px; padding-top: 1px;
+  }
+  .cv-short .s-body { flex-grow: 1; }
+  .cv-short .s-title { font-weight: bold; color: var(--headings); }
+  .cv-short .s-body ul { margin: 3px 0 0; padding-left: 18px; }
+  .cv-short .s-body li { margin-bottom: 2px; font-size: 0.9em; }
+  .cv-short .s-note { font-size: 0.9em; margin-top: 1px; }
+
+  .cv-short .s-skill { font-size: 0.9em; margin-bottom: 4px; }
+  .cv-short .s-skill .s-label { color: var(--links); font-weight: bold; }
+
+  @media (max-width: 600px) {
+    .cv-short .s-entry { display: block; }
+    .cv-short .s-date { width: auto; margin-bottom: 2px; }
+  }
+
+  @media print {
+    .cv-short { line-height: 1.25; }
+    .cv-short h2.cv-s-section { margin: 11px 0 6px; }
+    .cv-short .s-entry { margin-bottom: 6px; }
+    .cv-short .cv-s-header { margin-bottom: 0.7em; }
+  }
+</style>
+
+<div class="cv-short">
+  <header class="cv-s-header">
+    <h1>{{ site.author.firstname }} <span>{{ site.author.lastname }}</span>, {{ site.author.honorific }}</h1>
+    <div class="cv-s-role">{{ page.role | default: site.author.role }}</div>
+    <div class="cv-s-contact">
+      <span class="fas fa-map-marker-alt"></span> {{ site.author.location }}
+      &nbsp;·&nbsp; <span class="fas fa-envelope"></span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &nbsp;·&nbsp; <a href="{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+      &nbsp;·&nbsp; <a href="{{ site.author.github }}" target="_blank">GitHub</a>
+      &nbsp;·&nbsp; <a href="{{ site.author.scholar }}" target="_blank">Scholar</a>
+    </div>
+    {% if page.summary %}<div class="cv-s-summary">{{ page.summary }}</div>{% endif %}
+  </header>
+
+  {% if page.experience %}
+  <h2 class="cv-s-section">Selected Experience</h2>
+  {% for job in page.experience %}
+  <div class="s-entry">
+    <div class="s-date">{{ job.dates }}</div>
+    <div class="s-body">
+      <div class="s-title">{{ job.role }} · {{ job.company }}</div>
+      {% if job.bullets %}<ul>{% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}</ul>{% endif %}
+      {% if job.note %}<div class="s-note">{{ job.note }}</div>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if page.projects %}
+  <h2 class="cv-s-section">Selected Projects</h2>
+  {% for p in page.projects %}
+  <div class="s-entry">
+    <div class="s-date">{{ p.dates }}</div>
+    <div class="s-body">
+      <div class="s-title">{{ p.name }}</div>
+      {% if p.note %}<div class="s-note">{{ p.note }}</div>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if page.education %}
+  <h2 class="cv-s-section">Education</h2>
+  {% for e in page.education %}
+  <div class="s-entry">
+    <div class="s-date">{{ e.dates }}</div>
+    <div class="s-body"><span class="s-title">{{ e.degree }}</span> · {{ e.uni }}</div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if page.skills %}
+  <h2 class="cv-s-section">Skills</h2>
+  {% for s in page.skills %}
+  <div class="s-skill"><span class="s-label">{{ s.category }}:</span> {{ s.text }}</div>
+  {% endfor %}
+  {% endif %}
+
+  {% if page.recognition %}
+  <h2 class="cv-s-section">Certifications &amp; Awards</h2>
+  <div class="s-skill">{{ page.recognition }}</div>
+  {% endif %}
+
+  <div style="text-align:center; margin-top: 20px;">
+    <button onclick="window.print()" class="global-toggle-btn">
+      <i class="fas fa-file-pdf"></i> Save as PDF
+    </button>
+  </div>
+</div>
