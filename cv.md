@@ -15,23 +15,6 @@ config:
     birthdate: false
     nationality: true
 
-values:
-  Meaningful work
-  Authentic relationships
-  Radical transparency
-  Curiosity and experimentation
-  Ownership and excellence
-  Efficiency
-  Positive impact
-
-abilities:
-  Empathic and communicative
-  Analytical
-  Culturally adaptive
-  Scientifically rigorous
-  Self-motivated and Proactive
-  Collaborative
-
 # --- 1. VALUES & ABILITIES ---
 values: "Meaningful work · Authentic relationships · Radical transparency · Curiosity and experimentation · Ownership and excellence · Efficiency · Positive impact"
 abilities: "Empathic and communicative · Analytical · Culturally adaptive · Scientifically rigorous · Self-motivated and Proactive · Collaborative"
@@ -44,14 +27,12 @@ experience:
     summary: >-
       Partner with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combine data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
     bullets:
-      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others, representing over €5M in multi-year enterprise contracts."
-      - "<strong>Architected enterprise data-trust and governance solutions</strong> across modern cloud data warehouses and lakehouses, with the majority of engagements running on Databricks as Anomalo's primary platform partner: hands-on with Unity Catalog for governance, lineage, and access control, alongside native and third-party data-quality tooling, to operationalize trusted data for analytics and AI."
-      - "<strong>Built ETL/ELT pipelines during enterprise PoCs</strong> using Airflow, Python, and dbt to land and transform customer data for downstream data-quality and analytics workloads, integrating directly with lakehouse and warehouse environments."
-      - "<strong>Drove adoption of Generative AI for data quality</strong>, including Anomalo's agentic, genAI-powered Unstructured product, translating capabilities into measurable business outcomes for both technical and executive audiences alongside classical machine learning approaches."
+      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
+      - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
       - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
-      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams to accelerate platform adoption."
-      - "<strong>Operate through ambiguity in early-stage evaluations</strong>, identifying technical and commercial risks early and mobilizing cross-functional stakeholders to act before requirements are fully defined."
-      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact."
+      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams, operating through ambiguity in early-stage evaluations to surface technical and commercial risks early and accelerate platform adoption."
+      - "<strong>Champion platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
+      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ."
 
   - role: University Lecturer
     company: Eindhoven University of Technology
@@ -219,15 +200,15 @@ projects:
         <li>Postdoctoral research investigated 3-D effects such as RMP for ELM control or toroidal field coil ripple.</li>
       </ul>
 
-  - name: Kraemer
-    dates: 2018
-    description: |
-      Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
-
   - name: Pylgrim
     dates: 2018
     description: |
       Implemented Python and C++ algorithms for the NP-hard Elementary Shortest Path Problem (ESPP). Benchmarked and improved upon recent academic methods from <a href="https://www.researchgate.net/publication/279953870_On_the_shortest_path_problem_with_negative_cost_cycles">Di Puglia Pugliese (2016)</a> and <a href="https://www.researchgate.net/publication/222559312_Accelerated_label_setting_algorithms_for_the_elementary_resource_constrained_shortest_path_problem">Boland (2006)</a>. Explored computational complexity and optimization strategies for constrained routing. Source: <a href="https://github.com/ToonWeyens/pylgrim">GitHub</a>.
+
+  - name: Kraemer
+    dates: 2018
+    description: |
+      Co-created an automated trading framework using Python for high-frequency arbitrage across exchanges. Integrated mathematical modeling, deep learning, and financial data engineering with a focus on efficient order execution and latency-sensitive decision-making.
 
   - name: "Facial Composites: Finding the Suspect"
     dates: 2018
@@ -256,8 +237,8 @@ skills:
       - "<strong>Observability</strong> Anomalo, Sentry, Prometheus/Grafana." 
       - "<strong>MLOps Platforms</strong>: experiment tracking and model-registry workflows (MLflow concepts via DataRobot, Domino Data Lab, HuggingFace)."
       - "<strong>HPC & Visualization</strong>: ParaView, VisIt, HDF5, SurfSara gateways (I teach an HPC course)."
-      - "<strong>Lakehouse & Data Platform</strong>: Unity Catalog (governance, lineage, access control), Delta Lake, and the Databricks Lakehouse including its data-quality and monitoring tooling; ran the majority of enterprise PoCs on Databricks. Apache Spark (working exposure) on a foundation of deep distributed-compute experience."
-      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and other integrations; hands-on across modern cloud data warehouses and lakehouses; pipeline and integration design delivered in enterprise customer PoCs."
+      - "<strong>Big Data & Lakehouse</strong>: Apache Spark and Delta Lake, on a foundation of deep distributed-compute (HPC) experience."
+      - "<strong>Data Engineering & Warehousing</strong>: ETL/ELT orchestration and transformation with Airflow, Python, and other integrations across modern cloud data warehouses and lakehouses like Databricks and Snowflake; pipeline and integration design delivered in enterprise customer PoCs."
       - "<strong>Infrastructure as Code</strong>: Exposure to Terraform, Ansible."
       - "<strong>OSS</strong>: Maintainer of PB3D."
 
@@ -277,7 +258,8 @@ skills:
 
   - category: ML & AI
     bullets:
-      - "<strong>Agentic AI and LLMs</strong>: Experience with multistep workflows, orchestration, tool calling, prompting, structured output (LangChain, HuggingFace, TogetherAI)"
+      - "<strong>Agentic AI and LLMs</strong>: Build tool-calling agents with LangChain and LangGraph, using middleware (human-in-the-loop, PII redaction, summarization), memory and context management, MCP, and structured output."
+      - "<strong>LLMOps and evaluation</strong>: Tracing, datasets, LLM-as-judge evaluation, and monitoring with LangSmith; RAG/retrieval, provider-agnostic model design. Some familiarity with self-hosted open-weights model deployment."
       - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
       - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
       - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."

@@ -6,14 +6,14 @@ permalink: /cv-short.html
 role: Enterprise Data &amp; AI Solutions Architect
 
 summary: >-
-  Enterprise Data &amp; AI Solutions Architect with 10+ years across pre-sales, enterprise AI platforms, and scientific High-Performance Computing. Trusted by CDOs, CIOs, and engineering leaders to turn ambiguous requirements into production-grade, governed data and AI solutions, with recent architecture delivered primarily on Databricks (Unity Catalog, Delta Lake, Spark). Directly generated over &euro;5M in enterprise contracts and recurring revenue in the last two years. Recent certification- and pilot-level depth in agentic AI and LLM customization (RAG, fine-tuning, LoRA/RLHF, agent orchestration and evaluation).
+  Enterprise Data &amp; AI Solutions Architect with 10+ years across pre-sales, enterprise AI platforms, and scientific High-Performance Computing. Trusted by CDOs, CIOs, and engineering leaders to turn ambiguous requirements into production-grade, governed data and AI solutions, delivered primarily on Databricks (Unity Catalog, Delta Lake, Spark). Directly generated over &euro;5M in enterprise contracts and recurring revenue in the last two years. Hands-on in agentic AI and LLM engineering (LangChain/LangGraph, evaluation and more).
 
 experience:
   - role: Senior Sales Engineer
     company: Anomalo
     dates: Mar '24 - Current
     bullets:
-      - "<strong>Lead enterprise PoCs and evaluations</strong> (BP, Sky, Zalando, Heathrow & others) representing over &euro;5M in multi-year contracts, the majority delivered on Databricks."
+      - "<strong>Lead enterprise PoCs and evaluations</strong> (BP, Sky, Zalando, Heathrow and others) representing over &euro;5M in multi-year contracts, the majority delivered on Databricks."
       - "<strong>Architect data-trust and governance on the Databricks Lakehouse</strong>: Integrate Anomalo's Data Quality tooling with customers' Unity Catalog (governance, lineage, access control) and Delta Lake, with ETL/ELT built in Airflow, Python, and other tools."
       - "<strong>Drive adoption of agentic GenAI for data quality</strong> with executive sponsors (CDOs, CIOs, Heads of Data), tying capabilities to measurable business outcomes."
 
@@ -70,7 +70,7 @@ skills:
   - category: Data &amp; AI Platforms
     text: "Databricks Lakehouse (Unity Catalog, Delta Lake, Spark); Airflow, Python, and other ETL/ELT integrations; AWS (Certified Solutions Architect), Azure, Kubernetes (CKAD), Docker."
   - category: GenAI &amp; LLMs
-    text: "Hands-on with agentic LLM workflows (tool calling, orchestration, prompting, structured output) via LangChain, Hugging Face, TogetherAI; PyTorch, scikit-learn, Bayesian modeling. Certification-level depth in RAG, fine-tuning (SFT, LoRA, RLHF/PPO/GRPO), and multi-agent evaluation."
+    text: "Build tool-calling agents with LangChain/LangGraph — middleware (human-in-the-loop, PII, summarization), memory and context management, MCP, structured output. Observability and evaluation with LangSmith (tracing, datasets, LLM-as-judge); RAG/retrieval. Certification-level depth in fine-tuning (LoRA, RLHF). PyTorch, scikit-learn, Bayesian modeling."
   - category: Engineering
     text: "Python, SQL, C++, Fortran; HPC and parallel computing (MPI, OpenMP, SLURM, PETSc); AI-assisted and agentic engineering (spec-driven, ADRs)."
   - category: Sales &amp; Leadership
