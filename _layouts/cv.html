@@ -27,10 +27,12 @@ layout: default
     {% endif %}
   </div>
 
-    {% if site.headline or site.profile_summary %}
+    {% assign cv_headline = page.headline | default: site.headline %}
+    {% assign cv_summary = page.profile_summary | default: site.profile_summary %}
+    {% if cv_headline or cv_summary %}
     <blockquote class="intro-block">
-        {% if site.headline %} <div class="intro-tagline"><strong>{{ site.headline }}</strong></div> {% endif %}
-        {% if site.profile_summary %} <div class="intro-summary">{{ site.profile_summary }}</div> {% endif %}
+        {% if cv_headline %} <div class="intro-tagline"><strong>{{ cv_headline }}</strong></div> {% endif %}
+        {% if cv_summary %} <div class="intro-summary">{{ cv_summary }}</div> {% endif %}
     </blockquote>
     {% endif %}
 

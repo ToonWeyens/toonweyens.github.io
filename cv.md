@@ -49,6 +49,7 @@ experience:
       - "<strong>Generated approximately €1M in new annual recurring revenue (ARR)</strong> over 18 months by leading enterprise AI data initiatives across automotive, defense, insurance, and telco sectors."
       - "<strong>Led the global Presales Solutions Architecture team</strong>, aligning regional priorities, sharing best practices, and elevating technical sales performance company-wide."
       - "<strong>Partnered with senior technical and business leaders</strong> to define architecture, KPIs, and success criteria for strategic AI programs."
+      - "<strong>Co-created AI adoption roadmaps</strong> with executive stakeholders, articulating the \"art of the possible\" and a clear, ROI-backed path from pilot to production at scale."
       - "<strong>Designed methodology for full-cycle PoCs and solution evaluations</strong>, ensuring alignment between business objectives and technical feasibility."
       - "<strong>Collaborated closely with R&D and Product Management</strong> to shape platform evolution based on customer feedback from the field."
       - "<strong>Created technical content and enablement materials</strong> that improved sales efficiency and shortened enterprise sales cycles."
@@ -179,6 +180,19 @@ certifications:
 
 # --- 4. SELECTED PROJECTS ---
 projects:
+  - name: "Production-Grade LLM Support Agent (LangChain · LangGraph · LangSmith)"
+    dates: 2026
+    description: |
+      A self-directed, in-depth learning project: built and deployed an end-to-end, production-grade LLM customer-support agent for a <em>fictional</em> digital music store, running on the LangGraph runtime and instrumented with LangSmith. The goal was to master, hands-on, what it takes to move an agent from prototype to production — engineered spec-first, from an Architecture Decision Record through scoped tickets, tests, and CI, the same way I would ship real production software. Source and design docs available on request. For subject matter experts:
+      <ul>
+        <li><strong>Agentic architecture</strong>: LangChain on the LangGraph runtime, with a five-tool surface across account and recommendation domains, including one approval-gated write tool.</li>
+        <li><strong>Privacy as architecture, not prompt</strong>: caller identity is taken from runtime context and every tool is SQL-scoped to the customer — never a model-fillable argument — so the model cannot spoof or leak another customer's data; verified by a jailbreak red-team and unit tests.</li>
+        <li><strong>Human-in-the-loop &amp; composable middleware</strong>: HITL write-gating (approve → resume → verify on a disposable DB copy), tool-call limits, and PII redaction, composed in a deliberate order.</li>
+        <li><strong>Eval-driven quality</strong>: a LangSmith dataset split by difficulty with two evaluators (graded correctness/groundedness and binary privacy/safety pass-fail), plus side-by-side scoring of config variants to prove a change helped or regressed.</li>
+        <li><strong>Provider-agnostic &amp; sovereignty-ready</strong>: model configured as a single swappable string (one-line swap to open-weight models such as Mistral), local offline OSS embeddings for recommendations, and LangSmith EU region for data residency — an on-premises / private-cloud-friendly posture.</li>
+        <li><strong>Ships like code</strong>: uv-managed, with a ruff + type-check gate and a CI eval gate in GitHub Actions, and a reproducible seed script for the full demo environment.</li>
+      </ul>
+
   - name: Decentralized Stablecoin Risk Architecture
     dates: 2026
     description: |
@@ -222,10 +236,19 @@ skills:
 
   - category: Sales & Comm
     bullets:
-      - "<strong><a href=\"https://meddicc.com/meddic/\">MEDDICC</a></strong>: Enterprise sales qualification framework."
+      - "<strong><a href=\"https://meddicc.com/meddic/\">MEDDPICC / MEDDIC</a></strong>: Enterprise sales qualification framework for value-based selling."
       - "<strong><a href=\"https://www.amazon.com/Insight-Selling-differentiate-product-Scenarios/dp/0993655505\">Insight Selling</a></strong>: Storytelling-based consultative sales methodology."
       - "<strong>Write to the Top</strong>: Julia Bindman's course on customer-oriented writing skills."
       - "<strong>Audience Focused Presentation</strong>: TU/e doctoral training course."
+
+  - category: ML & AI
+    bullets:
+      - "<strong>Agentic AI and LLMs</strong>: Build tool-calling agents with LangChain and LangGraph, using middleware (human-in-the-loop, PII redaction, summarization), memory and context management, MCP, and structured output."
+      - "<strong>LLMOps and evaluation</strong>: Tracing, datasets, LLM-as-judge evaluation, and monitoring with LangSmith; RAG/retrieval, structured output, and provider-agnostic model design."
+      - "<strong>Open-weight &amp; sovereign deployment</strong>: Self-host open-weight models (local OSS embedding models, offline, no API key) and design provider-agnostic, model-swappable agents — an on-premises / private-cloud-friendly posture for data residency and cost control."
+      - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
+      - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
+      - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
 
   - category: Computer & Cloud
     bullets:
@@ -255,14 +278,6 @@ skills:
       - "<strong>Numerical algorithm design</strong>: Experience with creation, analysis, and usage of performant numerical algorithms."
       - "<strong>Bash</strong>, <strong>Make</strong>, <strong>YAML</strong>: experience with linux scripting and development."
       - "<strong>Javascript</strong>: Working knowledge, including TypeScript."
-
-  - category: ML & AI
-    bullets:
-      - "<strong>Agentic AI and LLMs</strong>: Build tool-calling agents with LangChain and LangGraph, using middleware (human-in-the-loop, PII redaction, summarization), memory and context management, MCP, and structured output."
-      - "<strong>LLMOps and evaluation</strong>: Tracing, datasets, LLM-as-judge evaluation, and monitoring with LangSmith; RAG/retrieval, provider-agnostic model design. Some familiarity with self-hosted open-weights model deployment."
-      - "<strong>ML</strong>: Deep Learning (PyTorch), Machine Learning (scikit-learn), Bayesian modeling (PyMC3, GPy, GPyOpt)."
-      - "<strong>Deep learning architectures</strong>: Understanding of Transformers, CNNs, RNNs, VAEs, sequence models, etc."
-      - "<strong>Optimization and regularization</strong>: Understanding of Adam, dropout, BatchNorm."
 
   - category: Other
     bullets:
