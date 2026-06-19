@@ -131,13 +131,13 @@ certifications:
 projects:
   - name: "Production-Grade LLM Support Agent (LangChain · LangGraph · LangSmith)"
     dates: 2026
-    description: |
-      Self-directed deep-dive: built and deployed an end-to-end, production-grade LLM customer-support agent for a <em>fictional</em> music store — engineered spec-first (ADR → scoped tickets → tests → CI), the way I would ship real production software.
-      <ul>
-        <li><strong>Privacy by architecture</strong>: caller identity from runtime context and every tool scoped to the customer (never model-fillable), so the model cannot leak another customer's data — verified by a jailbreak red-team and unit tests.</li>
-        <li><strong>Human-in-the-loop &amp; eval-driven</strong>: approval-gated writes and middleware (tool-call limits, PII redaction), with an eval set scoring quality and pass/fail safety across config variants.</li>
-        <li><strong>Provider-agnostic &amp; sovereignty-ready</strong>: one-line model swap to open-weight models such as Mistral, local offline embeddings, and EU data residency — on-premises / private-cloud friendly.</li>
-      </ul>
+    description: >-
+      Self-directed deep-dive: built and deployed an end-to-end, production-grade LLM customer-support agent for a fictional music store, engineered spec-first the way I would ship real software — with privacy enforced by architecture, human-in-the-loop writes, eval-driven quality, and a provider-agnostic design (one-line swap to open-weight models such as Mistral, with EU data residency).
+
+  - name: Decentralized Stablecoin Risk Architecture
+    dates: 2026
+    description: >-
+      Interim technical lead on a pilot to determine the optimal storage architecture for the risk engine behind a major decentralized stablecoin's next-generation, agentic on-chain capital framework. Bridged external stakeholders and internal engineers to scope, run, and validate the pilot to a successful outcome.
 
 # --- 6. SKILLS ---
 skills:
