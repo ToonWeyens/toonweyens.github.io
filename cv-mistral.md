@@ -20,7 +20,7 @@ headline: "Turning enterprise AI strategy into production-ready, open-weight dep
 profile_summary: >-
   Client-facing AI strategist with a decade bridging executive AI roadmaps and hands-on production.
   Partner with C-level stakeholders to scope high-value AI initiatives, architect end-to-end solutions, and ship them — with quantified ROI across enterprise accounts (€5M+ enterprise pipelines, €2.5M+ ARR generated, pre-sales MVP award).
-  Hands-on builder of production LLM and agentic systems (LangChain, LangGraph, LangSmith) with a focus on privacy-by-architecture, eval-driven quality, and provider-agnostic, sovereignty-ready deployment.
+  Hands-on builder of production LLM and agentic systems with a focus on privacy-by-architecture, eval-driven quality, and provider-agnostic, sovereignty-ready deployment.
   PhD scientist fluent across technical and executive audiences, and across four languages.
 
 # --- 1. VALUES & ABILITIES ---
@@ -35,7 +35,7 @@ experience:
     summary: >-
       Partner with C-level and senior data leaders at global enterprises and AI-native companies to build trust in their data at scale, combining data science, architecture, and business consulting.
     bullets:
-      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, and Zalando — representing over €5M in multi-year enterprise contracts."
+      - "<strong>Lead multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, and Zalando — representing over €5M in multi-year enterprise contracts."
       - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
       - "<strong>Champion Generative AI applications</strong> for data-quality automation and explainability, and collaborate with product/R&D to shape Anomalo's genAI-powered agentic data-quality product."
 
@@ -132,11 +132,11 @@ projects:
   - name: "Production-Grade LLM Support Agent (LangChain · LangGraph · LangSmith)"
     dates: 2026
     description: |
-      A self-directed, in-depth learning project: built and deployed an end-to-end, production-grade LLM customer-support agent for a <em>fictional</em> digital music store, running on the LangGraph runtime and instrumented with LangSmith — engineered spec-first (Architecture Decision Record → scoped tickets → tests → CI), the way I would ship real production software.
+      Self-directed deep-dive: built and deployed an end-to-end, production-grade LLM customer-support agent for a <em>fictional</em> music store — engineered spec-first (ADR → scoped tickets → tests → CI), the way I would ship real production software.
       <ul>
-        <li><strong>Privacy as architecture, not prompt</strong>: caller identity comes from runtime context and every tool is SQL-scoped to the customer — never a model-fillable argument — so the model cannot spoof or leak another customer's data; verified by a jailbreak red-team and unit tests.</li>
-        <li><strong>Human-in-the-loop &amp; eval-driven quality</strong>: approval-gated writes and composable middleware (tool-call limits, PII redaction), plus a LangSmith eval set with graded-quality and pass/fail safety evaluators and side-by-side scoring of config variants.</li>
-        <li><strong>Provider-agnostic &amp; sovereignty-ready</strong>: model configured as a single swappable string (one-line swap to open-weight models such as Mistral), local offline OSS embeddings, and LangSmith EU region for data residency — an on-premises / private-cloud-friendly posture.</li>
+        <li><strong>Privacy by architecture</strong>: caller identity from runtime context and every tool scoped to the customer (never model-fillable), so the model cannot leak another customer's data — verified by a jailbreak red-team and unit tests.</li>
+        <li><strong>Human-in-the-loop &amp; eval-driven</strong>: approval-gated writes and middleware (tool-call limits, PII redaction), with an eval set scoring quality and pass/fail safety across config variants.</li>
+        <li><strong>Provider-agnostic &amp; sovereignty-ready</strong>: one-line model swap to open-weight models such as Mistral, local offline embeddings, and EU data residency — on-premises / private-cloud friendly.</li>
       </ul>
 
 # --- 6. SKILLS ---

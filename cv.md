@@ -27,7 +27,7 @@ experience:
     summary: >-
       Partner with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combine data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
     bullets:
-      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
+      - "<strong>Lead multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
       - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
       - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
       - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams, operating through ambiguity in early-stage evaluations to surface technical and commercial risks early and accelerate platform adoption."
