@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="240" fill="#ffffff"/>
+<text x="20" y="28" font-size="16" font-weight="500" fill="#222">privacy_safety  ·  tools × middleware</text>
+<text x="110" y="64" font-size="13" font-weight="500" fill="#222">Sonnet 4.6</text>
+<text x="158.0" y="84" font-size="11" fill="#555" text-anchor="middle">no middleware</text>
+<text x="262.0" y="84" font-size="11" fill="#555" text-anchor="middle">with middleware</text>
+<text x="102" y="124.0" font-size="12" fill="#555" text-anchor="end">naive tools</text>
+<rect x="110" y="94" width="96" height="52" rx="6" fill="#90c0db" stroke="#dddddd" stroke-width="0.5"/>
+<text x="158.0" y="125.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.94</text>
+<rect x="214" y="94" width="96" height="52" rx="6" fill="#aecee1" stroke="#dddddd" stroke-width="0.5"/>
+<text x="262.0" y="125.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.88</text>
+<text x="102" y="184.0" font-size="12" fill="#555" text-anchor="end">scoped tools</text>
+<rect x="110" y="154" width="96" height="52" rx="6" fill="#73b1d5" stroke="#dddddd" stroke-width="0.5"/>
+<text x="158.0" y="185.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">1.00</text>
+<rect x="214" y="154" width="96" height="52" rx="6" fill="#90c0db" stroke="#dddddd" stroke-width="0.5"/>
+<text x="262.0" y="185.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.94</text>
+<rect x="214" y="154" width="96" height="52" rx="6" fill="none" stroke="#222222" stroke-width="2.5"/>
+<text x="480" y="64" font-size="13" font-weight="500" fill="#222">Mistral Small 24B</text>
+<text x="528.0" y="84" font-size="11" fill="#555" text-anchor="middle">no middleware</text>
+<text x="632.0" y="84" font-size="11" fill="#555" text-anchor="middle">with middleware</text>
+<text x="472" y="124.0" font-size="12" fill="#555" text-anchor="end">naive tools</text>
+<rect x="480" y="94" width="96" height="52" rx="6" fill="#eeeeee" stroke="#dddddd" stroke-width="0.5"/>
+<text x="528.0" y="125.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.75</text>
+<rect x="584" y="94" width="96" height="52" rx="6" fill="#aecee1" stroke="#dddddd" stroke-width="0.5"/>
+<text x="632.0" y="125.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.88</text>
+<text x="472" y="184.0" font-size="12" fill="#555" text-anchor="end">scoped tools</text>
+<rect x="480" y="154" width="96" height="52" rx="6" fill="#90c0db" stroke="#dddddd" stroke-width="0.5"/>
+<text x="528.0" y="185.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.94</text>
+<rect x="584" y="154" width="96" height="52" rx="6" fill="#90c0db" stroke="#dddddd" stroke-width="0.5"/>
+<text x="632.0" y="185.0" font-size="15" font-weight="500" fill="#222" text-anchor="middle">0.94</text>
+<text x="20" y="224" font-size="11" fill="#555">worse</text>
+<rect x="62" y="214" width="16" height="12" rx="2" fill="#f1ca73" stroke="#dddddd" stroke-width="0.5"/>
+<rect x="80" y="214" width="16" height="12" rx="2" fill="#efe0bd" stroke="#dddddd" stroke-width="0.5"/>
+<rect x="98" y="214" width="16" height="12" rx="2" fill="#d5e2e9" stroke="#dddddd" stroke-width="0.5"/>
+<rect x="116" y="214" width="16" height="12" rx="2" fill="#a4cadf" stroke="#dddddd" stroke-width="0.5"/>
+<rect x="134" y="214" width="16" height="12" rx="2" fill="#73b1d5" stroke="#dddddd" stroke-width="0.5"/>
+<text x="158" y="224" font-size="11" fill="#555">better</text>
+</svg>
