@@ -7,5 +7,6 @@ gem "logger"
 gem "base64"
 gem "bigdecimal"
 gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
 
 gemspec
