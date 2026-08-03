@@ -12,6 +12,8 @@ author:
   linkedin: "https://www.linkedin.com/in/toonweyens/"
   github: "https://github.com/toonweyens"
   scholar: "https://scholar.google.com/citations?user=pn68uq0AAAAJ&hl=en&oi=sra"
+  kvk: "42129625"
+  # btw: "NL123456789B01" # uncomment when the btw-id arrives; publish the btw-id only, never the BSN-derived omzetbelastingnummer
   baseurl: ""
 url: https://toonweyens.com # root address of the site
 headline: Independent consulting in enterprise AI architecture, HPC and simulation performance, and technical go-to-market for deep tech.

@@ -59,10 +59,8 @@ Rates on request, and I will tell you early if I think the work does not need me
 
 ## Get in touch
 
-Best reached by email at **[{{ site.author.email }}](mailto:{{ site.author.email }})**, or on [LinkedIn]({{ site.author.linkedin }}).
+{% include contact_details.html %}
 
-The full [curriculum vitae](/cv) has the detail, and [GitHub]({{ site.author.github }}) and [Google Scholar]({{ site.author.scholar }}) have the code and the papers.
+The full [curriculum vitae](/cv) has the detail.
 
-<div class="intro-summary" markdown="1">
-Toon Weyens · Utrecht, Netherlands · KvK 42129625
-</div>
+{% include business_identity.html %}
