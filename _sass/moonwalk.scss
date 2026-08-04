@@ -113,6 +113,31 @@ li { margin: 0.4em 0; }
   outline: none;
 }
 
+// Mobile: the pill needs ~560px to fit on one line, so it overflows on every
+// phone. Five links plus the theme toggle make six items, which lay out as a
+// tidy 3x2 grid rather than wrapping unevenly.
+@media (max-width: 600px) {
+  .w { padding: 2em 1em; }
+
+  .nav-pill {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25rem;
+  }
+
+  .nav-pill a {
+    text-align: center;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .nav-toggle {
+    margin-left: 0 !important;
+    justify-content: center;
+  }
+
+  .nav-spacer { display: none; }
+}
+
 // Shared intro block (home + CV tagline)
 .intro-block {
   background: var(--bg-secondary);
