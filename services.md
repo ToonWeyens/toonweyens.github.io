@@ -7,7 +7,7 @@ description: Independent consulting in enterprise AI architecture, HPC and simul
 <div class="intro-block">
   <div class="intro-summary">
     What I am hired for, and how my work with you is shaped. Based in Utrecht. Active across Europe,
-    Remote or on-site available.
+    remote or on-site available.
   </div>
 </div>
 
