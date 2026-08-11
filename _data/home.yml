@@ -34,11 +34,3 @@ project_entries:
   - title: PB3D tools
     url: https://github.com/ToonWeyens/PB3D_tools
     desc: HPC tools and scripts to setup, run and analyze PB3D simulations on local and remote HPC systems.
-
-# old_project_entries:
-#   - title: Soopr
-#     url: https://www.soopr.co
-#     desc: Delight your readers - add beautiful share and like buttons easily to your websites
-#     highlight: NEW
-
-
