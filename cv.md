@@ -21,24 +21,30 @@ abilities: "Empathic and communicative · Analytical · Culturally adaptive · S
 
 # --- 2. EXPERIENCE ---
 experience:
-  - role: Senior Sales Engineer
-    company: Anomalo
-    dates: Mar '24 - Current
+  - role: Independent Consultant — AI & HPC
+    company: Self-employed
+    dates: Aug '26 - Current
     summary: >-
-      Partner with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combine data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
-    bullets:
-      - "<strong>Lead multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
-      - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
-      - "<strong>Engage directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
-      - "<strong>Navigate enterprise sales cycles</strong> involving procurement, security, and data governance teams, operating through ambiguity in early-stage evaluations to surface technical and commercial risks early and accelerate platform adoption."
-      - "<strong>Champion platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
-      - "<strong>Collaborate cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's new Unstructured product which leverages genAI to create agentic DQ."
+      Independent practice in enterprise AI architecture, HPC and simulation performance, and technical go-to-market for deep tech, alongside training and workshops for technical and executive audiences. Based in Utrecht and active across Europe, remote or on-site. Engagements are scoped to named deliverables with a fixed end date — as a diagnostic, a defined project, or ongoing advisory.
 
   - role: University Lecturer
     company: Eindhoven University of Technology
     dates: Jan '25 - Current
     summary: >-
       Teach in both the Bachelor in Applied Physics and the Master in Nuclear Fusion programs, covering plasma physics and computational methods for High-Performance Computing (HPC).
+
+  - role: Senior Sales Engineer
+    company: Anomalo
+    dates: Mar '24 - Jun '26
+    summary: >-
+      Partnered with C-level and senior data leaders at global enterprises and AI-native technology companies to ensure trust in their data at scale. Combined data science, architecture, and business consulting expertise to help organizations automate data quality, strengthen governance, and accelerate AI adoption.
+    bullets:
+      - "<strong>Led multi-stakeholder PoCs and enterprise evaluations</strong> with customers including BP, Sky, Zalando, and others — representing over €5M in multi-year enterprise contracts."
+      - "<strong>Architected scalable, production-ready solutions</strong> for Enterprise Data Observability, integrating technology stack as well as business processes"
+      - "<strong>Engaged directly with executive sponsors</strong> (CDOs, CIOs, Heads of Data) to define success metrics and design scalable, compliant data-trust architectures."
+      - "<strong>Navigated enterprise sales cycles</strong> involving procurement, security, and data governance teams, operating through ambiguity in early-stage evaluations to surface technical and commercial risks early and accelerate platform adoption."
+      - "<strong>Championed platform capabilities</strong> across technical and business audiences, including applications of Generative AI for data quality automation and explainability alongside classical machine learning approaches."
+      - "<strong>Collaborated cross-functionally</strong> with product, R&D, and customer success teams to translate field insight into roadmap impact. Special focus on Anomalo's Unstructured product, which leverages genAI to create agentic DQ."
 
   - role: Presales Solutions Architect > Global Team Lead
     company: Dataloop
