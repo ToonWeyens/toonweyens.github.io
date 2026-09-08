@@ -21,11 +21,17 @@ abilities: "Empathic and communicative · Analytical · Culturally adaptive · S
 
 # --- 2. EXPERIENCE ---
 experience:
+  - role: Building OptiHPC
+    company: Ignition Computing
+    dates: Sep '26 - Current
+    summary: >-
+      Numerical simulations allow us to massively accelerate research and design, but they are hard to use efficiently and in a way that leads to trust in the results. OptiHPC helps simulation teams by automating the parts that distract from the core activities and providing trust metrics. The suite of tools is the result of years of consultancy experience with partners from industry and academia.
+
   - role: Independent Consultant — AI & HPC
     company: Self-employed
     dates: Aug '26 - Current
     summary: >-
-      Independent practice in enterprise AI architecture, HPC and simulation performance, and technical go-to-market for deep tech, alongside training and workshops for technical and executive audiences. Based in Utrecht and active across Europe, remote or on-site. Engagements are scoped to named deliverables with a fixed end date — as a diagnostic, a defined project, or ongoing advisory.
+      Numerical simulations allow us to massively accelerate research and design, but due to lack of trust and efficiency they are often not used optimally. OptiHPC assists simulation teams by automating the parts that distract from the core activities and providing trust metrics. The suite of tools is the result of years of consultancy experience with partners from industry and academia.
 
   - role: University Lecturer
     company: Eindhoven University of Technology
